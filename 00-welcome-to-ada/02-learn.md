@@ -41,7 +41,7 @@ Each unit will have a number of lessons, text-based lessons on different topics 
 
 You will also often be able to find videos embedded in the lesson with an instructor delivering the material and walking through examples.
 
-[A lesson](images/lesson.png)
+![A lesson](images/lesson.png)
 
 ### Exercises/Assessments
 

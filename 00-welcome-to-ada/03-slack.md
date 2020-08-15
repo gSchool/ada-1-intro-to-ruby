@@ -12,9 +12,9 @@ You can select a channel or person in Slack and use the messaging panel at the b
 
 You can find other users in the Slack organization on the left-menu below the channels.  You can use the `+` sign and type in the other user's name or names.
 
-[Direct Messages](images/direct-messages.png)
+![Direct Messages](images/direct-messages.png)
 
-[Direct Messages with name](images/direct-messages2.png)
+![Direct Messages with name](images/direct-messages2.png)
 
 ## Channels
 
