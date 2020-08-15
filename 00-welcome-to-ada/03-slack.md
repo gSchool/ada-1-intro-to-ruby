@@ -2,6 +2,8 @@
 
 At Ada and in the tech industry at large we use Slack.  Slack is a messaging platform used to send text, images and files.  It also has limited support for video chat.  You can use Slack on the browser by going to [slack.com](https://slack.com) and logging in.  Alternatively you can install the [Slack Desktop Client](https://slack.com/downloads/mac) and use the [Slack App for IOS](https://apps.apple.com/us/app/slack/id618783545) or [Slack for Android](https://slack.com/downloads/android).
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=dfb4214c-248e-4338-a3c3-ac1800560826&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Sending and Reading Messages
 
 You can select a channel or person in Slack and use the messaging panel at the bottom of the screen. You can use a variety of shortcuts to [format your message](https://slack.com/help/articles/202288908-Format-your-messages) as well.  
