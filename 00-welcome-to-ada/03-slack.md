@@ -54,7 +54,3 @@ You can view and update your profile in Slack including adding an avatar image.
 ![Edit profile](images/edit-profile.png)
 
 ![Editing a profile](images/edit-profile2.png)
-
-## Alternatives to Slack 
-
-Similar programs exist such as [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software) and [Discord](https://discord.com/).
