@@ -35,7 +35,7 @@ You are welcome to create channels for discussions on a topic of interest.  With
 
 You are welcome to customize slack by adding emojis.
 
-[Customize Slack](images/customize-slack.png)
+![Customize Slack](images/customize-slack.png)
 
 Feel free to experiment and try settings in Slack.
 
@@ -43,7 +43,7 @@ Feel free to experiment and try settings in Slack.
 
 You can also add your own custom emojis to Slack.  You are encouraged to do so, this Slack organization belongs to your cohort, and you are encouraged to take ownership of it.
 
-[Customize Slack Emojis](images/customize-slack2.png)
+![Customize Slack Emojis](images/customize-slack2.png)
 
 ### Updating Your Profile
 
