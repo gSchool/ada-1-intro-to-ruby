@@ -25,15 +25,46 @@ In general, you may resubmit work as many times as you like, however Ada moves a
 
 ## Organization
 
-Learn is organized into **Sections**.  Each section is a major unit of study at Ada.  The Pre-Ada Material was such a unit.
+Learn is organized into **Sections**.  Each section is a major area of study at Ada.  The Pre-Ada Material was such a area.
 
 ![Learn Section Example](images/section.png)
 
 ### Units
 
+Each section has a number of **units**, those rectangles inside each section. 
+
+![Learn unit](images/unit.png)
+
 ### Lessons
+
+Each unit will have a number of lessons, text-based lessons on different topics with code examples and often interactive questions and activities.
+
+You will also often be able to find videos embedded in the lesson with an instructor delivering the material and walking through examples.
+
+[A lesson](images/lesson.png)
 
 ### Exercises/Assessments
 
+Each unit will also often feature assessments which can contain multiple choice, short-answer, long-answer and programming exercises.  You will also often see programming projects assigned here.  
+
+You can identify an assessment by the star next to the name in the menu.
+
+We will discuss how to submit these programming projects soon.
+
+**Before Taking An Assessment**
+
+![Assessment before](images/assessment1.png)
+
+**While Taking An Assessment**
+
+![Assessment during](images/assessment2.png)
+
+**After Taking An Assessment**
+
+![Assessment after](images/assessment3.png)
+
+
 ## Checking on progress your
+
+You can see on each unit the percentage report from your checkpoint/exercise.  At Ada we do not grade students based on the percentages, but it can give you a general idea about how you did on the assessment. 
 
