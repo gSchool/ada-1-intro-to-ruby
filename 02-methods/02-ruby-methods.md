@@ -1,6 +1,7 @@
 # Ruby Methods
 
 ## Learning Goals
+
   - Learn why we need methods!
   - Learn to write our own methods!
   - Understand a _method signature_!
@@ -14,7 +15,7 @@ We have seen and used methods before, but we haven't created our own method defi
 
 ### Creating methods: Why?
 
-Methods allow us to assign a _name_ and _structure_ to sections of code. We create methods when we identify these sections of code that we may want to reuse and execute independently from other sections of code.
+Methods allow us to assign a _name_ and _structure_ to sections of code. We create methods when we identify these sections of code that we may want to reuse and execute independently from other sections of code.  This lets us write sections of code and _reuse_ those segments over and over again, reducing the amount of code we need to write.  Methods are a key tool in the mantra DRY (Do Not Repeat Yourself) that many developers adopt.
 
 
 ### Creating methods: Signatures and Blocks
