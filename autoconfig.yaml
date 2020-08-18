@@ -16,8 +16,8 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
-        UID: fee93e996e4bdabbc03154323f8953e9
-        Path: /01-control-structures/01-control-structures.md
+        UID: 48a646871b530d5dcca1a77ed3b6a132
+        Path: /01-control-structures/01-wk01-control-structures.md
   -
     Title: Methods
     Description: Methods
@@ -29,3 +29,15 @@ Standards:
         Type: Lesson
         UID: d245b0463663b0a31af829e4d844a8f7
         Path: /02-methods/01-methods.md
+      -
+        Type: Lesson
+        UID: 4043876ccaa49ed991531ccdfa6b55a3
+        Path: /02-methods/02-ruby-methods.md
+      -
+        Type: Lesson
+        UID: 96ddafddcbda130c5200cb4b8eb81474
+        Path: /02-methods/03-built-in-methods.md
+      -
+        Type: Lesson
+        UID: 78ae0a8ac8478ba177166c2e18f7908e
+        Path: /02-methods/04-variable-scope.md
