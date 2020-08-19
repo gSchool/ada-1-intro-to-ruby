@@ -269,6 +269,10 @@ When a piece of code tries to access a variable that is _out of scope_, the code
 
 Now look at this exercise version of the above code. There are comments that correspond to the exercise questions below:
 
+**Hint:** Use a whiteboard, write out the code line by line, and mark and color-code the scope of each variable.
+
+**Bonus:** Make a loop table for this method.
+
 ```ruby
 def find_favorite_dessert(dessert_list)
   
@@ -310,16 +314,254 @@ puts "The value of dessert: #{dessert}"
 puts "Sounds like you're a big fan of #{dessert}!"
 ```
 
-1. Given the input `5`, `9`, `1`, what is the output for #1 or what happens when the code for #1 tries to execute?
+<!-- 1. Given the input `5`, `9`, `1`, what is the output for #1 or what happens when the code for #1 tries to execute? 
 2. Uncomment the line under #2 (aka `puts "The value of score: #{score}"`). Given the input `5`, `9`, `1`, what is the output for #2 or what happens when the code for #2 tries to execute?
 3. Comment the line under #2 again. Given the input the input `5`, `9`, `1`, what is the output for #3?
 4. ... for #4?
 5. Uncomment the line under #5 (aka `puts "The value of dessert: #{dessert}"`). Given the input `5`, `9`, `1`, what is the output for #5 or what happens when the code for #5 tries to execute?
 6. Comment the line under #5 again. Given the input the input `5`, `9`, `1`, what is the output for #6?
+-->
 
-**Hint:** Use a whiteboard, write out the code line by line, and mark and color-code the scope of each variable.
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
-**Bonus:** Make a loop table for this method.
+### !challenge
+
+* type: short-answer
+* id: aab11233-40b1-4847-89f9-7de854f5726c
+* title: Given the input `5`, `9`, `1`, what is the output for #1
+* points: 1
+* topics: ruby-scope
+
+##### !question
+
+Given the input `5`, `9`, `1`, what is the output for #1?
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+##### !answer
+
+/The value of favorite_dessert: /i
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+Because `favorite_dessert` is `nil` at this point, it should print `The value of favorite_dessert:`
+
+##### !end-hint
+
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 047b72b1-e7ec-4d1d-9b90-0ac7ebcbeb28
+* title: Uncomment the line under #2 (aka `puts "The value of score: #{score}"`). Given the input `5`, `9`, `1`, what is the output for #2?
+* points: 1
+* topics: ruby-scope
+
+##### !question
+
+Uncomment the line under #2 (aka `puts "The value of score: #{score}"`). Given the input `5`, `9`, `1`, what is the output for #2?
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+##### !answer
+
+/(error)|(crash)|(undefined local variable)/i
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+Because `score` is out of scope the value is `nil` and will give an error `undefined local variable or method `score' for main:Object (NameError)`
+##### !end-hint
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: a4ffc9c0-f8f1-4275-b8c2-7efaae262ac7
+* title: Comment the line under #2 again. Given the input the input `5`, `9`, `1`, what is the output for #3?
+* points: 1
+* topics: ruby-scope
+
+##### !question
+
+Comment the line under #2 again. Given the input the input `5`, `9`, `1`, what is the output for #3?
+
+##### !end-question
+
+##### !placeholder
+
+
+##### !end-placeholder
+
+##### !answer
+
+/The value of best_score: 9/i
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+9 will be the large value entered and what `best_score` will contain.
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: ab962270-de33-4b6a-99c5-6b48f8d581ce
+* title: Comment the line under #2 again. Given the input the input `5`, `9`, `1`, what is the output for #4?
+* points: 1
+* topics: ruby-scope
+
+##### !question
+
+Comment the line under #2 again. Given the input the input `5`, `9`, `1`, what is the output for #4?
+
+##### !end-question
+
+##### !placeholder
+
+
+
+##### !end-placeholder
+
+##### !answer
+
+/The value of favorite_dessert: cake/i
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+Cake will have the largest score.
+
+##### !end-hint
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: d1517d39-d76c-4529-8e52-95158bf08c42
+* title: Uncomment the line under #5 (aka `puts "The value of dessert: #{dessert}"`). Given the input `5`, `9`, `1`, what is the output for #5 or what happens when the code for #5 tries to execute?
+* points: 1
+* topics: ruby-scope
+
+##### !question
+
+Uncomment the line under #5 (aka `puts "The value of dessert: #{dessert}"`). Given the input `5`, `9`, `1`, what is the output for #5 or what happens when the code for #5 tries to execute?
+
+##### !end-question
+
+##### !placeholder
+
+
+##### !end-placeholder
+
+##### !answer
+
+/(error)|(crash)|(undefined local variable)/i
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint 
+
+Since `dessert` is out of scope, it will give an error for undefined local variable.
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 7f907c07-d69f-418f-820d-323792cf3d23
+* title: Comment the line under #5 again. Given the input the input `5`, `9`, `1`, what is the output for #6?
+* points: 1
+* topics: ruby-scope
+
+##### !question
+
+Comment the line under #5 again. Given the input the input `5`, `9`, `1`, what is the output for #6?
+
+##### !end-question
+
+##### !placeholder
+
+
+##### !end-placeholder
+
+##### !answer
+
+/The value of dessert: /i
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 ### Remembering how important `return` is
 
