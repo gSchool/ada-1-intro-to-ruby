@@ -6,8 +6,8 @@
   - Learn to write our own methods!
   - Understand a _method signature_!
   - Figure out the difference between _parameters_ and _arguments_.
-  - Identify method signatures for methods we have used
-  - See the difference between using `return` and not using it
+  - Identify method signatures for methods we have used.
+  - See the difference between using `return` and not using it.
 
 ## Methods
 
