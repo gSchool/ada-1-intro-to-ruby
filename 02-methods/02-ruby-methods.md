@@ -41,7 +41,7 @@ say_hello
 
 Okay, let's get this out of the way. Most folks use _argument_ and _parameter_ interchangeably. That's fine and it almost never matters. However, as best as I understand, here's the difference:
 
-__In Ruby, _parameters_ are variables used to refer to pieces of data provided as input. _arguments_ are those pieces of data.__ The _parameters_ are defined in the _method signature_, and the _arguments_ are the specific values given to the method when it is _invoked_. Like I said, most of the time, this distinction isn't important.
+__In Ruby, _parameters_ are variables used to refer to pieces of data provided as input; _arguments_ **are** those pieces of data.__ The _parameters_ are defined in the _method signature_, and the _arguments_ are the specific values given to the method when it is _invoked_. Like I said, most of the time, this distinction isn't important.
 
 Once we have created a method, we may want to use an _parameter_ to provide additional data or context to our method. Think back to our `Math.sqrt(9)` example. The `9` in the `()` is a _argument_. Looking at this, I can hazard an educated guess that the _method signature_ of `sqrt` looks something like `def sqrt(number)` (name and one parameter).
 
