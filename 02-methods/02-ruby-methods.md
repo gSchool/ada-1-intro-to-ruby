@@ -68,7 +68,7 @@ def add(num_one, num_two)
 end
 ```
 
-In this example, `add` is the method __name__. This method has two __parameters__ so the _method signature_ is `add(num_one, num_two)`. The purpose of this method is to __return__ the result of adding two variables together. We want to _call_ or _invoke_ this method to execute the block:
+In this example, `add` is the method __name__. This method has two __parameters__ so the _method signature_ is `add(num_one, num_two)`. The purpose of this method is to __return__ the result of adding two variables together. We want to _call_ or _invoke_ this method to execute its body:
 ```ruby
 add(1, 2)
 # => 3
