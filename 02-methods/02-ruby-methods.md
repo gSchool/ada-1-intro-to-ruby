@@ -26,7 +26,7 @@ To create a method, you must first understand it's _method signature_. A _method
 
 ```ruby
 def say_hello # <= that's the method signature
-  puts "hello world!" # <= that's the block
+  puts "hello world!" # <= that's the body
 end
 ```
 
