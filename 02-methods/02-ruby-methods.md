@@ -20,7 +20,7 @@ Methods allow us to assign a _name_ and _structure_ to sections of code. We crea
 
 ### Creating methods: Signatures and Blocks
 
-To create a method, you must first understand it's _method signature_. A _method signature_ is comprised of 2 parts: the __name__ of the method, and the __arguments__ it is expecting. Once you have defined those two things, you can create a `def` (method definition) _block_.
+To create a method, you must first understand it's _method signature_. A _method signature_ is comprised of 2 parts: the __name__ of the method, and the __arguments__ it is expecting. Once you have defined those two things, you can create a `def` (method definition) statement.
 
 #### Example 1
 
