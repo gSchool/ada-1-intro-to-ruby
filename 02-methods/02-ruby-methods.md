@@ -30,7 +30,7 @@ def say_hello # <= that's the method signature
 end
 ```
 
-In this example, `say_hello` is the method __name__. This method has no __parameters__ (more on that shortly), so the _method signature_ is just `say_hello`. The purpose of this method is to print out a string to the user. As we learned earlier, we want to _call_ or _invoke_ a method in order to execute its block:
+In this example, `say_hello` is the method __name__. This method has no __parameters__ (more on that shortly), so the _method signature_ is just `say_hello`. The purpose of this method is to print out a string to the user. As we learned earlier, we want to _call_ or _invoke_ a method in order to execute its body:
 
 ```ruby
 say_hello
