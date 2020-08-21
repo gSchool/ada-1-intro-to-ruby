@@ -98,7 +98,7 @@ puts "Sounds like you're a big fan of #{dessert}!"
 ### !challenge
 
 * type: short-answer
-* id: 14d67d8a-5bab-4983-b572-054086fb37ae
+* id: bb85c6d6-575a-4f67-b9e8-fd6563affeda
 * title: What is the method name?
 * points: 1
 * topics: ruby-scope, ruby-methods
@@ -140,7 +140,7 @@ find_favorite_dessert
 ### !challenge
 
 * type: short-answer
-* id: 1a237612-a7c7-4882-9dd5-28cbf047e52a
+* id: 74c6e84f-b8ec-4495-8301-aa477ecdca06
 * title: Copy the line where we call the method
 * points: 1
 * topics: ruby-scope, ruby-methods
@@ -223,7 +223,7 @@ dessert_list
 ### !challenge
 
 * type: short-answer
-* id: 65435b1b-5b22-45f4-8a90-358836520d1a
+* id: c17794b2-f996-4614-a84d-3337b3945917
 * title: What is the method's return value?
 * points: 1
 * topics: ruby-methods
@@ -314,21 +314,13 @@ puts "The value of dessert: #{dessert}"
 puts "Sounds like you're a big fan of #{dessert}!"
 ```
 
-<!-- 1. Given the input `5`, `9`, `1`, what is the output for #1 or what happens when the code for #1 tries to execute? 
-2. Uncomment the line under #2 (aka `puts "The value of score: #{score}"`). Given the input `5`, `9`, `1`, what is the output for #2 or what happens when the code for #2 tries to execute?
-3. Comment the line under #2 again. Given the input the input `5`, `9`, `1`, what is the output for #3?
-4. ... for #4?
-5. Uncomment the line under #5 (aka `puts "The value of dessert: #{dessert}"`). Given the input `5`, `9`, `1`, what is the output for #5 or what happens when the code for #5 tries to execute?
-6. Comment the line under #5 again. Given the input the input `5`, `9`, `1`, what is the output for #6?
--->
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
 ### !challenge
 
 * type: short-answer
-* id: aab11233-40b1-4847-89f9-7de854f5726c
+* id: d5e168db-adb0-48da-a42b-33c590706df9
 * title: Given the input `5`, `9`, `1`, what is the output for #1
 * points: 1
 * topics: ruby-scope
@@ -392,7 +384,8 @@ Uncomment the line under #2 (aka `puts "The value of score: #{score}"`). Given t
 
 <!-- other optional sections -->
 ##### !hint
-Because `score` is out of scope the value is `nil` and will give an error `undefined local variable or method `score' for main:Object (NameError)`
+Because `score` is out of scope the value is `nil` and will give an error `undefined local variable or method 'score' for main:Object (NameError)`
+
 ##### !end-hint
 <!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
 
@@ -406,7 +399,7 @@ Because `score` is out of scope the value is `nil` and will give an error `undef
 ### !challenge
 
 * type: short-answer
-* id: a4ffc9c0-f8f1-4275-b8c2-7efaae262ac7
+* id: f6b7176a-1f83-4c14-ad6c-13ca237b0454
 * title: Comment the line under #2 again. Given the input the input `5`, `9`, `1`, what is the output for #3?
 * points: 1
 * topics: ruby-scope
