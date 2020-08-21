@@ -52,3 +52,7 @@ Standards:
         Type: Lesson
         UID: 78ae0a8ac8478ba177166c2e18f7908e
         Path: /02-methods/04-variable-scope.md
+      -
+        Type: Checkpoint
+        UID: 129ba5f199dfc1b25719ca9441683a75
+        Path: /02-methods/06-methods-checkpoint.md
