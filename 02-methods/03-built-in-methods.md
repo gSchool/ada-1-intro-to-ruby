@@ -8,7 +8,6 @@ By the end of this lesson you are expected to be able to:
 
 - Read and interpret the Ruby documentation
 - Experiment with Ruby methods in irb
-- Search for and select tutorials and explanations on sites such as [Stackoverflow](https://stackoverflow.com/).
 
 ## String Methods
 
