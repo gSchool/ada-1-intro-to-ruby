@@ -19,6 +19,17 @@ Standards:
         UID: 48a646871b530d5dcca1a77ed3b6a132
         Path: /01-control-structures/01-wk01-control-structures.md
   -
+    Title: Variables Data Types
+    Description: Variables Data Types
+    UID: fe22378e892404d62076c6fb208cf2df
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: a7a99b9d2b2c108e4f1def2b8902a4b3
+        Path: /01-variables-data-types/01-wk01-defs-data-types-reading.md
+  -
     Title: Methods
     Description: Methods
     UID: 20c51b5f4e9aeb5334c90ff072e6f928
