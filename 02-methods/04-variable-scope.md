@@ -1,5 +1,7 @@
 # Scope
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=302e8d5e-c28a-4787-bdea-ac1d012f4940&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Goals
 
 - Learn how a variable's _scope_ is defined
