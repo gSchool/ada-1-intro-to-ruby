@@ -1,4 +1,4 @@
-# Exercise: Definitions, Data Types, and Reading Code
+# Worksheet: Definitions, Data Types, and Reading Code
 
 ## Introduction
 
