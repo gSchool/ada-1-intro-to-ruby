@@ -1295,13 +1295,12 @@ How many times does the loop above execute?
 
 ##### !placeholder
 
-10
 
 ##### !end-placeholder
 
 ##### !answer
 
-[text or regex, the answer (if regex wrap in /)]
+10
 
 ##### !end-answer
 
