@@ -4,7 +4,7 @@ The standard Ruby library has a great variety of methods pre-written for common 
 
 ## Learning Goals
 
-By the end of this lesson you are expected to be able to:
+By the end of this lesson, we will be able to...
 
 - Practice reading and interpreting Ruby documentation
 - Using `irb` to experiment with unfamiliar Ruby methods
