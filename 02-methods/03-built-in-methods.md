@@ -6,8 +6,8 @@ The standard Ruby library has a great variety of methods pre-written for common 
 
 By the end of this lesson you are expected to be able to:
 
-- Read and interpret the Ruby documentation
-- Experiment with Ruby methods in irb
+- Practice reading and interpreting Ruby documentation
+- Using `irb` to experiment with unfamiliar Ruby methods
 
 ## String Methods
 
