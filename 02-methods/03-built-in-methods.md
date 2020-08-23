@@ -86,8 +86,9 @@ Example run:
 => true
 ```
 
-Experimenting, answer the following questions?
+### Further Questions on String Methods
 
+Now explore String methods and answer the following questions:
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
