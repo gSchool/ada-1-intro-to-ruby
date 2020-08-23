@@ -43,7 +43,7 @@ The documentation header `include? other_str → true or false` details the:
 1.  Parameters if any, `other_str`
 1.  Return value `true or false`
 
-Next the documentation gives a description of the method:
+Next, the documentation gives a description of the method. This is where you can find out what the **responsibility of the method** is, and its intended purpose.
 
 ```txt
 Returns true if str contains the given string or character.
