@@ -429,7 +429,7 @@ first(n) → new_ary
 
 ### Activity Researching Methods
 
-Using the documentation and experimenting with IRB answer the following:
+Using the documentation and experimenting with irb answer the following:
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
