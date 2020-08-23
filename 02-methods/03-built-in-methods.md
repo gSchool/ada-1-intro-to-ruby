@@ -874,4 +874,4 @@ The `Hash#invert` method reverses they key-value pairs.  The problem is that key
 ## Resources
 
 - [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
-- 
+- [Reading Ruby Methods in Documentation](https://medium.com/@patrick.s.santucci/reading-ruby-methods-in-documentation-91b615dd92ba)
