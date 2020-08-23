@@ -860,7 +860,7 @@ student.invert
 * `{ :name => "Ada Lovelace", :id => 12345, :email => "ada@lovelace.com", :secondary_email => "ada@lovelace.com"}`
 * `{:name=>"Ada Lovelace", :id=>12345, :email=>"ada@lovelace.com"}`
 * `{:name=>"Ada Lovelace", :id=>12345, :email=>"ada@lovelace.com", :secondary_email=>"ada@lovelace.com"}`
-* `{"Ada Lovelace"=>:name, 12345=>:id, "ada@lovelace.com"=>:secondary_email}`
+*  `{"Ada Lovelace"=>:name, 12345=>:id, "ada@lovelace.com"=>:secondary_email}`
 
 ##### !end-options
 
