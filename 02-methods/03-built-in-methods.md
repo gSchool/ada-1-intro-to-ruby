@@ -31,6 +31,17 @@ Class#method
 
 This doesn't apply to code, but just lets readers of the documentation quickly identify methods and the classes they go to.  So for all these methods they can be called on Strings.
 
+#### So what is a `Class`?
+
+If you go into irb and type `"some string".class` you will get
+
+```ruby
+"some string".class
+=> String
+```
+
+`String` is the name of a class.  You can think of it as a blueprint for how to make strings.  Similarly there is an `Array` class which is code written to generate different arrays.  Each class has a collection of methods which are actions which can be performed on that type of object.  We will take a look at a variety of methods for Strings, Arrays and Hashes.
+
 #### `#include?` Method
 
 Find the `include?` method in the list of String methods.  You can see the documentation below:
