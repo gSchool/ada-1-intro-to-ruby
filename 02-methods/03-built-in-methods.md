@@ -696,7 +696,7 @@ The first line tells you that it takes one parameter, `key` and returns true or 
 
 ### Activity Researching Methods
 
-Using the documentation and experimenting with IRB answer the following Hash methods:
+Using the documentation and experimenting with irb, answer the following Hash methods:
 
 * `Hash#keys`
 * `Hash#values`
