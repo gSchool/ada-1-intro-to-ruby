@@ -872,6 +872,16 @@ The `Hash#invert` method reverses they key-value pairs.  The problem is that key
 
 <!-- ======================= END CHALLENGE ======================= -->
 
+## Conclusion
+
+When we recognize that we're using an unfamiliar Ruby method, one of our first instincts should be to use the Internet, Ruby docs, and `irb` to figure out the following things:
+
+1. Its primary responsibility (what it's supposed to do)
+1.  Method name
+1.  Parameters if any
+1.  Return value
+
+If we combine documentation, experimentation, examples, and practice, we'll be able to understand methods much more quickly.
 ## Resources
 
 - [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
