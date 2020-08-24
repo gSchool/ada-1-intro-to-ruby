@@ -18,6 +18,10 @@ Standards:
         Type: Lesson
         UID: a7a99b9d2b2c108e4f1def2b8902a4b3
         Path: /00-variables-data-types/01-wk01-defs-data-types-reading.md
+      -
+        Type: Lesson
+        UID: eb011f8e-55bb-4c38-96e3-812114fb7985
+        Path: /00-variable-data-types/02-wk02-nested-arrays-hashes.md
   -
     Title: Control Structures
     Description: Control Structures
