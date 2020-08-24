@@ -21,7 +21,7 @@ Standards:
       -
         Type: Lesson
         UID: eb011f8e-55bb-4c38-96e3-812114fb7985
-        Path: /00-variable-data-types/02-wk02-nested-arrays-hashes.md
+        Path: /00-variables-data-types/02-wk02-nested-arrays-hashes.md
   -
     Title: Control Structures
     Description: Control Structures
