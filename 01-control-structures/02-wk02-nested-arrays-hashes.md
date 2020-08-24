@@ -154,6 +154,7 @@ Copy the above data into a file, then write code to address the following prompt
 * id: 78fe0556-0259-400e-aa46-e973c88dc062
 * title: Adding two items to the menu
 * docker_directory_path: /custom-snippets/01-02-menu1
+* points: 1
 * topics: arrays, hashes
 
 ##### !question
