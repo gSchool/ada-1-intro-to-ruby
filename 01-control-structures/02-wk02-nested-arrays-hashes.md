@@ -142,8 +142,6 @@ Even if `item` is one element within the array of `menu`, `item` may represent a
 
 Copy the above data into a file, then write code to address the following prompts.
 
-1. Add two more meals to our menu, including name, price and allergy information
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
@@ -205,8 +203,158 @@ end
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-2. Write a loop to find the average price of a meal on our menu
-3. Write code to produce a list of all the allergens in the menu
-    - How would you make sure there aren't duplicates?
-4. Write code that asks the user for the name of a meal and prints out the price
-    - What should your code do if the meal isn't found?
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 14950080-4afc-4ab6-a44c-5fb08ffef0f9
+* title: Write a loop to find the average price of a meal on our menu
+* docker_directory_path: /custom-snippets/01-02-menu2/
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+Write a loop to find the average price of a meal on our menu
+
+##### !end-question
+
+##### !placeholder
+
+
+```
+def average_price(list)
+  sum = 0
+  average = 0
+  # Your code here
+
+
+
+  # End of your code
+  return average
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: a0ee16df-071e-4ea7-ac72-b17dfa3ae5d9
+* title: Return a list of all allergens
+* docker_directory_path: /custom-snippets/01-02-menu3/
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+Write code to produce a list of all the allergens in the menu
+
+##### !end-question
+
+##### !placeholder
+
+
+```
+def allergens(menu)
+  sum = 0
+  average = 0
+  list = [] # put all the allergens here
+  # Your code here
+
+
+
+  # End of your code
+  return list
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: a0ee16df-071e-4ea7-ac72-b17dfa3ae5d9
+* title: Return the price of a menu item
+* docker_directory_path: /custom-snippets/01-02-menu4/
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+Write code that looks up a menu item from the name and returns the price.  If your item isn't found, return `nil`.
+
+##### !end-question
+
+##### !placeholder
+
+
+```ruby
+def find_price(name)
+  menu = [
+    {
+      name: 'beet salad',
+      price: 6.75,
+      allergens: ['nuts']
+    },
+    {
+      name: 'quiche',
+      price: 10.00,
+      allergens: ['gluten', 'dairy']
+    },
+    {
+      name: 'molten chocolate cake',
+      price: 8.50,
+      allergens: []
+    }
+  ]
+
+  price = nil
+
+  # your code goes here
+
+
+  # End of your code
+  return price
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
