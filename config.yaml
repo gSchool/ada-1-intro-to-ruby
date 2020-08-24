@@ -16,8 +16,12 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
-        UID: a7a99b9d2b2c108e4f1def2b8902a4b3
+        UID: b5e1b4dd726cff94e67c7d578e4e400c
         Path: /00-variables-data-types/01-wk01-defs-data-types-reading.md
+      -
+        Type: Lesson
+        UID: 76a30dfcaa39687fa9ee0c696824244f
+        Path: /00-variables-data-types/02-wk-01-exercise-intro-random-menu.md
   -
     Title: Control Structures
     Description: Control Structures
