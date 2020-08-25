@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
-require_relative "./snippet.rb"
+require_relative "./submission.rb"
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
