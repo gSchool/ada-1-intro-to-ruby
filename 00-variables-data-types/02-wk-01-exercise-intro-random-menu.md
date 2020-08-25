@@ -25,7 +25,7 @@ You will submit this Random Menu exercise by following these special directions.
 
 Work on your solution until you are ready to submit. Then...
 
-1. Run your Ruby code and check Terminal to make sure that no errors show up on the screen
+1. Run your Ruby code and check the Terminal to make sure that no errors show up on the screen
 1. Visit [gist.github.com](https://gist.github.com/), a place on GitHub where you can quickly create public/shareable "gists" (small pieces) of code
 1. Log into GitHub.com
 1. Use the form to **paste** in details about your Random Menu exercise:
@@ -58,4 +58,3 @@ Your URL, such as ... https://gist.github.com/tildeee/34ec680b39ab38
 ##### !end-placeholder
 
 ### !end-challenge
-
