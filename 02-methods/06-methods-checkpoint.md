@@ -379,7 +379,12 @@ end
 ##### !end-answer
 
 <!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+##### !hint
+
+What is the data type of `pet`?  What are the data types in the `if` and `elsif` statements?  Does that affect `==` comparisons?
+
+##### !end-hint
+
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 <!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
 
