@@ -12,13 +12,318 @@ By the end of this lesson, we should be able to...
 
 Determine whether you would use an array or a hash to store each of these collections and why.
 
-1. The types of tea you have in your cupboard
-1. Information about a customer
-1. An address
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 2b46a935-cc1c-47a1-a348-bf294684269d
+* title: The types of tea you have in your cupboard
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+The types of tea you have in your cupboard.
+
+##### !end-question
+
+##### !options
+
+* Array
+* Hash
+* Either
+
+##### !end-options
+
+##### !answer
+
+* Array
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+A plain list of teas serve best an an array.  If there were other details like calories, caffine content etc, then perhaps a hash or more complicated data structure makes sense. 
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 0fe10f6f-76cc-46e6-96ad-6c6e2a3cf7bc
+* title: Information about a customer
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+Information about a customer
+
+##### !end-question
+
+##### !options
+
+* Array
+* Hash
+* Either
+
+##### !end-options
+
+##### !answer
+
+* Hash
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Customer information are collections of different types of information without a particular order and all with different types of meaning.  So it makes sense to use a hash.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 9dcd1a78-7660-4b21-97aa-8ff7a6bcd873
+* title: An address
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+An address
+
+##### !end-question
+
+##### !options
+
+* Array
+* Hash
+* Either
+
+##### !end-options
+
+##### !answer
+
+* Hash
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+An address is full of different named types of information: street number, zip code etc.  They also do not have a logical order.  So it makes sense to use a Hash to store address information as a hash.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
 1. The names of the first 150 pokemon, in order
-1. All the meals you serve in your restaurant
-1. Details about a meal served by your restaurant, such as name, price, and allergy info
-1. Details about all the meals your restaurant serves
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 27bbebae-491d-44f8-ae18-c1d156b68811
+* title: The names of the first 150 pokemon, in order
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+The names of the first 150 pokemon, in order
+
+##### !end-question
+
+##### !options
+
+* Array
+* Hash
+* Either
+
+##### !end-options
+
+##### !answer
+
+* Array
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+A list of Pokemon are all items of the same type and they have (in this example) a specific order, so an Array makes sense.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: dd5b334a-063a-402e-9d35-b109d4d46e73
+* title: All the meals you serve in your restaurant
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+All the meals you serve in your restaurant
+
+##### !end-question
+
+##### !options
+
+* Array
+* Hash
+* Either
+
+##### !end-options
+
+##### !answer
+
+* Array
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+If this is just a list of meals, then an Array makes sense.  There are no obvious key-value pairs.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: cd180b3a-cc40-4473-b033-4da44e088544
+* title: All the meals you serve in your restaurant
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+Details about a meal served by your restaurant, such as name, price, and allergy info
+
+##### !end-question
+
+##### !options
+
+* Array
+* Hash
+* Either
+
+##### !end-options
+
+##### !answer
+
+* Hash
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Since all the details make sense as key-value pairs and each item is of different types, a hash would make sense.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 68af8bf9-121f-43ab-9ea5-b90c9a093c97
+* title:  Details about all the meals your restaurant serves
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: arrays, hashes
+
+##### !question
+
+ Details about all the meals your restaurant serves
+
+##### !end-question
+
+##### !options
+
+* Array
+* Hash
+* Combination
+
+##### !end-options
+
+##### !answer
+
+* Combination
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+In this case we need a list of meals, which makes sense as an array, but we want details of each meal, so the logical solution would be an array of hashes.  Each hash would have details of a particular meal.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 As the last question above demonstrates, sometimes an array or a hash by itself does not solve a problem. Very often we will need to combine these two data structures to produce something a little more sophisticated.
 
