@@ -140,7 +140,7 @@ Even if `item` is one element within the array of `menu`, `item` may represent a
 
 ### Exercise
 
-Copy the above data into a file, then write code to address the following prompts.
+You can either write code in the windows here, or write and test them in your own editor and paste the working code back into the window.
 
 1. Add two more meals to our menu, including name, price and allergy information
 
