@@ -136,7 +136,7 @@ Even if `item` is one element within the array of `menu`, `item` may represent a
     - ...We can even put `each` loops within each loops
 - Sometimes, we may have a need to exit a loop pre-maturely/before the loop finishes. `each` loops are designed to go for every element, but if you need to have more control over that, you may want to look into the Ruby keywords `break` and/or `next`.
     - This is useful if you're specifically concerned with how long it takes a loop to run.
-    - Also consider that an `each` loop is not your best solution. :)
+    - Also consider that an `each` loop is may not be your best solution. :)
 
 ### Exercise
 
