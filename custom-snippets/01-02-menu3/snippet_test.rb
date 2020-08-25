@@ -41,7 +41,7 @@ describe "Test Suite" do
 
       allergen_list = allergens(menu)
 
-      expect(allergen_list.sort).must_equal ["cake", "chocolate", "dairy", "gluten", "molten", "nuts"]
+      expect(allergen_list.sort).must_equal ["dairy", "gluten", "nuts"]
     end
   end
 end
