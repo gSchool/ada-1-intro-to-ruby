@@ -571,7 +571,7 @@ end
 
 * type: custom-snippet
 * language: ruby
-* id: 98c8932d-691b-4bc4-8321-905706b242ba
+* id: 78964ac8-8fa0-4078-b9e3-1bc9fda9f85b
 * title: Write code to produce a list of all the allergens in the menu
 * docker_directory_path: /custom-snippets/01-02-menu3
 * topics: arrays, hashes
