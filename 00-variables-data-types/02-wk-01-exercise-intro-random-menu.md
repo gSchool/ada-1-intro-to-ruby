@@ -34,7 +34,7 @@ Work on your solution until you are ready to submit. Then...
     - Inside of the big box, where you paste your code: Copy and paste your _entire_ file into this box
 1. Click either "Create secret gist" or "Create public gist."
     - Either is fine.
-1. The browser redirects you to a new page, which is just your gist. **Find the URL** of this page (`cmd+l` as a shortcut), **copy it** onto your clipboard, and then **paste it into the submission box below.**
+1. The browser redirects you to a new page, which is just your gist. **Find the URL** of this page (<kbd>cmd</kbd> + <kbd>L</kbd> as a shortcut), **copy it** onto your clipboard, and then **paste it into the submission box below.**
     - Make sure that this URL is the correct URL first by pasting it into a new browser tab or window.
 
 These submission directions will evolve over time as we learn more skills, so please be alert.
