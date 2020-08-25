@@ -509,7 +509,7 @@ end
 
 ##### !question
 
-What will the following return?
+What will the following produce?
 
 ```ruby
 x = [7, 9, 2, 13, 99]
@@ -551,7 +551,7 @@ x[1]
 
 ##### !question
 
-What will the following return?
+What will the following produce?
 
 ```ruby
 x = [7, 9, 2, 13, 99]
@@ -593,7 +593,7 @@ x[2] + x[3]
 
 ##### !question
 
-What will the following return?
+What will the following produce?
 
 ```ruby
 alist = [10, 13, 19, 21]
@@ -635,7 +635,7 @@ alist.length
 
 ##### !question
 
-What will the following return?
+What will the following produce?
 
 ```ruby
 alist = ["Ada", "Grace"]
@@ -679,7 +679,7 @@ alist.length
 
 ##### !question
 
-What will the following return?
+What will the following produce?
 
 ```ruby
 cities = {}
@@ -723,7 +723,7 @@ cities[:spokane]
 
 ##### !question
 
-What will the following return?
+What will the following produce?
 
 ```ruby
 programming = {
