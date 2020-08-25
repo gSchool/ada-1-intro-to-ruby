@@ -4,8 +4,6 @@ require_relative "./snippet.rb"
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
-FILENAME_TO_TEST = './submission.rb'
-
 describe "Test Suite" do
   describe "list of allergens" do
     it "will find the price of the last item" do
