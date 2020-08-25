@@ -20,7 +20,7 @@ Determine whether you would use an array or a hash to store each of these collec
 1. Details about a meal served by your restaurant, such as name, price, and allergy info
 1. Details about all the meals your restaurant serves
 
-As the last question above demonstrates, sometimes an array or a hash by itself does not solve a problem. Very often we will need to combine these two data structures to produce something a little more nuanced.
+As the last question above demonstrates, sometimes an array or a hash by itself does not solve a problem. Very often we will need to combine these two data structures to produce something a little more sophisticated.
 
 ## "Any Object" Includes Other Arrays and Hashes
 
