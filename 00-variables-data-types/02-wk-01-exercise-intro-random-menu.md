@@ -32,7 +32,7 @@ Work on your solution until you are ready to submit. Then...
     - Gist Description...: Include your name and "Random Menu" (ex: `Simon D - Random Menu`)
     - Filename including extension: `random-menu.rb`
     - Inside of the big box, where you paste your code: Copy and paste your _entire_ file into this box
-1. Click either "Create secret gist" or "Create private gist."
+1. Click either "Create secret gist" or "Create public gist."
     - Either is fine.
 1. The browser redirects you to a new page, which is just your gist. **Find the URL** of this page (`cmd+l` as a shortcut), **copy it** onto your clipboard, and then **paste it into the submission box below.**
     - Make sure that this URL is the correct URL first by pasting it into a new browser tab or window.
