@@ -630,7 +630,7 @@ end
 * type: custom-snippet
 * language: ruby
 * id: 4d266c2f-b392-4ec3-82b4-fce0ebf05549
-* title: Write code that asks the user for the name of a meal and prints out the price
+* title: Write code that takes in the name of a meal and returnsthe price
 * docker_directory_path: /custom-snippets/01-02-menu4
 * topics: arrays, hashes
 
@@ -693,3 +693,7 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+## Summary
+
+Hashes are great at storing collections of different data related to a single entity like demographic data about a person, or information about a product in inventory.  Arrays are likewise good at storing ordered collections of data, usually of the same type.  We often create nested structures with arrays and hashes allowing us to provide detailed data about a collection or list of items.  It's important to learn how to access and traverse a collection of nested data.
