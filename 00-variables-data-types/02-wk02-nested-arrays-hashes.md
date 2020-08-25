@@ -455,7 +455,7 @@ You can either write code in the windows here, or write and test them in your ow
 ### !challenge
 
 * type: custom-snippet
-* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* language: ruby
 * id: 78fe0556-0259-400e-aa46-e973c88dc062
 * title: Adding two items to the menu
 * docker_directory_path: /custom-snippets/01-02-menu1
@@ -509,8 +509,187 @@ end
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-2. Write a loop to find the average price of a meal on our menu
-3. Write code to produce a list of all the allergens in the menu
-    - How would you make sure there aren't duplicates?
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: c8925080-3b03-41e9-85c7-daba3f50961b
+* title: Write a loop to find the average price of a meal on our menu
+* docker_directory_path: /custom-snippets/01-02-menu2
+* topics: arrays, hashes
+
+##### !question
+
+Write a loop to find the average price of a meal on our menu
+
+##### !end-question
+
+##### !placeholder
+
+
+```ruby
+# Menu will look like this:
+# menu = [
+#         {
+#           name: 'beet salad',
+#           price: 6.75,
+#           allergens: ['nuts']
+#         },
+#         ...
+#       ]
+
+def average_price(menu)
+  sum = 0
+  average = 0
+  # Your code here to calculate the average price
+
+
+  # End of your code
+
+  return average
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 98c8932d-691b-4bc4-8321-905706b242ba
+* title: Write code to produce a list of all the allergens in the menu
+* docker_directory_path: /custom-snippets/01-02-menu3
+* topics: arrays, hashes
+
+##### !question
+
+Write code to produce a list of all the allergens in the menu
+
+##### !end-question
+
+##### !placeholder
+
+
+```ruby
+# Menu will look like this:
+# menu = [
+#         {
+#           name: 'beet salad',
+#           price: 6.75,
+#           allergens: ['nuts']
+#         },
+#         ...
+#       ]
+
+def allergens(menu)
+  allergen_list = []
+
+  # Your code here to create a list of allergens
+
+
+  # End of your code
+
+  return allergen_list
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 4. Write code that asks the user for the name of a meal and prints out the price
     - What should your code do if the meal isn't found?
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 98c8932d-691b-4bc4-8321-905706b242ba
+* title: Write code that asks the user for the name of a meal and prints out the price
+* docker_directory_path: /custom-snippets/01-02-menu4
+* topics: arrays, hashes
+
+##### !question
+
+Write code that takes the name of a menu item and returns the price
+
+##### !end-question
+
+##### !placeholder
+
+
+```ruby
+# Menu will look like this:
+# menu = [
+#         {
+#           name: 'beet salad',
+#           price: 6.75,
+#           allergens: ['nuts']
+#         },
+#         ...
+#       ]
+
+def find_price(menu_item_name)
+  item_price = 0
+  menu = [
+    {
+      name: 'beet salad',
+      price: 6.75,
+      allergens: ['nuts']
+    },
+    {
+      name: 'quiche',
+      price: 10.00,
+      allergens: ['gluten', 'dairy']
+    },
+    {
+      name: 'molten chocolate cake',
+      price: 8.50,
+      allergens: []
+    }
+  ]
+
+  # Your code here to find that menu item's price
+
+
+  # End of your code
+
+  return item_price
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
