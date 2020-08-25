@@ -1,5 +1,7 @@
 # Arrays and Hashes Together: Nesting
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=42b43129-b180-47ad-8588-ac220038fa85&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Objectives
 
 By the end of this lesson, we should be able to...
