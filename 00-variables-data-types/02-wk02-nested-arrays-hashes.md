@@ -629,7 +629,7 @@ end
 
 * type: custom-snippet
 * language: ruby
-* id: 98c8932d-691b-4bc4-8321-905706b242ba
+* id: 4d266c2f-b392-4ec3-82b4-fce0ebf05549
 * title: Write code that asks the user for the name of a meal and prints out the price
 * docker_directory_path: /custom-snippets/01-02-menu4
 * topics: arrays, hashes
