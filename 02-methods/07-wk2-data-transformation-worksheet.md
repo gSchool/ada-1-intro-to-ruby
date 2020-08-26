@@ -221,7 +221,7 @@ end
 * type: custom-snippet
 * language: ruby
 * id: de17fe3a-4223-4907-970e-701a5adf7ef6
-* title: Names to hash with ids
+* title: Combining arrays into an array of hashes
 * docker_directory_path: /custom-snippets/array_to_hash
 * points: 1
 * topics: arrays, enumerables
