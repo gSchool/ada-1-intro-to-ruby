@@ -25,7 +25,7 @@ describe "Test Suite" do
       name_hash_array = array_to_hash_array(list)
 
       expect(name_hash_array.length).must_equal 1
-      expect(name_hash_array.first).must_equal { name: "ada", id: 1 }
+      expect(name_hash_array.first).must_equal({ name: "ada", id: 1 })
     end
 
     it "will return an array of hashes with key-value pairs for a 2-element array" do
