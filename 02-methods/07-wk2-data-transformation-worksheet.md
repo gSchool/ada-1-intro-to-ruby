@@ -326,10 +326,25 @@ end
 
 ## More Transformations
 
-1. Given this array of hashes, iterate through the array and return an array of strings. Each string should be in the following format: `Grumpy's specialty is to GRUMP`, where `Grumpy` is replaced with each name and `GRUMP` is the specialty in capital letters.
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 895d3e76-0651-4d5f-aa13-219ec422e569
+* title: Names to hash with ids
+* docker_directory_path: /custom-snippets/specialities
+* points: 1
+* topics: arrays, enumerables
+
+##### !question
+
+Given this array of hashes, iterate through the array and return an array of strings. Each string should be in the following format: `Grumpy's specialty is to GRUMP`, where `Grumpy` is replaced with each name and `GRUMP` is the specialty in capital letters.
 
 ```ruby
-CHARACTERS = [{:name=>"Grumpy", :specialty=>"grump", :id=>1},
+characters = [{:name=>"Grumpy", :specialty=>"grump", :id=>1},
  {:name=>"Happy", :specialty=>"smile", :id=>2},
  {:name=>"Sleepy", :specialty=>"nap", :id=>3},
  {:name=>"Bashful", :specialty=>"blush", :id=>4},
@@ -345,6 +360,27 @@ CHARACTERS = [{:name=>"Grumpy", :specialty=>"grump", :id=>1},
 # "Dopey's specialty is to GOOF",
 # "Doc's specialty is to CONTEMPLATE"]
 ```
+
+##### !end-question
+
+##### !placeholder
+
+```
+def specialities(characters)
+
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 ---
 
