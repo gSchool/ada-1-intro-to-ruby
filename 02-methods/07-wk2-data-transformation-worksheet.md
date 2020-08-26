@@ -86,10 +86,6 @@ end
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-
-1. You are given an array of `String` objects, stored in a variable called `my_strings`. You want to create a new array which only contains the strings from the original array that have a length that is smaller than 4.
-    <!-- REJECT -->
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
@@ -129,12 +125,63 @@ end
 <!-- ======================= END CHALLENGE ======================= -->
 
 
-1. You are given an array of `String` objects, stored in a variable called `my_strings`. You want to use this array to return the `String` that has the longest length. (In a tie, it should return the first `String` with the longest length)
-    <!-- MAX_BY -->
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: b0f8fa59-692c-44c0-b2ad-44b03a64d12b
+* title: Longest length
+* docker_directory_path: /custom-snippets/longest_length
+* points: 1
+* topics: arrays, enumerables
+
+##### !question
+
+You are given an array of `String` objects, stored in a variable called `my_strings`. You want to use this array to return the `String` that has the longest length. (In a tie, it should return the first `String` with the longest length).
+
+##### !end-question
+
+##### !placeholder
+
+```
+def longest_length(my_strings)
+
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 ## Transforming Arrays into Hashes
 
-1. Given this array of `String` names, return an array of Hashes. Each Hash should have the keys `name` and `id`, which will represent their unique identifier in the form of an integer. The ids can start at `1` and then go up by one.
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 1cdbc3e6-eca4-4428-8feb-c1523ba6e136
+* title: Names to hash with ids
+* docker_directory_path: /custom-snippets/array_to_hash
+* points: 1
+* topics: arrays, enumerables
+
+##### !question
+
+Given this array of `String` names, return an array of Hashes. Each Hash should have the keys `name` and `id`, which will represent their unique identifier in the form of an integer. The ids can start at `1` and then go up by one.
 
 ```ruby
 NAMES = ['Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey', 'Doc']
@@ -147,6 +194,29 @@ NAMES = ['Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey', 'Doc']
 # {:name=>"Dopey", :id=>6},
 # {:name=>"Doc", :id=>7}]
 ```
+
+##### !end-question
+
+##### !placeholder
+
+```
+def array_to_hash(names)
+
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
 
 2. Given this array of `String` names and this array of `String` specialties, return an array of Hashes. Each Hash should have the keys `name`, `specialty`, and `id`, which will represent their unique identifier in the form of an integer. The ids can start at `1` and then go up by one.
 
