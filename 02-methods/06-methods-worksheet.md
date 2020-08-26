@@ -100,7 +100,7 @@ a
 
 * type: short-answer
 * id: 3f2ef22b-dbfc-416d-849a-e17ae55e119a
-* title: What is the value of `y`?
+* title: Conditionals and Modulus
 * points: 1
 * topics: ruby-variables, conditionals
 
@@ -145,7 +145,7 @@ end
 
 * type: short-answer
 * id: df8316b2-b91a-4d83-843f-053a9334ba04
-* title: What is the value of `y` pt 2
+* title: Conditionals and Modulus Part 2
 * points: 1
 * topics: ruby-variables, conditionals
 
