@@ -45,5 +45,6 @@ describe "Test Suite" do
         expect(answer[index][:name]).must_equal name
         expect(answer[index][:speciality]).must_equal specialities[index]
       end
-    end 
+    end
+  end 
 end
