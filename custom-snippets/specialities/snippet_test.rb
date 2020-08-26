@@ -18,7 +18,7 @@ describe "Test Suite" do
     it "will return an empty array if given two empty arrays" do
       names = []
       specialities = []
-      answer = combine_lists(names, specialities)
+      answer = specialities(names, specialities)
 
       expect(answer.length).must_equal 0
     end
@@ -26,7 +26,7 @@ describe "Test Suite" do
     it "will return an array of 1 length for two 1-element arrays" do
       names = ["Charles"]
       specialities = ["TA"]
-      answer = combine_lists(names, specialities)
+      answer = specialities(names, specialities)
 
       expect(answer.length).must_equal 1
       names.each_with_index do |name, index|
@@ -37,7 +37,7 @@ describe "Test Suite" do
     it "will return an array of 3 length for two 3-element arrays" do
       names = ["Charles", "Simon", "Dan"]
       specialities = ["TA", "Lead Instructor", "Former Lead Instructor"]
-      answer = combine_lists(names, specialities)
+      answer = specialities(names, specialities)
       solution = solution(names, specialities)
 
       expect(answer.length).must_equal 3
