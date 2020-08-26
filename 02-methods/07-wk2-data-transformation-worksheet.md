@@ -231,11 +231,11 @@ end
 
 ##### !question
 
-2. Given this array of `String` names and this array of `String` specialties, return an array of Hashes. Each Hash should have the keys `name`, `specialty`, and `id`, which will represent their unique identifier in the form of an integer. The ids can start at `1` and then go up by one.
+Given this array of `String` names and this array of `String` specialties, return an array of Hashes. Each Hash should have the keys `name`, `specialty`, and `id`, which will represent their unique identifier in the form of an integer. The ids can start at `1` and then go up by one.
 
 ```ruby
-NAMES = ['Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey', 'Doc']
-SPECIALTIES = ['grump', 'smile', 'nap', 'blush', 'sneeze', 'goof', 'contemplate']
+names = ['Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey', 'Doc']
+specialties = ['grump', 'smile', 'nap', 'blush', 'sneeze', 'goof', 'contemplate']
 
 # => [{:name=>"Grumpy", :specialty=>"grump", :id=>1},
 # {:name=>"Happy", :specialty=>"smile", :id=>2},
@@ -245,6 +245,28 @@ SPECIALTIES = ['grump', 'smile', 'nap', 'blush', 'sneeze', 'goof', 'contemplate'
 # {:name=>"Dopey", :specialty=>"goof", :id=>6},
 # {:name=>"Doc", :specialty=>"contemplate", :id=>7}]
 ```
+
+##### !end-question
+
+##### !placeholder
+
+```
+def combine_lists(names, specialties)
+
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 3. Given these two arrays of strings, write code that returns an array of arrays. Each element in the larger array should have two elements: the first element is the name, and the second element is the specialty.
 
