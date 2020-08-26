@@ -40,8 +40,8 @@ describe "Test Suite" do
         { name: "Dan", specialty: "Former Lead Instructor"},
         { name: "Bethany", specialty: "Head Honcho"},
       ]
-      answer = specialities(names, specialities)
-      solution = solution(names, specialities)
+      answer = specialities(characters)
+      solution = solution(chracters)
 
       expect(answer.length).must_equal 3
       answer.each_with_index do |ans, index|
