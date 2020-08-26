@@ -30,6 +30,10 @@
           Type: Lesson
           UID: 48a646871b530d5dcca1a77ed3b6a132
           Path: /01-control-structures/01-wk01-control-structures.md
+        -
+          Type: Lesson
+          UID: 62d4d32b-0036-49ae-a2cd-72954d8ffd8f
+          Path: /01-control-structures/02-wk02-loop-tables-worksheet.md
     -
       Title: Methods
       Description: Creating resusable blocks of code.
