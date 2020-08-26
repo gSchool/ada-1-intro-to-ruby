@@ -41,7 +41,7 @@ describe "Test Suite" do
         { name: "Bethany", specialty: "Head Honcho"},
       ]
       answer = specialities(characters)
-      solution = solution(chracters)
+      solution = solution(characters)
 
       expect(answer.length).must_equal 3
       answer.each_with_index do |ans, index|
