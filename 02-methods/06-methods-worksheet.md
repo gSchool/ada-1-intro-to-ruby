@@ -1,4 +1,4 @@
-# Ruby Fundamentals CheckPoint
+# Methods Worksheet
 
 
 ## Variables
