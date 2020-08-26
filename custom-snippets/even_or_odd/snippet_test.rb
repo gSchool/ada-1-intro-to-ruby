@@ -32,7 +32,6 @@ describe "Test Suite" do
       list = [2, 3, 16]
       even_odds = even_or_odd(list)
       answer = ["even", "odd", "even"]
-
       expect(even_odds.length).must_equal 3
       even_odds.each_with_index do |string, index|
         expect(string).must_equal answer[index]
