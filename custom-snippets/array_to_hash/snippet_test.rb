@@ -9,6 +9,8 @@ def solution(list)
   list.each_with_index do |name, index|
     solution_hash_array << { name: name, id: (index + 1)}
   end
+
+  return solution_array
 end
 
 describe "Test Suite" do
