@@ -11,7 +11,7 @@ Provide the value from the following code segments
 
 * type: short-answer
 * id: 141ae1c4-ee5a-4915-b1d3-db7dc5e2e821
-* title: Addition Question
+* title: What is the value of `x`
 * points: 1
 * topics: ruby-variables
 
@@ -55,7 +55,7 @@ x
 
 * type: short-answer
 * id: 30a443a8-4bed-482e-be5d-1a443d9eb512
-* title: Assignment Question
+* title: Variable Assignment
 * points: 1
 * topics: ruby-variables
 
@@ -190,7 +190,7 @@ end
 
 * type: multiple-choice
 * id: 15afafec-500e-4abd-904f-ca1d1a367739
-* title: More conditionals 1
+* title: Conditional Question
 * points: 1
 * topics: ruby-variables, conditionals
 
@@ -342,7 +342,7 @@ end
 
 * type: multiple-choice
 * id: 9681ba60-9c4f-4de3-80c3-3e61ba819dae
-* title: More conditionals 1b
+* title: More conditionals 3
 * points: 1
 * topics: ruby-variables, conditionals
 
@@ -398,7 +398,7 @@ What is the data type of `pet`?  What are the data types in the `if` and `elsif`
 
 * type: multiple-choice
 * id: 284a3b2f-9549-4631-9676-2aae75bcbd09
-* title: More conditionals 2b
+* title: More conditionals 4
 * points: 1
 * topics: ruby-variables, conditionals
 
@@ -451,7 +451,7 @@ end
 
 * type: multiple-choice
 * id: ed9942b6-49e5-42b1-96c4-92d3b286f638
-* title: More conditionals 3b
+* title: More conditionals 5
 * points: 1
 * topics: ruby-variables, conditionals
 
@@ -544,7 +544,7 @@ x[1]
 
 * type: short-answer
 * id: 2fe8ac55-df6b-4fe1-b657-08a4845ec1a6
-* title: Arrays #2
+* title: Arrays Question #2
 * points: 1
 * topics: arrays
 
@@ -586,7 +586,7 @@ x[2] + x[3]
 
 * type: short-answer
 * id: d349ee59-e310-4bd9-8cb8-c99a84010f93
-* title: [text, a short question title]
+* title: Arrays Question #3
 * points: 1
 * topics: arrays
 
@@ -628,7 +628,7 @@ alist.length
 
 * type: short-answer
 * id: 4955a1db-556a-4680-8d25-1a1e8d7cccb8
-* title: [text, a short question title]
+* title: Arrays Question #5
 * points: 1
 * topics: arrays
 
@@ -762,7 +762,7 @@ programming.length
 
 * type: multiple-choice
 * id: 9f2f74f6-3294-47a9-bc39-c7a9af86c6f2
-* title: Hashes Question #4
+* title: Hashes Question #3
 * points: 1
 * topics: hashes
 
@@ -814,7 +814,7 @@ Based on the code fragment above, what is the data type of `sample[:a]`?
 
 * type: multiple-choice
 * id: fa4d2a5b-1cb2-4ec8-ade3-a7ca428ce358
-* title: Hashes Question #5
+* title: Hashes Question #4
 * points: 1
 * topics: hashes
 
