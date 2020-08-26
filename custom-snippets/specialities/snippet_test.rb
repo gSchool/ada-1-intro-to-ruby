@@ -45,4 +45,5 @@ describe "Test Suite" do
         expect(ans).must_equal solution[index]
       end
     end 
+  end
 end
