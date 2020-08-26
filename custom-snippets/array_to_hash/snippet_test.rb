@@ -13,11 +13,11 @@ end
 
 describe "Test Suite" do
   describe "array_to_hash_array" do
-    it "will return an empty hash for []" do
+    it "will return an empty array for []" do
       list = []
       answer = array_to_hash_array(list)
 
-      expect(answer).must_equal {}
+      expect(answer).must_equal []
     end
 
     it "will return [{name: 'ada', id: 1}] for ['ada']" do
