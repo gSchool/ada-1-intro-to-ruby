@@ -26,7 +26,7 @@ describe "Test Suite" do
       list = ["pasta", "a", "", "elephant"]
       list_of_lengths = lengths(list)
 
-      expect(list_of_lengths.length).must_equal 1
+      expect(list_of_lengths.length).must_equal 4
       list.each_with_index do |string, index|
         expect(string.length).must_equal list_of_lengths[index]
       end
