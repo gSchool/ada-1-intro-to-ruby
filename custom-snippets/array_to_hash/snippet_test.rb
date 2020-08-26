@@ -40,14 +40,21 @@ describe "Test Suite" do
       end
     end
 
-
     it "will return an array of hashes with key-value pairs for a 4-element array" do
       list = ["ada", "Grace", "paula", "Katherine"]
       name_hash_array = array_to_hash_array(list)
       solution_array = solution(list)
 
+      expect(name_hash_array.length).must_equal 4
+
       name_hash_array.each do |hash|
-        expect(solution_array.include? hash).must_equal true
+        found = false
+        solution_array.each do |other_hash|
+          if (other_hash[:id] == hash[:id] && other_hash[:name] == hash[:name])
+            found = true
+          end
+        end
+        expect(found).must_be_true
       end
     end
   end
