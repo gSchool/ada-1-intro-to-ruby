@@ -7,7 +7,7 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 def solution(names, specialities)
   answer = []
   names.each_with_index do |name, index|
-    answer << { name: name, speciality: specialities[index], id: (index + 1) }
+    answer << { name: name, specialty: specialities[index], id: (index + 1) }
   end
 
   return answer
@@ -31,7 +31,7 @@ describe "Test Suite" do
       expect(answer.length).must_equal 1
       names.each_with_index do |name, index|
         expect(answer[index][:name]).must_equal name
-        expect(answer[index][:speciality]).must_equal specialities[index]
+        expect(answer[index][:specialty]).must_equal specialities[index]
       end
     end
 
@@ -43,7 +43,7 @@ describe "Test Suite" do
       expect(answer.length).must_equal 3
       names.each_with_index do |name, index|
         expect(answer[index][:name]).must_equal name
-        expect(answer[index][:speciality]).must_equal specialities[index]
+        expect(answer[index][:specialty]).must_equal specialities[index]
       end
     end
   end 
