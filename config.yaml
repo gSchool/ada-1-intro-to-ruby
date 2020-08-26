@@ -21,7 +21,7 @@
           Path: /00-variables-data-types/03-wk02-nested-arrays-hashes.md
     -    
       Title: Control Structures
-      Description: Control Structures
+      Description: If statements loops etc.
       UID: d97e3d96dc951374fae59da1c02c0432
       SuccessCriteria:
         - success criteria
@@ -32,7 +32,7 @@
           Path: /01-control-structures/01-wk01-control-structures.md
     -
       Title: Methods
-      Description: Methods
+      Description: Creating resusable blocks of code.
       UID: 20c51b5f4e9aeb5334c90ff072e6f928
       SuccessCriteria:
         - success criteria
