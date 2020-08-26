@@ -222,7 +222,7 @@ end
 * language: ruby
 * id: de17fe3a-4223-4907-970e-701a5adf7ef6
 * title: Combining arrays into an array of hashes
-* docker_directory_path: /custom-snippets/array_to_hash
+* docker_directory_path: /custom-snippets/combine_lists
 * points: 1
 * topics: arrays, enumerables
 
@@ -263,16 +263,6 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
-
-
-3. Given these two arrays of strings, write code that returns an array of arrays. Each element in the larger array should have two elements: the first element is the name, and the second element is the specialty.
-
-```ruby
-NAMES = ['Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey', 'Doc']
-SPECIALTIES = ['grump', 'smile', 'nap', 'blush', 'sneeze', 'goof', 'contemplate']
-
-# => [["Grumpy", "grump"], ["Happy", "smile"], ["Sleepy", "nap"], ["Bashful", "blush"], ["Sneezy", "sneeze"], ["Dopey", "goof"], ["Doc", "contemplate"]]
-```
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
