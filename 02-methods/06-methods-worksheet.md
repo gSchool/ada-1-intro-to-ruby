@@ -1,5 +1,4 @@
-# Methods Worksheet
-
+# Ruby Essentials Worksheet
 
 ## Variables
 
