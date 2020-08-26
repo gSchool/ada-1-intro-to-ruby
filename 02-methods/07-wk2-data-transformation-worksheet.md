@@ -277,6 +277,53 @@ SPECIALTIES = ['grump', 'smile', 'nap', 'blush', 'sneeze', 'goof', 'contemplate'
 # => [["Grumpy", "grump"], ["Happy", "smile"], ["Sleepy", "nap"], ["Bashful", "blush"], ["Sneezy", "sneeze"], ["Dopey", "goof"], ["Doc", "contemplate"]]
 ```
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 895d3e76-0651-4d5f-aa13-219ec422e569
+* title: Names to hash with ids
+* docker_directory_path: /custom-snippets/zipper
+* points: 1
+* topics: arrays, enumerables
+
+##### !question
+
+Given these two arrays of strings, write code that returns an array of arrays. Each element in the larger array should have two elements: the first element is the name, and the second element is the specialty.
+
+```ruby
+names = ['Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey', 'Doc']
+specialities = ['grump', 'smile', 'nap', 'blush', 'sneeze', 'goof', 'contemplate']
+
+# => [["Grumpy", "grump"], ["Happy", "smile"], ["Sleepy", "nap"], ["Bashful", "blush"], ["Sneezy", "sneeze"], ["Dopey", "goof"], ["Doc", "contemplate"]]
+```
+
+##### !end-question
+
+##### !placeholder
+
+```
+def arrays_of_arrays(names, specialties)
+
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+
 ## More Transformations
 
 1. Given this array of hashes, iterate through the array and return an array of strings. Each string should be in the following format: `Grumpy's specialty is to GRUMP`, where `Grumpy` is replaced with each name and `GRUMP` is the specialty in capital letters.
