@@ -6,6 +6,7 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 def solution(list)
   solution_hash_array = []
+  
   list.each_with_index do |name, index|
     solution_hash_array << { name: name, id: (index + 1)}
   end
