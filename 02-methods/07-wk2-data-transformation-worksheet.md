@@ -333,7 +333,7 @@ end
 
 * type: custom-snippet
 * language: ruby
-* id: 895d3e76-0651-4d5f-aa13-219ec422e569
+* id: c9febfed-6e60-495d-8902-1cf272fae86a
 * title: Names to hash with ids
 * docker_directory_path: /custom-snippets/specialities
 * points: 1
