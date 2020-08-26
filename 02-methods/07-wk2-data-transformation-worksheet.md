@@ -216,7 +216,20 @@ end
 
 <!-- ======================= END CHALLENGE ======================= -->
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: de17fe3a-4223-4907-970e-701a5adf7ef6
+* title: Names to hash with ids
+* docker_directory_path: /custom-snippets/array_to_hash
+* points: 1
+* topics: arrays, enumerables
+
+##### !question
 
 2. Given this array of `String` names and this array of `String` specialties, return an array of Hashes. Each Hash should have the keys `name`, `specialty`, and `id`, which will represent their unique identifier in the form of an integer. The ids can start at `1` and then go up by one.
 
