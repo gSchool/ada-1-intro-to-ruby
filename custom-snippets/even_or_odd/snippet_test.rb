@@ -30,7 +30,7 @@ describe "Test Suite" do
 
     it "will return ['even', 'odd', 'even'] for [2, 3, 16]" do
       list = [2, 3, 16]
-      even_odds = lengths(list)
+      even_odds = even_or_odd(list)
       answer = ["even", "odd", "even"]
 
       expect(even_odds.length).must_equal 3
