@@ -6,7 +6,7 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 def solution(list)
   solution_hash_array = []
-  
+
   list.each_with_index do |name, index|
     solution_hash_array << { name: name, id: (index + 1)}
   end
@@ -55,7 +55,7 @@ describe "Test Suite" do
             found = true
           end
         end
-        expect(found).must_be_true
+        expect(found).must_equal true
       end
     end
   end
