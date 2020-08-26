@@ -62,3 +62,8 @@ a.each do |letter|
   end
 end
 ```
+
+## Conclusion
+
+When you see a problem that has a loop or nested loops, use a loop table to track the variables and their values.  Creating such tables is a great way to conceptualize and track variable changes in a loop.
+
