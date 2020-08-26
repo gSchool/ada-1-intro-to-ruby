@@ -18,7 +18,7 @@ describe "Test Suite" do
     it "will return an empty array if given two empty arrays" do
       first = []
       second = []
-      answer = combine_lists(first, second)
+      answer = arrays_of_arrays(first, second)
 
       expect(answer.length).must_equal 0
     end
