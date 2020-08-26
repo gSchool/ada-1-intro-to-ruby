@@ -197,7 +197,7 @@ NAMES = ['Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey', 'Doc']
 ##### !placeholder
 
 ```
-def array_to_hash(names)
+def array_to_hash_array(names)
 
 end
 ```
