@@ -10,7 +10,7 @@ def solution(list)
     solution_hash_array << { name: name, id: (index + 1)}
   end
 
-  return solution_array
+  return solution_hash_array
 end
 
 describe "Test Suite" do
