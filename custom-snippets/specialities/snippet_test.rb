@@ -29,8 +29,8 @@ describe "Test Suite" do
       answer = specialities(characters)
 
       expect(answer.length).must_equal 1
-      characters.each_with_index do |name, index|
-        expect(answer[index]).must_equal "#{characters[:name]}'s specialty is to #{characters[:specialty].upcase}"
+      characters.each_with_index do |character, index|
+        expect(answer[index]).must_equal "#{character[:name]}'s specialty is to #{character[:specialty].upcase}"
       end
     end
 
