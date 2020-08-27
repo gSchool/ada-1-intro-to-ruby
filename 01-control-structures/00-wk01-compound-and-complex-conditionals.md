@@ -95,25 +95,205 @@ With your neighbor(s), determine the final `boolean` output of these compound co
 
 When in doubt, write down your work on paper.
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: number
+* id: 0eb45ed5-97f3-4b21-a038-571e21e2e261
+* title: Conditional Warm Up
+
+##### !question
+
+For the following three statements, determine if they produce false or true.
 ```ruby
-# let's do these first three together
-puts 5 > 4 && false
-puts true && 5 * 2 > 3 + 3 * 2
-puts true && 5 * 2 > (3 + 3) * 2
-
-puts true && true || false
-puts true && (true || false)
-puts false && false || true
-puts false && (false || true)
-puts (false && false) && false && (true || false) || false
-
-puts 4 == "4"
-puts 4 == "4" || 4 == 4
-puts 10 % 3 == 10.0 % 3
-
-puts 10 * (5 / 2.0) == 10.0 * (5 / 2)
-puts 10 * 5 / 2 > 10 * (5 / 2)
-
-puts 2 * 2 ** 3 == (2 * 2) ** 3
-puts (10 - 4) < +6 || -(2 * -4) > 0
+5 > 4 && false
+true && 5 * 2 > 3 + 3 * 2
+true && 5 * 2 > (3 + 3) * 2
 ```
+
+##### !end-question
+
+##### !placeholder
+
+How many of the above would return true?
+
+##### !end-placeholder
+
+##### !answer
+
+1
+
+##### !end-answer
+### !end-challenge
+
+### !challenge
+
+* type: multiple-choice
+* id: 21c6768c-e05c-481d-9ef6-2995200c5df9
+* title: First Conditional Pair
+
+##### !question
+
+Which of the following return 'true'?
+
+```ruby
+true && true || false
+true && (true || false)
+```
+
+##### !end-question
+
+##### !options
+
+* true && true || false
+* true && (true || false)
+* both
+* neither
+
+##### !end-options
+
+##### !answer
+
+* both
+
+##### !end-answer
+### !end-challenge
+
+### !challenge
+
+* type: multiple-choice
+* id: 9a436ac0-ba91-4ac3-8150-88a248d18606
+* title: [text, a short question title]
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+Which of the following return `true`
+
+```ruby
+false && false || true
+false && (false || true)
+```
+
+##### !end-question
+
+##### !options
+
+* false && false || true
+* false && (false || true)
+* both
+* neither
+
+##### !end-options
+
+##### !answer
+
+* false && false || true
+
+##### !end-answer
+
+
+##### !hint
+This problem might take a second! Remember the order of operations.
+##### !end-hint
+### !end-challenge
+
+### !challenge
+
+* type: number
+* id: 2d892c2b-49e7-4e6b-ba08-60fb809171c6
+* title: Type Coercion
+##### !question
+
+How many of the following statements resolve to `true`?
+
+```ruby
+4 == "4"
+4 == "4" || 4 == 4
+10 % 3 == 10.0 % 3
+```
+
+##### !end-question
+
+##### !placeholder
+
+How many of the above resolve to true?
+
+##### !end-placeholder
+
+##### !answer
+2
+##### !end-answer
+### !end-challenge
+
+### !challenge
+
+* type: multiple-choice
+* id: f68d6b7c-4127-42cf-a49e-d2fd118caf30
+* title: [text, a short question title]
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+Which of the following return `true`?
+
+```ruby
+10 * (5 / 2.0) == 10.0 * (5 / 2)
+10 * 5 / 2 > 10 * (5 / 2)
+```
+##### !end-question
+
+##### !options
+
+* 10 * (5 / 2.0) == 10.0 * (5 / 2)
+* 10 * 5 / 2 > 10 * (5 / 2)
+* both
+* neither
+
+##### !end-options
+
+##### !answer
+
+* 10 * 5 / 2 > 10 * (5 / 2)
+
+##### !end-answer
+
+##### !hint 
+Remember, math with integers doesn't work the same way as math with decimal numbers!
+##### !end-hint 
+### !end-challenge
+
+### !challenge
+
+* type: multiple-choice
+* id: 5a503a07-40e2-4b6e-93d0-c55adcab6b22
+* title: [text, a short question title]
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+Which of the following statements return `true`?
+
+```ruby
+2 * 2 ** 3 == (2 * 2) ** 3
+(10 - 4) < +6 || -(2 * -4) > 0
+```
+
+##### !end-question
+
+##### !options
+* 2 * 2 ** 3 == (2 * 2) ** 3
+* (10 - 4) < +6 || -(2 * -4) > 0
+* both
+* neither
+##### !end-options
+
+##### !answer
+* (10 - 4) < +6 || -(2 * -4) > 0
+##### !end-answer
+### !end-challenge
