@@ -40,6 +40,10 @@
           Path: /01-control-structures/01-wk01-control-structures.md
         -
           Type: Lesson
+          UID: fd2cb5e4-b53b-4771-bb2d-6eeb1cb62510
+          Path: /01-control-structures/04-wk01-calculator-live-code.md
+        -
+          Type: Lesson
           UID: 62d4d32b-0036-49ae-a2cd-72954d8ffd8f
           Path: /01-control-structures/02-wk02-loop-tables-worksheet.md
         -
