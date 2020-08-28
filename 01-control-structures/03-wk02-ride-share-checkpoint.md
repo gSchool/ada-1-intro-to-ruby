@@ -15,7 +15,7 @@ Use the following resources to find out...
 
 🌟 **Official project introduction:**
 
-## TODO:  Video Intro here
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=979b997e-d028-492d-91fe-ac25014d851c&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 Don't forget, when in doubt, please clarify confusion, ask questions, ask to co-work, and help out others over Slack!
 
