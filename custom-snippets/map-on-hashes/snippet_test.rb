@@ -6,7 +6,7 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 def solution(students)
   return students.map do |key, value|
-    { key => value }
+    { key => value.upcase }
   end
 end
 

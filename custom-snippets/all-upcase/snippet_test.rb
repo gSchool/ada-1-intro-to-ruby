@@ -5,13 +5,13 @@ require_relative "./submission.rb"
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 def solution(words)
-  return words.map do { |word| word.upcase}
+  return words.map { |word| word.upcase}
 end
 
 describe "formatted-names" do
   it "will return an empty array if given an empty hash" do
     students = {}
-    answer = format_names(students)
+    answer = shouted_greetings(students)
 
     expect(answer.length).must_equal 0
   end

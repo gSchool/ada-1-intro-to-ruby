@@ -1,88 +1,95 @@
 ---
-  Standards:
-    -
-      Title: Variables & Data Types
-      Description: Material about variables and data types.
-      UID: fe22378e892404d62076c6fb208cf2df
-      SuccessCriteria:
-        - success criteria
-      ContentFiles:
-        -
-          Type: Lesson
-          UID: b5e1b4dd726cff94e67c7d578e4e400c
-          Path: /00-variables-data-types/01-wk01-worksheet-defs-data-types.md
-        -
-          Type: Lesson
-          UID: cd1ce9d0-f062-4ce1-b7b9-9402df51193d
-          Path: /00-variables-data-types/02-wk01-worksheet-data-types-reading.md
-        -
-          Type: Lesson
-          UID: 76a30dfcaa39687fa9ee0c696824244f
-          Path: /00-variables-data-types/03-wk01-exercise-intro-random-menu.md
-        -
-          Type: Lesson
-          UID: eb011f8e-55bb-4c38-96e3-812114fb7985
-          Path: /00-variables-data-types/04-wk01-constant-variables.md
-        -
-          Type: Lesson
-          UID: 378201ed-fc5e-4fa7-8552-90484a3d7588
-          Path: /00-variables-data-types/05-wk02-nested-arrays-hashes.md
-    -    
-      Title: Control Structures
-      Description: If statements loops etc.
-      UID: d97e3d96dc951374fae59da1c02c0432
-      SuccessCriteria:
-        - success criteria
-      ContentFiles:
-        -
-          Type: Lesson
-          UID: 48a646871b530d5dcca1a77ed3b6a132
-          Path: /01-control-structures/01-wk01-control-structures.md
-        -
-          Type: Lesson
-          UID: fd2cb5e4-b53b-4771-bb2d-6eeb1cb62510
-          Path: /01-control-structures/04-wk01-calculator-live-code.md
-        -
-          Type: Lesson
-          UID: 62d4d32b-0036-49ae-a2cd-72954d8ffd8f
-          Path: /01-control-structures/05-wk02-loop-tables-worksheet.md
-        -
-          Type: Checkpoint
-          UID: 19d2ce5d-afd1-4006-8584-8a6b54a733f4
-          Path: /01-control-structures/06-wk02-ride-share-checkpoint.md
-    -
-      Title: Methods
-      Description: Creating resusable blocks of code.
-      UID: 20c51b5f4e9aeb5334c90ff072e6f928
-      SuccessCriteria:
-        - success criteria
-      ContentFiles:
-        -
-          Type: Lesson
-          UID: d245b0463663b0a31af829e4d844a8f7
-          Path: /02-methods/01-methods.md
-        -
-          Type: Lesson
-          UID: 4043876ccaa49ed991531ccdfa6b55a3
-          Path: /02-methods/02-ruby-methods.md
-        -
-          Type: Lesson
-          UID: 96ddafddcbda130c5200cb4b8eb81474
-          Path: /02-methods/03-built-in-methods.md
-        -
-          Type: Lesson
-          UID: 78ae0a8ac8478ba177166c2e18f7908e
-          Path: /02-methods/04-variable-scope.md
-        -
-          Type: Lesson
-          UID: 129ba5f199dfc1b25719ca9441683a75
-          Path: /02-methods/06-methods-worksheet.md
-        -
-          Type: Lesson
-          UID: 18afcc2c-a0bd-42b9-bede-0a56bfcab8bb
-          Path: /02-methods/07-wk2-data-transformation-worksheet.md          
-        -
-          Type: Lesson
-          UID: aa5614df-7c48-469d-b4a9-01e22a2e6a80
-          Path: /02-methods/08-WK2-enumerables.md   
-    
+Standards:
+  -
+    Title: Variables & Data Types
+    Description: Material about variables and data types.
+    UID: fe22378e892404d62076c6fb208cf2df
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: b5e1b4dd726cff94e67c7d578e4e400c
+        Path: /00-variables-data-types/01-wk01-worksheet-defs-data-types.md
+      -
+        Type: Lesson
+        UID: cd1ce9d0-f062-4ce1-b7b9-9402df51193d
+        Path: /00-variables-data-types/02-wk01-worksheet-data-types-reading.md
+      -
+        Type: Lesson
+        UID: 76a30dfcaa39687fa9ee0c696824244f
+        Path: /00-variables-data-types/03-wk01-exercise-intro-random-menu.md
+      -
+        Type: Lesson
+        UID: eb011f8e-55bb-4c38-96e3-812114fb7985
+        Path: /00-variables-data-types/04-wk01-constant-variables.md
+      -
+        Type: Lesson
+        UID: 378201ed-fc5e-4fa7-8552-90484a3d7588
+        Path: /00-variables-data-types/05-wk02-nested-arrays-hashes.md
+  -
+    Title: Conditionals & Control Structures
+    Description: Compound conditionals, booleans, ifs/elsif/else, control structures, case statements, conditional loops, etc.
+    UID: d97e3d96dc951374fae59da1c02c0432
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 1ad3a046-9688-421d-82c4-b2f136c2e5bc
+        Path: /01-control-structures/01-wk01-compound-and-complex-conditionals.md
+      -
+        Type: Lesson
+        UID: 48a646871b530d5dcca1a77ed3b6a132
+        Path: /01-control-structures/02-wk01-conditional-control-structures.md
+      -
+        Type: Lesson
+        UID: 62d4d32b-0036-49ae-a2cd-72954d8ffd8f
+        Path: /01-control-structures/03-wk01-project-intro-calculator.md
+      -
+        Type: Lesson
+        UID: fd2cb5e4-b53b-4771-bb2d-6eeb1cb62510
+        Path: /01-control-structures/04-wk01-calculator-live-code.md
+      -
+        Type: Lesson
+        UID: a72220af-2414-452b-91d6-d77a77bc7f81
+        Path: /01-control-structures/05-wk02-loop-tables-worksheet.md
+      -
+        Type: Checkpoint
+        UID: 19d2ce5d-afd1-4006-8584-8a6b54a733f4
+        Path: /01-control-structures/06-wk02-ride-share-checkpoint.md
+  -
+    Title: Methods
+    Description: Methods
+    UID: 20c51b5f4e9aeb5334c90ff072e6f928
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: d245b0463663b0a31af829e4d844a8f7
+        Path: /02-methods/01-methods.md
+      -
+        Type: Lesson
+        UID: 4043876ccaa49ed991531ccdfa6b55a3
+        Path: /02-methods/02-ruby-methods.md
+      -
+        Type: Lesson
+        UID: 96ddafddcbda130c5200cb4b8eb81474
+        Path: /02-methods/03-built-in-methods.md
+      -
+        Type: Lesson
+        UID: 78ae0a8ac8478ba177166c2e18f7908e
+        Path: /02-methods/04-variable-scope.md
+      -
+        Type: Lesson
+        UID: 129ba5f199dfc1b25719ca9441683a75
+        Path: /02-methods/06-methods-worksheet.md
+      -
+        Type: Lesson
+        UID: 18afcc2c-a0bd-42b9-bede-0a56bfcab8bb
+        Path: /02-methods/07-wk2-data-transformation-worksheet.md          
+      -
+        Type: Lesson
+        UID: aa5614df-7c48-469d-b4a9-01e22a2e6a80
+        Path: /02-methods/08-WK2-enumerables.md   
