@@ -45,11 +45,15 @@ Standards:
       -
         Type: Lesson
         UID: 62d4d32b-0036-49ae-a2cd-72954d8ffd8f
-        Path: /01-control-structures/02-wk02-loop-tables-worksheet.md
+        Path: /01-control-structures/03-wk01-project-intro-calculator.md
+      -
+        Type: Lesson
+        UID: a72220af-2414-452b-91d6-d77a77bc7f81
+        Path: /01-control-structures/04-wk02-loop-tables-worksheet.md
       -
         Type: Checkpoint
         UID: 19d2ce5d-afd1-4006-8584-8a6b54a733f4
-        Path: /01-control-structures/03-wk02-ride-share-checkpoint.md
+        Path: /01-control-structures/05-wk02-ride-share-checkpoint.md
   -
     Title: Methods
     Description: Methods
