@@ -5,7 +5,7 @@ require_relative "./submission.rb"
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 def solution(words)
-  return words.map do { |word| word.upcase}
+  return words.map { |word| word.upcase}
 end
 
 describe "formatted-names" do
