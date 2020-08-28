@@ -21,7 +21,7 @@ Don't forget, when in doubt, please clarify confusion, ask questions, ask to co-
 
 ## Random Menu Submission
 
-You will submit this Random Menu exercise by following these special directions. These directions will get you to put your Random Menu code in a gist, and then share that gist with us.
+You will submit this Random Menu exercise by following these special directions. These directions will get you to put your Random Menu code in a repl, and then share that repl with us.
 
 Work on your solution until you are ready to submit. Then...
 
