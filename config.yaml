@@ -22,7 +22,11 @@
         -
           Type: Lesson
           UID: eb011f8e-55bb-4c38-96e3-812114fb7985
-          Path: /00-variables-data-types/04-wk02-nested-arrays-hashes.md
+          Path: /00-variables-data-types/04-wk01-constant-variables.md
+        -
+          Type: Lesson
+          UID: 378201ed-fc5e-4fa7-8552-90484a3d7588
+          Path: /00-variables-data-types/05-wk02-nested-arrays-hashes.md
     -    
       Title: Control Structures
       Description: If statements loops etc.
