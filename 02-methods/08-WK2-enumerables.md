@@ -152,7 +152,7 @@ What was the initial value of `spicy_food_items`, and where was it defined?
 
 ##### !answer
 
-/\[\]/
+/.*/
 
 ##### !end-answer
 
@@ -509,7 +509,7 @@ Solve this first using an each loop, then, refactor it to use `map`.
 ### !challenge
 
 * type: custom-snippet
-* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* language: ruby
 * id: e5ccf9bd-3d12-40d8-beac-3928120eb507
 * title: Converting all strings to upcase
 * docker_directory_path: /custom-snippets/all-upcase
