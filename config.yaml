@@ -27,12 +27,12 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
-        UID: 48a646871b530d5dcca1a77ed3b6a132
-        Path: /01-control-structures/01-wk01-control-structures.md
-      -
-        Type: Lesson
         UID: 1ad3a046-9688-421d-82c4-b2f136c2e5bc
         Path: /01-control-structures/00-wk01-compound-and-complex-conditionals.md
+      -
+        Type: Lesson
+        UID: 48a646871b530d5dcca1a77ed3b6a132
+        Path: /01-control-structures/01-wk01-conditional-control-structures.md
   -
     Title: Methods
     Description: Methods
