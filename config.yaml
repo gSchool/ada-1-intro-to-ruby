@@ -10,15 +10,19 @@
         -
           Type: Lesson
           UID: b5e1b4dd726cff94e67c7d578e4e400c
-          Path: /00-variables-data-types/01-wk01-defs-data-types-reading.md
+          Path: /00-variables-data-types/01-wk01-worksheet-defs-data-types.md
+        -
+          Type: Lesson
+          UID: cd1ce9d0-f062-4ce1-b7b9-9402df51193d
+          Path: /00-variables-data-types/02-wk01-worksheet-data-types-reading.md
         -
           Type: Lesson
           UID: 76a30dfcaa39687fa9ee0c696824244f
-          Path: /00-variables-data-types/02-wk01-exercise-intro-random-menu.md
+          Path: /00-variables-data-types/03-wk01-exercise-intro-random-menu.md
         -
           Type: Lesson
           UID: eb011f8e-55bb-4c38-96e3-812114fb7985
-          Path: /00-variables-data-types/03-wk02-nested-arrays-hashes.md
+          Path: /00-variables-data-types/04-wk02-nested-arrays-hashes.md
     -    
       Title: Control Structures
       Description: If statements loops etc.
