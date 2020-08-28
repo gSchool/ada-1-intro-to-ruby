@@ -195,7 +195,7 @@ Compare your solution with you neighbor.
 
 
 ## Condition Evaluation Exercise
-With your neighbor(s), determine the final `boolean` output of these compound conditions. Refer to the _Truth Table_ and _Precedence List_ in the textbook resource.
+Determine the final `boolean` output of these compound conditions. Refer to the _Truth Table_ and _Precedence List_ in the textbook resource.
 
 When in doubt, write down your work on paper.
 
