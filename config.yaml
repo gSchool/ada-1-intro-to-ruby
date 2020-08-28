@@ -19,8 +19,8 @@ Standards:
         UID: a7a99b9d2b2c108e4f1def2b8902a4b3
         Path: /00-variables-data-types/01-wk01-defs-data-types-reading.md
   -
-    Title: Control Structures
-    Description: Control Structures
+    Title: Conditionals & Control Structures
+    Description: Compound conditionals, booleans, ifs/elsif/else, control structures, case statements, conditional loops, etc.
     UID: d97e3d96dc951374fae59da1c02c0432
     SuccessCriteria:
       - success criteria
@@ -28,11 +28,11 @@ Standards:
       -
         Type: Lesson
         UID: 1ad3a046-9688-421d-82c4-b2f136c2e5bc
-        Path: /01-control-structures/00-wk01-compound-and-complex-conditionals.md
+        Path: /01-control-structures/01-wk01-compound-and-complex-conditionals.md
       -
         Type: Lesson
         UID: 48a646871b530d5dcca1a77ed3b6a132
-        Path: /01-control-structures/01-wk01-conditional-control-structures.md
+        Path: /01-control-structures/02-wk01-conditional-control-structures.md
   -
     Title: Methods
     Description: Methods
