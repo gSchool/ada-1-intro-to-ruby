@@ -1,37 +1,27 @@
-# Ride Share
+# Exercise Intro: Ride Share
 
-In this project you will work to organize data into a complex assortment of nested data structures.
+## Exercise Resources
 
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
+Use the following resources to find out...
 
-### !challenge
+- Learning Goals
+- Due Date
+- Requirements
+- Details
+- How to get started
+- Tips!
 
-* type: project
-* id: 6b42b1b3-ed09-4793-9584-88535cbce261
+🌟 [Official project documentation](https://github.com/ada-c14/ride-share)
 
+🌟 **Official project introduction:**
 
-##### !question
+## Video Intro here
 
+Don't forget, when in doubt, please clarify confusion, ask questions, ask to co-work, and help out others over Slack!
 
-##### !end-question
+## Ride Share
 
-##### !placeholder
-
-[text, placeholder text for the input field]
-
-##### !end-placeholder
-
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
-
-
+You will submit this Ride Share exercise by following these special directions. These directions will get you to put your 
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
