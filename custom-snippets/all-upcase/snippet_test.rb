@@ -4,10 +4,8 @@ require_relative "./submission.rb"
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
-def solution(students)
-  return students.map do |key, value|
-    { key => value }
-  end
+def solution(words)
+  return words.map do { |word| word.upcase}
 end
 
 describe "formatted-names" do
@@ -20,28 +18,21 @@ describe "formatted-names" do
 
   describe "using sample input" do 
     it "will transform the sample input into an array of length 3" do
-      students = {
-        student_a: 'Dasher',
-        student_b: 'Dancer',
-        student_c: 'Prancer'
-      }
+      words = ['hello', 'howdy', 'hey there']
 
-      answer = format_names(students)
+      answer = shouted_greetings(words)
       expect(answer.length).must_equal 3
     end
 
-    it "will have all the correct key-value pairs in the sample solution" do
-      students = {
-        student_a: 'Dasher',
-        student_b: 'Dancer',
-        student_c: 'Prancer'
-      }
+    it "will return words in all upcase" do
+      words = ['hello', 'howdy', 'hey there']
 
-      answer = format_names(students)
-      correct_solution = solution(students)
 
-      answer.each do |hash|
-        expect(correct_solution).must_include hash
+      answer = shouted_greetings(words)
+      correct_solution = solution(words)
+
+      answer.each_with_index do |word, index|
+        expect(word).must_equal correct_solution[index]
       end
     end
   end
