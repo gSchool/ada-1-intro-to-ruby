@@ -1,5 +1,9 @@
 # Enumerables
 
+## Video Lesson
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=bca8c5ef-37c7-49ac-8d02-ac2501753f85&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Goals
 
 By the end of this lesson you will be able to
