@@ -272,7 +272,7 @@ end
 * type: custom-snippet
 * language: ruby
 * id: 895d3e76-0651-4d5f-aa13-219ec422e569
-* title: Names to hash with ids
+* title: Combining arrays into an array of arrays
 * docker_directory_path: /custom-snippets/zipper
 * points: 1
 * topics: arrays, enumerables
@@ -321,7 +321,7 @@ end
 * type: custom-snippet
 * language: ruby
 * id: c9febfed-6e60-495d-8902-1cf272fae86a
-* title: Names to hash with ids
+* title: Hashes to strings
 * docker_directory_path: /custom-snippets/specialities
 * points: 1
 * topics: arrays, enumerables
@@ -382,7 +382,7 @@ Rewrite each solution in the section "Iterating through Arrays"
 
 ### Bonus
 
-Is there a method from `Enumerable` you can use to solve #3 in "Transforming Arrays into Hashes"? Hint: it is _**not**_ a method covered in the class's Jigsaw activity.
+Is there a method from `Enumerable` you can use to solve #7 in "Transforming Arrays into Hashes"? Hint: it is _**not**_ a method covered in the class's Jigsaw activity.
 
 ## Conclusion
 
