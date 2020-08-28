@@ -1,5 +1,7 @@
 # Loop Table Worksheet!
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=f0ec7393-36cc-41fe-a7d8-ac25001ebe9b&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 Sometimes it is difficult to trace through how a complicated loop works.  It can be helpful to create a table recording values of each variable or expression for each iteration of a loop.  
 
 For example:
