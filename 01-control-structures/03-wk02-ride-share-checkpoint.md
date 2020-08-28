@@ -15,7 +15,7 @@ Use the following resources to find out...
 
 🌟 **Official project introduction:**
 
-## Video Intro here
+## TODO:  Video Intro here
 
 Don't forget, when in doubt, please clarify confusion, ask questions, ask to co-work, and help out others over Slack!
 
