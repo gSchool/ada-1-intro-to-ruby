@@ -1,4 +1,4 @@
-# `Enumerable`s
+# Enumerables
 
 ## Learning Goals
 
