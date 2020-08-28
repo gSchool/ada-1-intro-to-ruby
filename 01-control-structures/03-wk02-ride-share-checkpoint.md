@@ -56,7 +56,7 @@ Then complete the project by:
 1. Copying the `worksheet.rb` file into your own editor
 1. Work through the `worksheet.rb` file tasks answering the questions and writing code to accomplish the given tasks.
 1. Paste your solution code into your repository.
-1. Click on the **Pull Request** button and create a Pull Request
+1. On your repository, click on the **Pull Request** button and create a Pull Request
     ![Create PR](images/create-pr.png)
 1. Copy the link to your Pull Request (PR) into the textbox below
 
