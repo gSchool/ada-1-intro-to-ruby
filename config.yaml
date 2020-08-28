@@ -49,7 +49,7 @@ Standards:
       -
         Type: Lesson
         UID: fd2cb5e4-b53b-4771-bb2d-6eeb1cb62510
-        Path: /01-control-structures/04-wk01-calculator-live-code.md
+        Path: /01-control-structures/04-wk01-calculator-live-code.hidden.md
       -
         Type: Lesson
         UID: a72220af-2414-452b-91d6-d77a77bc7f81
