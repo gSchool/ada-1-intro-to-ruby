@@ -11,7 +11,7 @@ Use the following resources to find out...
 - How to get started
 - Tips!
 
-🌟 [Official project documentation]()
+🌟 [Official project documentation](https://github.com/Ada-C14/random-menu)
 
 🌟 Official project introduction:
 
