@@ -78,14 +78,14 @@ When evaluating a complex compound conditional expression, it is nice to visuali
 
 Here is an example parse tree for the expression `4 + 1 % 2 > 2 * 3 && true`
 
-  <details>
-  <summary>
-	Parse Tree
-    </summary>
-  <img src="images/condition-parse-tree.png" alt="condition-parse-tree">
-  </details>
+    <details>
+    <summary>
+    Parse Tree
+      </summary>
+    <img src="images/condition-parse-tree.png" alt="condition-parse-tree">
+    </details>
 
-  Now create a parse tree for the expression `5 - 2**3 < 0 && (true || false)`
+Now create a parse tree for the expression `5 - 2**3 < 0 && (true || false)`
 
   Compare your solution with you neighbor.
 
