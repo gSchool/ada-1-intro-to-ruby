@@ -88,7 +88,7 @@ answer
 
 ##### !answer
 
-/coffee_price\S*(type,\S*size\S*)/
+/coffee_price\s?(type,\s?size\s?)/
 
 ##### !end-answer
 
@@ -97,6 +97,8 @@ answer
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+
 
 - What can `coffee_price` _return_?
 - Why is it useful to put this functionality in a method?
