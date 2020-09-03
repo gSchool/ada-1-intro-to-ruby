@@ -88,7 +88,7 @@ answer
 
 ##### !answer
 
-/coffee_price\s*(type,\s*size\s*)/
+/coffee_price\S*(type,\S*size\S*)/
 
 ##### !end-answer
 
