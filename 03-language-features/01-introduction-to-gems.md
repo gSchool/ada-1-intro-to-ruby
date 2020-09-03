@@ -43,11 +43,7 @@ puts "This is blue text on red".blue.on_red.blink
 puts "This is uncolorized".blue.on_red.uncolorize
 ```
 
-Lets answer a few questions
-
-1.   What does the gem do?
-1.   How do you install the Gem and use it in your application?
-1.   
+Lets answer a few questions  
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
