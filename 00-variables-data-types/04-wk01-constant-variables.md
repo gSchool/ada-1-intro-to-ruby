@@ -104,7 +104,7 @@ Using `irb`, with the code above and your own code, experiment with the followin
 
 ##### !question
 
-True or false: I can reassign the value of a constant.
+True or false: Conceptually, I can reassign the value of a constant.
 
 ##### !end-question
 
@@ -126,6 +126,12 @@ True or false: I can reassign the value of a constant.
 * The question specifies "reassignment."
 
 ##### !end-hint
+
+##### !explanation
+
+In Ruby, you "technically" _can_ reassign a constant (as in, the Ruby program will not break, halt, and stop execution if you do it). However, conceptually, we use constants to indicate "do not reassign this variable." Additionally, many other programming languages _will_ break, halt, and stop execution if you reassign a constant.
+
+##### !end-explanation
 
 ### !end-challenge
 

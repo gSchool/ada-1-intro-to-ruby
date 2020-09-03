@@ -1,4 +1,8 @@
-# `Enumerable`s
+# Enumerables
+
+## Video Lesson
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=bca8c5ef-37c7-49ac-8d02-ac2501753f85&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ## Learning Goals
 
@@ -152,7 +156,7 @@ What was the initial value of `spicy_food_items`, and where was it defined?
 
 ##### !answer
 
-/\[\]/
+/.*/
 
 ##### !end-answer
 
@@ -509,7 +513,7 @@ Solve this first using an each loop, then, refactor it to use `map`.
 ### !challenge
 
 * type: custom-snippet
-* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* language: ruby
 * id: e5ccf9bd-3d12-40d8-beac-3928120eb507
 * title: Converting all strings to upcase
 * docker_directory_path: /custom-snippets/all-upcase
@@ -655,7 +659,7 @@ What does `key` refer to? What does `value` refer to?
 
 ##### !answer
 
-
+/.*/
 
 ##### !end-answer
 
