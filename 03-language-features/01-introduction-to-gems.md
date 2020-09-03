@@ -19,22 +19,12 @@ Installing gems is super easy! We do it right from the Terminal. To install the 
 ## Requiring Gems
 Since gems are external Ruby libraries, they are not included in core Ruby. To use the code provided by the gem, we `require` it in our code base. This can be done at the top of any Ruby script, file, or in `irb`:
 
-
 ## Colorize
-Next let's take a quick look at the colorize gem.
+Let's take a quick look at the colorize gem.
 
 - [Colorize](https://rubygems.org/gems/colorize)
 
 Look first at the Gem's page on rubygems.org and then examine the project's [Github repository](https://github.com/fazibear/colorize).
-
-Lets answer a few questions:
-1.   What does the gem do?
-1.   How do you install the Gem and use it in your application?
-1.   How would it be useful?
-
-```bash
-gem install colorize
-```
 
 Look at the [usage section](https://github.com/fazibear/colorize) of the github page.
 
@@ -53,4 +43,116 @@ puts "This is blue text on red".blue.on_red.blink
 puts "This is uncolorized".blue.on_red.uncolorize
 ```
 
-Neat!  Adding `.colorize` to a string in a `puts` statement styles the output.
+Lets answer a few questions
+
+1.   What does the gem do?
+1.   How do you install the Gem and use it in your application?
+1.   
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: project
+* id: 0f1be2f9-07b2-47ec-b592-9f311e06ee08
+* title: Gems Q1
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+How do you install the Gem and use it in your application?
+
+##### !end-question
+
+##### !placeholder
+
+response
+
+##### !end-placeholder
+
+### !explanation
+
+To install, type the following in the terminal. 
+```bash
+gem install colorize
+```
+
+To use, include the following at the top of your ruby file:
+```
+require colorize
+```
+
+### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: project
+* id: 59ebce4e-52b7-4a4d-b0b6-a0f5a32e0486
+* title: Gems Q2
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What does the gem do?
+
+##### !end-question
+
+##### !placeholder
+
+response
+
+##### !end-placeholder
+
+##### !explanation
+
+Adding `.colorize` to a string in a `puts` statement styles the output.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: project
+* id: 6cc2a9f6-e774-45e6-8cb7-dd41b6ad3f9a
+* title: Gems Q3
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+How would it be useful?
+
+##### !end-question
+
+##### !placeholder
+
+response
+
+##### !end-placeholder
+
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+## Conclusion
+
+We have seen how to install gems in Ruby, and explored one gem `colorize`.
+
+Soon we will complete an [gems jigsaw activity](./02-gems-jigsaw.md) to learn about other gems. 
