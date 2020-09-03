@@ -1,12 +1,25 @@
-
 # Conditional Control Structures
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=7add63b2-46fc-4992-8903-ac270132ec5b&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Goals
-- Learn strategies to manage complex conditions with `elsif` and `case`.
-- Learn two new kinds of iteration using _conditional loops_: `while` and `until`
 
-## Conditional Control Structures
+By the end of this lesson, we will be able to...
 
-### Using Compound Conditions
+- Use `elsif` syntax to manage complex conditions
+- Use `case` syntax to manage complex conditions
+- Use `while` syntax as a conditional loop
+- Use `until` syntax as a conditional loop
+
+## Introduction
+
+Read the two code blocks below. For each code block:
+
+1. First, imagine what this code is doing. How would you describe what this code does?
+1. Then, predict what the code will do with different inputs for `city_count` and `country_count`
+1. Finally, check yourself by copying and pasting this into a new `.rb` file and running it several times.
+
+Where were the conditional expressions?
 
 ```ruby
 puts "How many cities have you been to?"
@@ -43,8 +56,8 @@ if command == "add" || command == "+"
 end
 ```
 
-### Complex conditionals
-The `if/else/end` code we've written above is the standard and simplest form of a conditional. It is possible to extend this form with one or more `elsif` lines. Let's look at something kinda scary first:
+## Complex Conditionals with `elsif`
+The `if/else/end` code we've written above is the standard and the simplest form of a conditional. It is possible to extend this form with one or more `elsif` lines. Let's look at something kinda scary first:
 
 ```ruby
 if command == "add" || command == "+"
@@ -83,7 +96,7 @@ How can you refactor this code using `if/elsif/else`?
 This can be very useful, when you have more than one `elsif` line, because the indentation, or *nesting*, can quickly become very deep, and more difficult to understand.
 
 
-### Simplifying really complex conditionals
+## Simplifying Long Conditionals with `case`
 When you have several `elsif` lines within a single `if`, there's a way to write each conditional with much less repetition. First, a really long, really complex conditional:
 
 ```ruby
@@ -124,11 +137,35 @@ case command
 end
 ```
 
-## Conditional Loops
-### Wait a `while`
-Execute the iterator `while` the condition is true.
+## `while` is a Conditional Loop
 
-**Think Pair Share** 
+The while loop is syntax we can use if we want something to happen over and over and over again while **some condition** is true.
+
+The standard syntax for a `while` loop in Ruby is:
+
+```ruby
+# ... any code that should happen
+# before the while loop begins...
+
+while some_condition
+  # put as many
+  # lines of code
+  # that should run
+  # as long as
+  # some_condition
+  # is a variable, condition, OR expression
+  # that evaluates
+  # to true
+
+  # indent once inside here
+  # and make sure to properly end the loop
+  # with an end
+end
+
+# ... any code that should happen
+# after the while loop ends...
+```
+
 
 Use a `while` loop to print out the numbers 0 though 3.
 
@@ -160,6 +197,8 @@ Use a `while` loop to print out the numbers 0 though 3.
 
 ### Checking for valid user input using `while`
 
+One good time to use a `while` loop is when checking for valid user input.
+
 ```ruby
 command = gets.chomp
 
@@ -171,8 +210,9 @@ end
 puts "OMG It's about time!"
 ```
 
-### Make it clearer by using `until`
-Execute the iterator `until` the condition is true.
+## `until` is Another Conditional Loop
+
+The while loop is syntax we can use if we want something to happen over and over and over again _**until**_ **some condition** is true.
 
 ```ruby
 i = 0
@@ -183,7 +223,7 @@ until i == 4
 end
 ```
 
-The above code will output the values of i until i is equal to 4, resulting in the following (equivalent to the above) output:
+The above code will output the values of `i` until `i` is equal to `4`, resulting in the following (equivalent to the above) output:
 
 ```ruby
 0
@@ -192,6 +232,10 @@ The above code will output the values of i until i is equal to 4, resulting in t
 3
 ```
 ### Checking for valid input using `until`
+
+`while` loops and `until` loops are conceptually similar. Because they are similar and do similar things, we can choose between `while` and `until` based on our situation.
+
+If we are checking for valid input, it might _read_ more easily to use an `until` loop.
 
 ```ruby
 command = gets.chomp
@@ -204,7 +248,11 @@ end
 puts "Yay we did it!"
 ```
 
-### Make it clearer by using `include?`
+
+### !callout-info
+
+## Pro-Tip on Checking for Valid Input: Make it clearer by using `include?`
+
 The _Array method_ `include?` can be used to simplify a complex conditional. It returns `true` if the provided _parameter_ is equal to any of the elements in the _Array_, otherwise, it returns `false`:
 
 ```ruby
@@ -217,3 +265,5 @@ end
 
 puts "Yay we did it!"
 ```
+
+### !end-callout
