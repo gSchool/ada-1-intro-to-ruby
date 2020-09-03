@@ -92,7 +92,11 @@ Standards:
       -
         Type: Lesson
         UID: aa5614df-7c48-469d-b4a9-01e22a2e6a80
-        Path: /02-methods/08-WK2-enumerables.md
+        Path: /02-methods/08-WK2-enumerables.md   
+      -
+        Type: Checkpoint
+        UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
+        Path: /02-methods/09-wk3-adagrams-checkpoint.md 
   -
     Title: Assessments
     Description: The compass to guide your learning!

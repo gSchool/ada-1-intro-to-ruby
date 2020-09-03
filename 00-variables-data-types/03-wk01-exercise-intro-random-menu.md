@@ -11,11 +11,11 @@ Use the following resources to find out...
 - How to get started
 - Tips!
 
-🌟 [Official project documentation]()
+🌟 [Official project documentation](https://github.com/Ada-C14/random-menu)
 
 🌟 Official project introduction:
 
-<iframe src="" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9a90a452-c62c-43df-83f2-ac2701120eec&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 Don't forget, when in doubt, please clarify confusion, ask questions, ask to co-work, and help out others over Slack!
 
