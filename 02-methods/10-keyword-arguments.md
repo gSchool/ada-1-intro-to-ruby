@@ -62,7 +62,42 @@ puts "Your total is #{price} dollars"
 ```
 
 Spend some time reading through the above code, then answer the following questions:
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 46bfaed5-da9b-48b4-a087-a4303ddd9fef
+* title: Method Signature
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
 - What's the _method signature_ of the `coffee_price` method?
+
+##### !end-question
+
+##### !placeholder
+
+answer
+
+##### !end-placeholder
+
+##### !answer
+
+/coffee_price\s*(type,\s*size\s*)/
+
+##### !end-answer
+
+
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 - What can `coffee_price` _return_?
 - Why is it useful to put this functionality in a method?
 - How does the method work? Does anything surprise you about it?
