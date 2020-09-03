@@ -97,3 +97,7 @@ Standards:
         Type: Checkpoint
         UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
         Path: /02-methods/09-wk3-adagrams-checkpoint.md 
+      -
+        Type: Lesson
+        UID: 5c1e1908-ee3e-11ea-adc1-0242ac120002
+        Path: /02-methods/10-keyword-arguments.md  
