@@ -50,7 +50,7 @@ Lets answer a few questions
 
 ### !challenge
 
-* type: project
+* type: paragraph
 * id: 0f1be2f9-07b2-47ec-b592-9f311e06ee08
 * title: Gems Q1
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
@@ -91,7 +91,7 @@ require colorize
 
 ### !challenge
 
-* type: project
+* type: paragraph
 * id: 59ebce4e-52b7-4a4d-b0b6-a0f5a32e0486
 * title: Gems Q2
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
@@ -124,7 +124,7 @@ Adding `.colorize` to a string in a `puts` statement styles the output.
 
 ### !challenge
 
-* type: project
+* type: paragraph
 * id: 6cc2a9f6-e774-45e6-8cb7-dd41b6ad3f9a
 * title: Gems Q3
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
