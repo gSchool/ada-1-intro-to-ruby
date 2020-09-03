@@ -29,7 +29,7 @@ What is the last value returned by the above?
 ##### !end-placeholder
 
 ##### !answer
-quack
+"quack"
 ##### !end-answer
 
 ### !end-challenge
@@ -388,16 +388,16 @@ end
 
 ##### !options
 
-* 10\n12
-* 5\n6\n7
-* 5\n6
-* 10\n12\n\14
+* 10<br>12
+* 5<br>6<br>7
+* 5<br>6
+* 10<br>12<br>14
 
 ##### !end-options
 
 ##### !answer
 
-* 10\n12\n\14
+* 10<br>12<br>14
 
 ##### !end-answer
 
@@ -425,16 +425,16 @@ end
 
 ##### !options
 
-* 4\n4\n4\n4
-* 2\n4\n5\n10
-* 3\n5\n6\n11
-* 2\n4\n5
+* 4<br>4<br>4<br>4
+* 2<br>4<br>5<br>10
+* 3<br>5<br>6<br>11
+* 2<br>4<br>5
 
 ##### !end-options
 
 ##### !answer
 
-* 3\n5\n6\n11
+* 3<br>5<br>6<br>11
 
 ##### !end-answer
 
