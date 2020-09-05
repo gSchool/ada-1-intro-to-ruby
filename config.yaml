@@ -101,3 +101,14 @@ Standards:
         Type: Checkpoint
         UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
         Path: /02-methods/09-wk3-adagrams-checkpoint.md 
+  -
+    Title: OOP
+    Description: Object-Oriented Programming
+    UID: a0657d88-94f6-49d8-8b32-80e45ddf18f8
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 35405e37-0fb3-4f52-aee5-fa205e87bcd6
+        Path: /04-oop/csv-as-a-database.md
