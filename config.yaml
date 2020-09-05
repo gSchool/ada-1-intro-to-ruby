@@ -112,3 +112,7 @@ Standards:
         Type: Lesson
         UID: 35405e37-0fb3-4f52-aee5-fa205e87bcd6
         Path: /04-oop/csv-as-a-database.md
+      -
+        Type: Lesson
+        UID: 63def26d-0f07-43af-a033-40a8bf9e750c
+        Path: /04-oop/csv-practice.md
