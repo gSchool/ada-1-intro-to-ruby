@@ -101,3 +101,14 @@ Standards:
         Type: Checkpoint
         UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
         Path: /02-methods/09-wk3-adagrams-checkpoint.md 
+  -
+    Title: Language Features
+    Description: Features of the Ruby Langauge
+    UID: 54aaef4e-965d-47c5-9a8d-779239895452
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
+        Path: /03-language-features/exception-handling.md
