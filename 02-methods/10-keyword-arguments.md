@@ -284,6 +284,7 @@ coffee_price(:drip, :tall, 0, true)
 ```
 
 Having so many parameters on one method introduces several issues:
+
 1. The caller must remember the order of the arguments
 2. When reading the call, there's no way to tell which argument is which
 3. The caller must provide values for all arguments, even for the "standard" way of doing things (e.g. no extra shots)
