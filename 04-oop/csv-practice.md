@@ -16,7 +16,7 @@ You will need to:
 * type: testable-project
 * id: 75ff723b-5cb0-4ba5-a4d0-76b6c97bca00
 * title: CSV Practice
-* upstream: 
+* upstream: https://github.com/ada-c14/csv-practice
 * validate_fork: true
 * points: 1
 * topics: csv, testing
