@@ -85,13 +85,13 @@ Spend some time reading through the above code, then answer the following questi
 
 ##### !placeholder
 
-answer
+method signature
 
 ##### !end-placeholder
 
 ##### !answer
 
-/coffee_price\s?(type,\s?size\s?)/
+/coffee_price\s?(\s?type,\s?size\s?)/
 
 ##### !end-answer
 
