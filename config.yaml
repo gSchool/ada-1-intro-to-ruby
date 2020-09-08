@@ -108,3 +108,8 @@ Standards:
         Type: Lesson
         UID: 9e2dfd61-1f67-48c0-b212-d12bcba0b8d7
         Path: /03-language-features/01-introduction-to-gems.md
+      -
+        Type: Lesson
+        UID: 2c99da30-3bbd-42f7-956d-20df97a30cbe
+        Path: /03-language-features/02-gems-jigsaw.md
+  
