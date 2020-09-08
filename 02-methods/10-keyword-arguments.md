@@ -212,7 +212,7 @@ Positional arguments must come first, both in the definition and when the method
 Optional arguments can help make method invocations easier to read and write, and you'll see them frequently in Ruby, particularly when working with gems or other peoples' code. However, the following issues:
 
 1. The caller must remember the order of the arguments
-1. When reading the call, there's no way to tell which argument is which
+2. When reading the call, there's no way to tell which argument is which
 
 are still unaddressed.
 
