@@ -184,7 +184,7 @@ Also now that we're introducing a different type of argument, it's important tha
 
 ### Optional Arguments
 
-We're going to tackle _#3 The caller must provide values for all arguments, even for the "standard" way of doing things (e.g. no extra shots)_ first by introducing ruby's support of **Optional Arguments**.
+We're going to tackle _#3 The caller must provide values for all arguments, even for the "standard" way of doing things (e.g. no extra shots)_ first by introducing Ruby's support for **Optional Arguments**.
 
 Optional arguments enable you to set default values when defining a function so that the caller doesn't need to pass them unless the value varies from the default. 
 
