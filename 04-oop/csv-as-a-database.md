@@ -393,7 +393,7 @@ CSV files can optionally dedicate the first row to describing the names of the c
 ### !challenge
 
 * type: short-answer
-* id: 4cf70b82-9e6b-41e7-8d90-71b2678f0307
+* id: 9afe72e5-5201-4fb5-9a33-108c4c960cb3
 * title: Pros of Header Rows
 * points: 1
 * topics: csv
