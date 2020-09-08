@@ -1,6 +1,9 @@
 # Keyword and Optional Arguments
 
 ## Learning Goals
+
+By the end of this lesson, we will be able to...
+
 - Differentiate between _positional_ and _keyword_ arguments
 - Use _optional arguments_ to simplify method signatures
 - Add _default values_ to method parameters
