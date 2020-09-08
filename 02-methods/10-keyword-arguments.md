@@ -205,7 +205,7 @@ coffee_price(:drip, :tall, 0, true)
 coffee_price(:cappuccino, :grande)
 ```
 
-Notice that not all the arguments in the method above are optional. Optional Arguments can co-exist with Positional Arguments (and often do).
+Notice that not all the arguments in the method above are optional. _Optional Arguments_ can co-exist with _Positional Arguments_ (and often do).
 
 Positional arguments must come first, both in the definition and when the method is called.
 
