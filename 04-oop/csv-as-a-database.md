@@ -1,5 +1,7 @@
 # CSV as a Database (DB)
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=6114791d-6488-47ba-b7d5-ac30003f13ee&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Lesson Pre-Requisites
 
 - This lesson will use iteration and nested arrays and hashes
