@@ -296,7 +296,7 @@ When you make a method, and you write code to call it, ask yourself, "is it hard
   - default to a specified value if not given by the caller
   - both _Positional Arguments_ and _Keyword Arguments_ can be made _Optional_
 
-- Keyword Arguments and Optional Arguments can co-exist with Positional Arguments
+- _Keyword Arguments_ and _Optional Arguments_ can co-exist with _Positional Arguments_
   - Positional arguments must come first, both in the definition and when the method is called
 
 ## Additional Resources
