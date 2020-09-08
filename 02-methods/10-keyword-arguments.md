@@ -91,7 +91,7 @@ method signature
 
 ##### !answer
 
-/coffee_price\s?(\s?type,\s?size\s?)/
+/coffee_price\s?\(\s?type,\s?size\s?\)/
 
 ##### !end-answer
 
