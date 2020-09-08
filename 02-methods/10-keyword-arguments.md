@@ -294,7 +294,7 @@ When you make a method, and you write code to call it, ask yourself, "is it hard
   - can make calling a method easier when there are several arguments
 - **Optional arguments** 
   - default to a specified value if not given by the caller
-  - both Positional and Keyword Arguments can be made Optional
+  - both _Positional Arguments_ and _Keyword Arguments_ can be made _Optional_
 
 - Keyword Arguments and Optional Arguments can co-exist with Positional Arguments
   - Positional arguments must come first, both in the definition and when the method is called
