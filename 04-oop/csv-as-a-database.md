@@ -8,6 +8,8 @@
 
 ## Learning Goals
 
+By the end of this lesson we should be able to...
+
 - Learn the concept of separating our data source into a different system (such as a database)
 - Explore _comma separated values (csv)_ as a storage pattern for data
 - Learn the syntax for reading a CSV file in Ruby
@@ -297,7 +299,7 @@ To setup:
 1. Create a new directory for this exercise `$ mkdir csv-planets-exercise`
 1. `$ cd csv-planets-exercise`
 1. `$ touch planets_data.csv`
-1. `$ code .`
+1. `$ mine .`
 1. Copy and paste this snippet into your `planets_data.csv` file:
 
     ```bash
@@ -567,7 +569,7 @@ The data returned from `CSV.read` looks like an array of arrays or an array of h
 
 ## Bonus: If We Need to Write to a CSV
 
-`CSV.read` is great for reading data. However, it is impossible to actually write to a CSV file without `CSV.open`.
+`CSV.read` is great for reading data. However, it is impossible to actually write to a CSV file with `CSV.open`.
 
 [`CSV.open(filename)`](https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html#method-c-open) is a method that:
 
