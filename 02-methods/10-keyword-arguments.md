@@ -64,7 +64,21 @@ price = coffee_price(:latte, :venti)
 puts "Your total is #{price} dollars"
 ```
 
-Spend some time reading through the above code, then answer the following questions:
+<!-- available callout types: info, success, warning, danger, secondary  -->
+### !callout-info
+
+## Method comprehension questions.
+
+Spend some time reading through the above code, then answer the following questions. For questions that do not require an entry in Learn, you can talk to your rubber duck, jot down notes in a notebook, and use another strategy of your choosing.
+
+- Why is it useful to put this functionality in a method?
+- How does the method work?
+  - Does anything surprise you about it?
+- How would you make sure this method does the right thing?
+- Why do we use _symbols_ as the values for `type` and `size` instead of _strings_?
+
+### !end-callout
+
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
@@ -73,9 +87,10 @@ Spend some time reading through the above code, then answer the following questi
 
 * type: short-answer
 * id: 46bfaed5-da9b-48b4-a087-a4303ddd9fef
-* title: Method Signature
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* title: What is the method signature?
+* points: 1 
+* topics: keyword-arguments
+
 
 ##### !question
 
@@ -95,6 +110,111 @@ method signature
 
 ##### !end-answer
 
+##### !hint
+
+The method signature comes after `def`.
+
+##### !end-hint
+
+##### !explanation
+
+The method signature is the name of the method and the paramter(s).
+
+`coffee_price(type, size)`
+
+##### !end-explanation
+
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: checkbox
+* id: a01f2053-d2b0-433f-b528-f5347c95eb2b
+* title: What is returned?
+* points: 1 
+* topics: keyword-arguments
+
+##### !question
+
+What can `coffee_price` _return_?
+
+##### !end-question
+
+##### !options
+
+* `price`
+* `"Invalid coffee type: [type]"`
+* `type`
+* `size`
+* `nil`
+
+##### !end-options
+
+##### !answer
+
+* `price`
+* `nil`
+
+##### !end-answer
+
+##### !hint
+
+Consider what is returned when the arguments are valid. See the last line of the method. Also consider what is returned when the arguments are invalid.
+
+##### !end-hint
+
+##### !explanation
+
+`price` is returned when the arguments are valid. `nil` is returned when the arguments are invalid.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: d540fc24-7dc8-4d17-a408-e2c09fa7571d
+* title: What happens when the arguments don't match?
+* points: 1 
+* topics: keyword-arguments
+
+##### !question
+
+What happens if your argument doesn't match what the method expects, like `coffee_price(:decaf, :grande)`?
+
+##### !end-question
+
+##### !options
+
+* Executing the code produces an _Error_ / _Exception_
+* `Invalid coffee type: decaf` is output and `nil` is returned.
+* `Invalid size: grande` is output and `nil` is returned.
+
+##### !end-options
+
+##### !answer
+
+* `Invalid coffee type: decaf` is output and `nil` is returned.
+
+##### !end-answer
+
+##### !explanation
+
+The method hits the first conditional control structure that calculates `price` based on `type`. Since the `type` `:decaf` does not match any of the cases, the code in the `else` block is executed.
+
+##### !end-explanation
 
 
 ### !end-challenge
@@ -102,14 +222,6 @@ method signature
 <!-- ======================= END CHALLENGE ======================= -->
 
 
-
-- What can `coffee_price` _return_?
-- Why is it useful to put this functionality in a method?
-- How does the method work?
-  - Does anything surprise you about it?
-- How would you make sure this method does the right thing?
-- What happens if your argument doesn't match what the method expects, like `coffee_price(:decaf, :grande)`?
-- Why do we use _symbols_ as the values for `type` and `size` instead of _strings_?
 
 ### Adding More Options
 
@@ -182,9 +294,14 @@ To address these issues, we will introduce two new concepts: optional arguments 
 
 Also now that we're introducing a different type of argument, it's important that we recognize that the type of argument we've seen so far is generally referred to as a **Positional Argument**. The name will hopefully make more sense later on in the lesson, but for now you just need to know that's what it's called.
 
-### Optional Arguments
+<!-- available callout types: info, success, warning, danger, secondary  -->
+### !callout-info
+
+## Optional Arguments
 
 We're going to tackle _#3 The caller must provide values for all arguments, even for the "standard" way of doing things (e.g. no extra shots)_ first by introducing Ruby's support for **Optional Arguments**.
+
+### !end-callout
 
 Optional arguments enable you to set default values when defining a function so that the caller doesn't need to pass them unless the value varies from the default. 
 
@@ -216,9 +333,16 @@ Optional arguments can help make method invocations easier to read and write, an
 
 are still unaddressed.
 
-### Keyword Arguments
+<!-- available callout types: info, success, warning, danger, secondary  -->
+### !callout-info
 
-We can address these issues with a technique called _keyword arguments_. Here's what they look like:
+## Keyword Arguments
+
+We can address these issues with a technique called _keyword arguments_. 
+
+### !end-callout
+
+The syntax for keyword arguments includes a colon `:` after the paramter name as shown below:
 
 ```ruby
 # Define the method
@@ -245,9 +369,14 @@ There are a few things to note here:
 
 So new we've learned how to solve issue #3 and issues #1 & #2, but we haven't solved them all at once.
 
-### Optional Keyword Arguments
+<!-- available callout types: info, success, warning, danger, secondary  -->
+### !callout-info
+
+## Optional Keyword Arguments
 
 Why not utilize both concepts? We can also make keyword arguments optional by adding a default value after the colon. 
+
+### !end-callout
 
 ```ruby
 # Define the method
