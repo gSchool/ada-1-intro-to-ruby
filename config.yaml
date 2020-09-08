@@ -97,3 +97,14 @@ Standards:
         Type: Checkpoint
         UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
         Path: /02-methods/09-wk3-adagrams-checkpoint.md 
+  -
+    Title: Language Features
+    Description: Features of the Ruby Language
+    UID: a57aba87-d1d4-4ef4-aa2d-b940e09c4e51
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 9e2dfd61-1f67-48c0-b212-d12bcba0b8d7
+        Path: /03-language-features/01-introduction-to-gems.md
