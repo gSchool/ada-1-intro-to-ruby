@@ -114,5 +114,10 @@ Standards:
         Path: /03-language-features/01-introduction-to-gems.md
       -
         Type: Lesson
+        UID: 2c99da30-3bbd-42f7-956d-20df97a30cbe
+        Path: /03-language-features/02-gems-jigsaw.md
+      -
+        Type: Lesson
         UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
         Path: /03-language-features/exception-handling.md
+  
