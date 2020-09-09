@@ -351,7 +351,7 @@ end
 
 So when are exceptions appropriate? There are a lot of [differing opinions](https://www.sitepoint.com/ruby-error-handling-beyond-basics/), but the consensus seems to be that exception handling should be for *exceptional* circumstances.
 
-Here are some examples of when and when not to raise an exception. Each of the following situations is paired with an example in the context of `GroceryStore`.
+Here are some examples of when and when not to raise an exception. Each of the following situations is paired with an example in the context of `Adagrams`.
 
 <!-- available callout types: info, success, warning, danger, secondary  -->
 ### !callout-info
@@ -359,12 +359,9 @@ Here are some examples of when and when not to raise an exception. Each of the f
 ## Raise an Exception When
 
 - A method is given invalid arguments
-  - Negative price
-- Some prerequisite condition isn't true
-  - An order without any products
+  - A string with non-letters
 - Some required resource can't be found or is invalid
-  - `orders.csv` doesn't exist
-  - `onlineorders.csv` doesn't contain order information
+  - A file with english words `dictionary.csv` doesn't exist
 - There's a problem external to Ruby
   - User pressed `Ctrl-C`
 
@@ -377,10 +374,9 @@ Note that many of these are handled automatically by Ruby!
 
 ## Don't Raise an Exception When
 
-- A search yields no results
-  - No order with that ID
-- The user quits via a normal method
-  - Types `quit` at the prompt
+- The method is called with an empty array
+  - return `nil` for `highest_scoring_word` when given an empty list
+- Two words are tied for the highest scoring word
 
 ### !end-callout
 
