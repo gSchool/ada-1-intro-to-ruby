@@ -120,4 +120,8 @@ Standards:
         Type: Lesson
         UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
         Path: /03-language-features/exception-handling.md
-  
+      -
+        Type: Lesson
+        UID: 4dee90a1-a473-47ea-8285-52117d6d607a
+        Path: /03-language-features/csv-as-a-database.md
+        
