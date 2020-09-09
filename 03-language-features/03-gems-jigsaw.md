@@ -112,7 +112,7 @@ ap "Awesome print with Options!", color: {string: :purpleish}
 
 Pry is an amazing gem which serves a couple of purposes.
 
-1.  It can replace irb to serve as a REPL.  This is advantageous because it formats code nicely.
+1. It can replace `irb` to serve as a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).  This is advantageous because it formats code nicely.
 2. It can be used in debugging to halt your program and let you interact with it in a REPL.
 
 To install `pry`
