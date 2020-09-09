@@ -1,4 +1,4 @@
-# `Enumerable`s Jigsaw
+# Enumerables Jigsaw
 
 ## Format
 
