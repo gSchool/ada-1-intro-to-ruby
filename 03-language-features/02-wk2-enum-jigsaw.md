@@ -40,7 +40,7 @@ In some of this documentation, you might see things that use the `<=>`, or space
 
 How do programming languages compare two objects to each other? Given `a` or `b`, which is _greater_? Which is _lesser_? When are `a` and `b` _equal to each other_? These are questions programmers are concerned with when comparing two objects, and comparison between two objects happens during sorting.
 
-The `<=>` operator gives a shortcut to evaluating the relationship between `a` and `b` in terms of either `-1`, `0`, or `1`. Consider the line of ruby code:
+The `<=>` operator gives a shortcut to evaluating the relationship between `a` and `b` in terms of either `-1`, `0`, or `1`. Consider the line of Ruby code:
 
 ```ruby
 a = 10
