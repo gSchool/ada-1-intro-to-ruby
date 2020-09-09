@@ -155,7 +155,7 @@ Like method or block parameters, the rescued exception is a local variable and m
 Setup:
 1. Create a new file called `csv_printer.rb` in your working directory.
 1. Copy the following code into that file.
-1. Review what the code is doing with another student, if you can.
+1. Review what the code is doing with another student, if you can, or explain the code to a "rubber duck," if you cannot.
 1. Run the code a few times to exercise each code branch.
 
 ```ruby
