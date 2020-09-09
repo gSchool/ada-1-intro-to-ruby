@@ -153,4 +153,4 @@ response
 
 We have seen how to install gems in Ruby, and explored one gem `colorize`.
 
-Soon we will complete an [gems jigsaw activity](./02-gems-jigsaw.md) to learn about other gems. 
+Soon we will complete an gems jigsaw activity to learn about other gems. 
