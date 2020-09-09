@@ -110,13 +110,17 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
+        UID: 9e2dfd61-1f67-48c0-b212-d12bcba0b8d7
+        Path: /03-language-features/01-introduction-to-gems.md
+      -
+        Type: Lesson
+        UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
+        Path: /03-language-features/exception-handling.md
+      -
+        Type: Lesson
         UID: 35405e37-0fb3-4f52-aee5-fa205e87bcd6
         Path: /04-oop/csv-as-a-database.md
       -
         Type: Lesson
         UID: 63def26d-0f07-43af-a033-40a8bf9e750c
         Path: /04-oop/csv-practice.md
-      -
-        Type: Lesson
-        UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
-        Path: /03-language-features/exception-handling.md
