@@ -47,7 +47,7 @@ require "awesome_print"
 ```
 
 **Example: Using the `awesome_print` gem.**
-Generally the github page for a gem is the best place to go to get started. Let's check out the [awesome_print gems' page](https://github.com/awesome-print/awesome_print). Under _usage_ we see some common examples of how to use this gem.
+Generally the github page for a gem is the best place to go to get started. Let's check out the [awesome_print github page](https://github.com/awesome-print/awesome_print). Under _usage_ we see some common examples of how to use this gem.
 
 In general `awesome_print` is a a great tool for printing debugging messages to the console because of it's syntax highlighting and how it provides information beyound `puts`.
 
