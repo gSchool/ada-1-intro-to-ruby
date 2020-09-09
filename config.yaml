@@ -110,5 +110,9 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
+        UID: 9e2dfd61-1f67-48c0-b212-d12bcba0b8d7
+        Path: /03-language-features/01-introduction-to-gems.md
+      -
+        Type: Lesson
         UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
         Path: /03-language-features/exception-handling.md
