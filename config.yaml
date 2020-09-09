@@ -102,9 +102,9 @@ Standards:
         UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
         Path: /02-methods/09-wk3-adagrams-checkpoint.md 
   -
-    Title: OOP
-    Description: Object-Oriented Programming
-    UID: a0657d88-94f6-49d8-8b32-80e45ddf18f8
+    Title: Language Features
+    Description: Features of the Ruby Langauge
+    UID: 54aaef4e-965d-47c5-9a8d-779239895452
     SuccessCriteria:
       - success criteria
     ContentFiles:
@@ -116,3 +116,7 @@ Standards:
         Type: Lesson
         UID: 63def26d-0f07-43af-a033-40a8bf9e750c
         Path: /04-oop/csv-practice.md
+      -
+        Type: Lesson
+        UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
+        Path: /03-language-features/exception-handling.md
