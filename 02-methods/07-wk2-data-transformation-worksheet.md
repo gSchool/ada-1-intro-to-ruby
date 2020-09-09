@@ -382,7 +382,7 @@ Rewrite each solution in the section "Iterating through Arrays"
 
 ### Bonus
 
-Is there a method from `Enumerable` you can use to solve #7 in "Transforming Arrays into Hashes"? Hint: it is _**not**_ a method covered in the class's Jigsaw activity.
+Is there a method from `Enumerable` you can use to solve #7 in Part 1? Hint: it is _**not**_ a method covered in the class's Jigsaw activity.
 
 ## Conclusion
 

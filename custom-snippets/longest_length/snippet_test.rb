@@ -18,7 +18,7 @@ describe "Test Suite" do
       expect(longest_length(list)).must_equal "pasta"
     end
 
-    it "will return 'pasta' for ['a', 'applesauce', 'ada', 'pasta']" do
+    it "will return 'applesauce' for ['a', 'applesauce', 'ada', 'pasta']" do
       list = ["a", 'applesauce', "ada", "pasta"]
 
       expect(longest_length(list)).must_equal "applesauce"
