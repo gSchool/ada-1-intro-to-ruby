@@ -16,57 +16,11 @@ We've seen exceptions before. If you try to access an undefined variable, Ruby w
 
 ## What Are Exceptions?
 
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
+`ArgumentError` is a type of error, and the thing that we're raising is an _instance_ of `ArgumentError`. There's a whole bunch of built-in Ruby magic around the `raise` keyword, but the exceptions themselves are just objects like any other such as Strings, binding together data and behavior.
 
-### !challenge
+The most generic kind of exception is `Exception`, which basically says something went wrong.  All more specialized exceptions are children of the `Exception` class, inheriting its core functionality.  All that means is they have all the abilities of a general exception and they could add additional features.
 
-* type: short-answer
-* id: c6f9ef0f-631e-487c-94da-c733186d41b1
-* title: What does ArgumentError.new tell us?
-* points: 1
-* topics: exception-handling
-
-##### !question
-
-We know that raising an `ArgumentError` requires a call to `ArgumentError.new`. What does this tell us about what `ArgumentError` is, and what sort of a thing we're raising?
-
-##### !end-question
-
-##### !placeholder
-
-What are we raising?
-
-##### !end-placeholder
-
-##### !answer
-
-/object/i
-
-##### !end-answer
-
-<!-- other optional sections -->
-##### !hint
-
-What do we create with the `.new` method?
-
-##### !end-hint
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-##### !explanation
-
-We create new objects with the `.new` method.
-
-##### !end-explanation
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
-
-`ArgumentError` is a class, and the thing that we're raising is an _instance_ of `ArgumentError`. There's a whole bunch of built-in Ruby magic around the `raise` keyword, but the exceptions themselves are just objects like any other, binding together data and behavior.
-
-**Question:** What data might an exception keep track of? What behavior does it provide? How would you find out for sure?
-
-All exceptions are children of the `Exception` class, inheriting its core functionality.
+Really all you need to know is the subtypes of `Exception` indicate different _kinds_ of errors, the further down the heirchy below the more specific the exception is.
 
 ![Exception class Hierarchy](images/exceptions.png)
 
@@ -100,7 +54,6 @@ def make_toast(slices)
   end
 end
 ```
-
 
 ## Handling Exceptions
 
