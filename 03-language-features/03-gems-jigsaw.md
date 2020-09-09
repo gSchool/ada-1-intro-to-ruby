@@ -159,7 +159,7 @@ You can enter `exit` to exit the current binding and the program will halt again
 
 #### Replacing irb
 
-You can have Pry replace irb by editing your bash profile with `code ~/.profile` and adding the following line to the end of the file:
+You can have Pry replace irb by editing your zsh configuration with `mine ~/.zshrc` and adding the following line to the end of the file:
 
 ```bash
 alias irb='pry'
