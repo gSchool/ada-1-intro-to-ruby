@@ -342,7 +342,7 @@ Exceptions aren't the only way to indicate that something has gone wrong. For ex
   def lookup_by_name(name)
     inner_plants = ["Mercury", "Venus", "Earth", "Mars"]
     inner_plants.each do |planet|
-      return planet if planet.name == name
+      return planet if planet == name
     end
     return nil
   end
