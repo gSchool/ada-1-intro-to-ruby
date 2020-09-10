@@ -101,10 +101,14 @@ Standards:
         Type: Checkpoint
         UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
         Path: /02-methods/09-wk3-adagrams-checkpoint.md 
+      -
+        Type: Lesson
+        UID: 5c1e1908-ee3e-11ea-adc1-0242ac120002
+        Path: /02-methods/10-keyword-arguments.md  
   -
     Title: Language Features
-    Description: Features of the Ruby Langauge
-    UID: 54aaef4e-965d-47c5-9a8d-779239895452
+    Description: Features of the Ruby Language
+    UID: a57aba87-d1d4-4ef4-aa2d-b940e09c4e51
     SuccessCriteria:
       - success criteria
     ContentFiles:
@@ -124,4 +128,7 @@ Standards:
         Type: Lesson
         UID: 4dee90a1-a473-47ea-8285-52117d6d607a
         Path: /03-language-features/csv-as-a-database.md
-        
+      -
+        Type: Lesson
+        UID: 7a701dbc-b667-4ffc-9193-0c2c0d5d6de4
+        Path: /03-language-features/02-wk2-enum-jigsaw.md 

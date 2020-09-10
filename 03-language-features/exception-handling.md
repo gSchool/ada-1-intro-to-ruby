@@ -1,5 +1,7 @@
 # Exception Handling In Ruby
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=9d94ccd7-1a81-4bb7-bedb-ac3100ec3ab6&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Goals
 
 At the end of this we should be able to...
@@ -339,14 +341,13 @@ end
 Exceptions aren't the only way to indicate that something has gone wrong. For example, a common pattern is to return `nil` if a searched element isn't found.
 
 ```ruby
-class SolarSystem
   def lookup_by_name(name)
-    planets.each do |planet|
-      return planet if planet.name == name
+    inner_plants = ["Mercury", "Venus", "Earth", "Mars"]
+    inner_plants.each do |planet|
+      return planet if planet == name
     end
     return nil
   end
-end
 ```
 
 So when are exceptions appropriate? There are a lot of [differing opinions](https://www.sitepoint.com/ruby-error-handling-beyond-basics/), but the consensus seems to be that exception handling should be for *exceptional* circumstances.

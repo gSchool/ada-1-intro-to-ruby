@@ -2,7 +2,7 @@
 
 The standard Ruby library has a great variety of methods pre-written for common tasks in programming.  Getting familiar with these methods and learning to read the official [Ruby Documentation](https://www.ruby-lang.org/en/documentation/), is an important step toward being a productive developer.  
 
-<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=77095971-669e-4916-ab49-ac21006ecc57&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=60eb9a0b-d22b-49c0-8a92-ac310177ce30&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ## Learning Goals
 
