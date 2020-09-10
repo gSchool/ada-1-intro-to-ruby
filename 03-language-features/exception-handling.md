@@ -348,7 +348,6 @@ Exceptions aren't the only way to indicate that something has gone wrong. For ex
     end
     return nil
   end
-
 ```
 
 So when are exceptions appropriate? There are a lot of [differing opinions](https://www.sitepoint.com/ruby-error-handling-beyond-basics/), but the consensus seems to be that exception handling should be for *exceptional* circumstances.
