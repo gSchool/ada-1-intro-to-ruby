@@ -732,7 +732,7 @@ There are a lot of possibilities here, but I would suggest, `meal` and `dish` wo
 * language: ruby
 * id: 3d1309fc-7b6d-4331-95ad-e61ed6bf3f04
 * title: Using `map`
-* docker_directory_path: /custom-snippets/map-on-hashes
+* docker_directory_path: /custom-snippets/map-on-hashesv2
 * points: 1
 * topics: enumerables, map
 
