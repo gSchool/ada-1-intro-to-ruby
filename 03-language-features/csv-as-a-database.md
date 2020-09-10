@@ -18,7 +18,7 @@ By the end of this lesson we should be able to...
 
 ### Bonus Learning Goals
 
-- Learn the syntax for writing to a CSV file in Ruby. The Ada curriculum currently does not have any assignments that require a student to write to CSV; this is an extension learning goal that is mostly just incredibly interesting, if time allows.
+- Learn the syntax for writing to a CSV file in Ruby. The Ada curriculum currently does not have any assignments that require a student to write to a CSV; this is an extension learning goal that is mostly just incredibly interesting, if time allows.
 
 ## Intro: How Do We Access Data?
 
