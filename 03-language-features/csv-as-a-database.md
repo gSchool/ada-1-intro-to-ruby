@@ -13,7 +13,7 @@
 By the end of this lesson we should be able to...
 
 - Learn the concept of separating our data source into a different system (such as a database)
-- Explore _comma separated values (csv)_ as a storage pattern for data
+- Explore _comma separated values (CSV)_ as a storage pattern for data
 - Learn the syntax for reading a CSV file in Ruby
 
 ### Bonus Learning Goals
