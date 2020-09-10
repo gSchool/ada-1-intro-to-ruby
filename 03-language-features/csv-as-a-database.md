@@ -6,7 +6,7 @@
 
 - This lesson will use iteration and nested arrays and hashes
 - This lesson will reference `CSV` as a class, although it is not necessary to understand classes in order to follow this lesson
-- This lesson uses `awesome_print` to clarify the printing of arrays and hashes. Make sure it's installed with `$ gem install awesome_print`
+- This lesson uses `awesome_print` to clarify the printing of arrays and hashes. Make sure it's installed with `gem install awesome_print`
 
 ## Learning Goals
 
