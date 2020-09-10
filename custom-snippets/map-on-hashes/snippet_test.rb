@@ -11,6 +11,10 @@ def solution(students)
 end
 
 describe "formatted-names" do
+  before do
+    sleep 0.1
+  end
+  
   it "will return an empty array if given an empty hash" do
     students = {}
     answer = format_names(students)
