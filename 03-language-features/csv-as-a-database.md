@@ -22,7 +22,7 @@ By the end of this lesson we should be able to...
 
 ## Intro: How Do We Access Data?
 
-We have been learning how to write code that reads and access data. By "data," we typically meant that we've had a series of (nested) arrays and (nested) hashes in Ruby, and put it inside of our one Ruby (`.rb`) file.
+We have been learning how to write code that reads and accesses data. By "data," we typically meant that we've had a series of (nested) arrays and (nested) hashes in Ruby, and put it inside of our one Ruby (`.rb`) file.
 
 We should soon see a limitation to this: If we imagine all of the data that's needed to serve thousands or millions of users, do we really need to make millions nested arrays and hashes in our one Ruby file?
 
