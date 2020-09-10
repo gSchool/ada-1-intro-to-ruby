@@ -570,7 +570,7 @@ We can use a combination of `CSV.read`, the `headers: true` option, and `.each` 
 
 ## Bonus Syntax: `CSV.read` and Forcing `CSV::Table` to be an Array
 
-The data returned from `CSV.read` looks like an array of arrays or an array of hashes, but is infact a `CSV::Table`. To transform this data into an array of hashes we need to add the following onto our `.read` method: `CSV.read('planets_data.csv', headers: true).map(&:to_h)` when using headers and `CSV.read('planets_data.csv').map(&:to_a)` when not using headers.
+The data returned from `CSV.read` looks like an array of arrays or an array of hashes, but is infact a `CSV::Table`. To transform this data into an array of hashes we need to add the following onto our `.read` method: `CSV.read('planets_data.csv', headers: true).map { |row| row.to_h }` when using headers and `CSV.read('planets_data.csv').map { |row| row.to_a }` when not using headers.
 
 ## Bonus: If We Need to Write to a CSV
 
