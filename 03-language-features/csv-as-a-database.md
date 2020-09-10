@@ -574,7 +574,7 @@ The data returned from `CSV.read` looks like an array of arrays or an array of h
 
 ## Bonus: If We Need to Write to a CSV
 
-`CSV.read` is great for reading data. However, it is impossible to actually write to a CSV file with `CSV.open`.
+`CSV.read` is great for reading data. However, it is impossible to actually write to a CSV file with `CSV.read`.
 
 [`CSV.open(filename)`](https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html#method-c-open) is a method that:
 
