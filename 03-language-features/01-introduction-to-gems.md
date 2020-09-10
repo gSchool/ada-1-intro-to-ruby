@@ -1,7 +1,10 @@
 # An Introduction to Ruby Gems
 
+<<<<<<< HEAD
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=ab20318e-ae2a-444e-a899-ac30004b3499&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
+=======
+>>>>>>> 81fee9e... config
 ## Learning Goals
 By the end of this lesson you should:
 - Be able to add a gem to your computer.
@@ -21,13 +24,31 @@ Installing gems is super easy! We do it right from the Terminal. To install the 
 ## Requiring Gems
 Since gems are external Ruby libraries, they are not included in core Ruby. To use the code provided by the gem, we `require` it in our code base. This can be done at the top of any Ruby script, file, or in `irb`:
 
+<<<<<<< HEAD
 ## Colorize
 Let's take a quick look at the colorize gem.
+=======
+
+## Colorize
+Next let's take a quick look at the colorize gem.
+>>>>>>> 81fee9e... config
 
 - [Colorize](https://rubygems.org/gems/colorize)
 
 Look first at the Gem's page on rubygems.org and then examine the project's [Github repository](https://github.com/fazibear/colorize).
 
+<<<<<<< HEAD
+=======
+Lets answer a few questions:
+1.   What does the gem do?
+1.   How do you install the Gem and use it in your application?
+1.   How would it be useful?
+
+```bash
+gem install colorize
+```
+
+>>>>>>> 81fee9e... config
 Look at the [usage section](https://github.com/fazibear/colorize) of the github page.
 
 ```ruby
@@ -45,6 +66,7 @@ puts "This is blue text on red".blue.on_red.blink
 puts "This is uncolorized".blue.on_red.uncolorize
 ```
 
+<<<<<<< HEAD
 Lets answer a few questions  
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
@@ -154,3 +176,6 @@ response
 We have seen how to install gems in Ruby, and explored one gem `colorize`.
 
 Soon we will complete an gems jigsaw activity to learn about other gems. 
+=======
+Neat!  Adding `.colorize` to a string in a `puts` statement styles the output.
+>>>>>>> 81fee9e... config
