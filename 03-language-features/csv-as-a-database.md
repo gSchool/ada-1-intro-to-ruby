@@ -555,7 +555,8 @@ end
 ap planets_that_arent_earth
 ```
 
-1. What does the variable `planets_that_arent_earth` represent? How do we use it?
+1. What does the variable `planets_that_arent_earth` represent?
+  - How do we use it?
 1. True or false: We can use conditionals, loops, call methods, read/assign/re-assign variables within this `each` loop.
 
 How can we change this code so that we get an array of planets with a mass smaller than `0.5`?
