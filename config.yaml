@@ -120,5 +120,13 @@ Standards:
         Path: /03-language-features/01-introduction-to-gems.md
       -
         Type: Lesson
+        UID: 7a701dbc-b667-4ffc-9193-0c2c0d5d6de4
+        Path: /03-language-features/02-wk2-enum-jigsaw.md 
+      -
+        Type: Lesson
+        UID: b383ae80-882d-461f-ad96-6fd0737e8fff
+        Path: /03-language-features/03-gems-jigsaw.md
+      -
+        Type: Lesson
         UID: 00101e6a-d75f-4202-b133-a600c0976335
         Path: /03-language-features/exception-handling.md
