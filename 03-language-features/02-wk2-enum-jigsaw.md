@@ -27,12 +27,12 @@ You will want to start [with the official Ruby docs for `Enumerable`](https://ru
 ##### Note to Instructors
 If there is a need to reduce the number of groups, merge the last two groups.
 
-1. `reduce`
-1. `select` & `reject`
-1. `min`, `max`, `min_by`, & `max_by`
-1. `sort_by`
-1. `all?` & `any?`
-1. `uniq` & `sum`
+- A: `reduce`
+- B: `select` & `reject`
+- C: `min`, `max`, `min_by`, & `max_by`
+- D: `sort_by`
+- E: `all?` & `any?`
+- F: `uniq` & `sum`
 
 ### Before You Get Started: `<=>` or Spaceship Operator
 
