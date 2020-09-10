@@ -298,10 +298,13 @@ For the rest of this exercise, we will be working with a CSV file named `planets
 
 To setup:
 
-1. Create a new directory for this exercise `$ mkdir csv-planets-exercise`
-1. `$ cd csv-planets-exercise`
-1. `$ touch planets_data.csv`
-1. `$ mine .`
+1. Set up the directory for this exercise:
+```bash
+mkdir csv-planets-exercise
+cd csv-planets-exercise
+touch planets_data.csv
+mine .
+```
 1. Copy and paste this snippet into your `planets_data.csv` file:
 
     ```bash
