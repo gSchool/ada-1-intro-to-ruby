@@ -1,0 +1,167 @@
+# Helper Methods
+
+## Learning Goals
+
+By the end of this lesson, we should be able to...
+- DRY up repeated code using _helper methods_
+  
+## Use Helper Methods to Avoid Repetition
+
+The [code from the previous lesson](classes-in-ruby.md) allows us to read/get and write/set the name and email properties in the `User` class. This is done so frequently that Ruby added some syntactic sugar to help us out. Enter two _helper methods_, `attr_reader` and `attr_writer`:
+
+```ruby
+class User
+  # Generate reader methods for name and email
+  attr_reader :name, :email
+
+  # Only generate a writer method for email
+  attr_writer :email
+
+  def initialize(name, email)
+    @name = name
+    @email = email
+  end
+
+  def summary
+    return "#{@name}: #{@email}"
+  end
+end
+```
+
+A _helper method_ is a small piece of code that assists with a larger piece of functionality. Sometimes they figure out sub-problems in a less crowded space, sometimes they contain work that is repeated across multiple other methods. `attr_reader` and `attr_writer` are both a special kind of helper method sometimes called a _macro_ or _generator_. They are small pieces of code that generates a big piece of code. These two lines tell Ruby to automatically add reader and writer methods for those variables to your class. 
+
+Adding `attr_reader :name` to our class is _exactly_ the same as creating the `def name` method in the previous example. Similarly, `attr_writer :name` replaces the `def name=(new_name)` method. The instance variables to be exposed are specified using a comma-seperated list of symbols. To demonstrate the syntax, in the above example we have created both reader and writer methods for `@email`, but only a reader method for `@name`.
+
+`attr_reader` and company are called helper **methods** for a reason. Under the hood they're actually built-in Ruby methods that are run when the class is defined. `attr_reader` or `attr_writer` is the name of the method, and the instance variables to expose (like `:name`) are the arguments. Weird!
+
+If you don't need to be able to control the read/get and write/set functionality independently, `attr_accessor` provides the functionality of `attr_reader` and `attr_writer`!
+
+```ruby
+class User
+  # email had both an attr_reader and an attr_writer, so we replace it with attr_accessor
+  attr_accessor :email
+
+  # name had only an attr_reader, so we leave it as-is
+  attr_reader :name
+
+  def initialize(name, email)
+    @name = name
+    @email = email
+  end
+
+  def summary
+    return "#{@name}: #{@email}"
+  end
+end
+```
+
+Helper methods like `attr_accessor` are very useful, because they allow us to add common functionality without typing out a bunch of boilerplate code. This makes our programs more readable and reduces the possibility of making a mistake. For these reasons, **we recommend that you always use the `attr_reader` / `attr_writer` / `attr_accessor` helper methods**, and never write getter and setter methods manually.
+
+We'll see many more helper methods as we start talking about Rails in a few weeks.
+
+### Exercise
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: d2a4f03e-0d83-4036-8bc8-9965f75b870c
+* title: Simplify the Product Class
+* docker_directory_path: /custom-snippets/product-class-with-helpers
+* points: 1
+* topics: classes, OOP, helper methods
+
+##### !question
+
+Use helper methods to DRY up the `Product` class from the [previous lesson](classes-in-ruby.md).
+
+##### !end-question
+
+##### !placeholder
+
+```ruby
+class Product
+  def initialize(name, quantity_in_stock)
+    @name = name
+    @quantity_in_stock = quantity_in_stock
+    @quantity_sold = 0
+  end
+
+  def name
+    return @name
+  end
+
+  def name=(value)
+    @name = value
+  end
+
+  def quantity_in_stock
+    return @quantity_in_stock
+  end
+
+  def quantity_in_stock=(value)
+    @quantity_in_stock = value
+  end
+
+  def quantity_sold
+    return @quantity_sold
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+
+  def sell(amount)
+    @quantity_in_stock -= amount
+    @quantity_sold += amount
+  end
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Potential solution:
+
+```
+class Product
+  attr_accessor :name, :quantity_in_stock
+  attr_reader :quantity_sold
+
+  def initialize(name, quantity_in_stock)
+    @name = name
+    @quantity_in_stock = quantity_in_stock
+    @quantity_sold = 0
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+
+  def sell(amount)
+    @quantity_in_stock -= amount
+    @quantity_sold += amount
+  end
+end
+```
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+## Summary
+
+He
+
+## Additional Resources
+
+- [Creating your own attr_accessor in Ruby](https://mikeyhogarth.wordpress.com/2011/12/01/creating-your-own-attr_accessor-in-ruby/)
