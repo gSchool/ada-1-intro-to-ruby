@@ -58,6 +58,10 @@ Standards:
         Type: Checkpoint
         UID: 19d2ce5d-afd1-4006-8584-8a6b54a733f4
         Path: /01-control-structures/06-wk02-ride-share-checkpoint.md
+      -
+        Type: Lesson
+        UID: 74d02274-8e26-4605-9a22-13f7305d4f7a
+        Path: /01-control-structures/07-additional-conditions.md       
   -
     Title: Methods
     Description: Methods
@@ -97,6 +101,37 @@ Standards:
         Type: Checkpoint
         UID: 9b71205b-7243-4a56-b6b6-ed33dd13bb50
         Path: /02-methods/09-wk3-adagrams-checkpoint.md 
+      -
+        Type: Lesson
+        UID: 5c1e1908-ee3e-11ea-adc1-0242ac120002
+        Path: /02-methods/10-keyword-arguments.md  
+  -
+    Title: Language Features
+    Description: Features of the Ruby Language
+    UID: a57aba87-d1d4-4ef4-aa2d-b940e09c4e51
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 9e2dfd61-1f67-48c0-b212-d12bcba0b8d7
+        Path: /03-language-features/01-introduction-to-gems.md
+      -
+        Type: Lesson
+        UID: 2c99da30-3bbd-42f7-956d-20df97a30cbe
+        Path: /03-language-features/03-gems-jigsaw.md
+      -
+        Type: Lesson
+        UID: e00fcb4b-0032-4809-a62b-835b50b18cbd
+        Path: /03-language-features/exception-handling.md
+      -
+        Type: Lesson
+        UID: 4dee90a1-a473-47ea-8285-52117d6d607a
+        Path: /03-language-features/csv-as-a-database.md
+      -
+        Type: Lesson
+        UID: 7a701dbc-b667-4ffc-9193-0c2c0d5d6de4
+        Path: /03-language-features/02-wk2-enum-jigsaw.md 
   -
     Title: Assessments
     Description: The compass to guide your learning!

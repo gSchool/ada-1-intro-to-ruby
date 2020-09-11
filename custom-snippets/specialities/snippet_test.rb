@@ -22,7 +22,7 @@ describe "Test Suite" do
       expect(answer.length).must_equal 0
     end
 
-    it "will return an array of 1 length for two 1-element arrays" do
+    it "will return an array of 1 length for an array with 1 hash" do
       characters = [
         { name: "Al", specialty: "Toolman"},
       ]
