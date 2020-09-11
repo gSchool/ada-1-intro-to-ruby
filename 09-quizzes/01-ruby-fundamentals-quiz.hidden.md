@@ -228,7 +228,7 @@ cities[:spokane]
 
 ##### !placeholder
 
-What does cities[:spokane] return?
+What does `cities[:spokane]` return?
 
 ##### !end-placeholder
 
