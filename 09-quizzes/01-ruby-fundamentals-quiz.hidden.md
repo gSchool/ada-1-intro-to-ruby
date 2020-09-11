@@ -1,8 +1,15 @@
-# Ruby Fundamentals Assessment
+# Ruby Fundamentals "Quiz"
 
 Welcome to your first content assessment! The questions that follow are an (inherently imperfect) attempt to gauge your understanding of the material we have covered so far. Treat the results as a measuring stick, with any missed problems as an opportunity for growth. 
 
 Remember: Ada doesn't care about the percent correct, we care about helping you learn the material fully.
+
+## Rules!
+
+Consider this quiz to be "open internet" but not "open command line". What does that mean?
+
+1. DO use your notes from class, online research, and the lecture notes.
+1. DON'T use irb, pry, ruby scripts, your text editor, or similar tools.
 
 ### !challenge
 
@@ -55,8 +62,18 @@ end
 
 ##### !question
 
+What is `puts` going to print?
+
 ```ruby
 pet = :dog
+
+if pet == "dog"
+  puts "woof"
+elsif pet == "cat"
+  puts "here kitty, kitty"
+else
+  puts "pet sounds"
+end
 ```
 
 ##### !end-question
@@ -85,8 +102,18 @@ pet = :dog
 
 ##### !question
 
+What is `puts` going to print?
+
 ```ruby
 pet = "dog"
+
+if pet == "dog"
+  puts "woof"
+elsif pet == "cat"
+  puts "here kitty, kitty"
+else
+  puts "pet sounds"
+end
 ```
 ##### !end-question
 
@@ -114,8 +141,18 @@ pet = "dog"
 
 ##### !question
 
+What is `puts` going to print?
+
 ```ruby
 pet = "cat"
+
+if pet == "dog"
+  puts "woof"
+elsif pet == "cat"
+  puts "here kitty, kitty"
+else
+  puts "pet sounds"
+end
 ```
 
 ##### !end-question
@@ -145,13 +182,11 @@ pet = "cat"
 
 ##### !question
 
-Fill in the blank for the result of the following code.
+What is the resulting value of `x[2] + x[3]` in the following code?
 
 ```ruby
 x = [7, 9, 2, 13, 99]
 x[2] + x[3]
-
-=>________
 ```
 
 ##### !end-question
@@ -179,15 +214,13 @@ What is the result of x[2] + x[3]
 
 ##### !question
 
-Based on the code, fill in the blank below.
+Based on the code, what is the final value of `alist.length`?
 
 ```ruby
 alist = ["Ada", "Grace"]
 alist << "You"
 
 alist.length
-
-=>____________
 ```
 
 ##### !end-question
@@ -214,15 +247,14 @@ What is the final value of `alist.length`?
 * topics: ruby, hashes
 
 ##### !question
-Based on the following code, fill in the blank
+Based on the following code, what is the final value of `cities[:spokane]`?
 
 ```ruby
 cities = {}
 cities[:spokane] = "Washington"
 cities[:philadelphia] = "Pennsylvania"
-cities[:spokane]
 
-=> _________
+cities[:spokane]
 ```
 ##### !end-question
 
@@ -262,6 +294,15 @@ sample = {
 
 What is the data type of `sample[:a]`?
 
+```ruby
+sample = {
+  a: 16,
+  b: "Ada",
+  c: [1, 3, 5],
+  d: :ruby
+}
+```
+
 ##### !end-question
 
 ##### !options
@@ -290,6 +331,15 @@ What is the data type of `sample[:a]`?
 ##### !question
 
 What is the data type of `sample[:b]`?
+
+```ruby
+sample = {
+  a: 16,
+  b: "Ada",
+  c: [1, 3, 5],
+  d: :ruby
+}
+```
 
 ##### !end-question
 
@@ -320,6 +370,15 @@ What is the data type of `sample[:b]`?
 
 What is the data type of `sample[:c]`?
 
+```ruby
+sample = {
+  a: 16,
+  b: "Ada",
+  c: [1, 3, 5],
+  d: :ruby
+}
+```
+
 ##### !end-question
 
 ##### !options
@@ -348,6 +407,15 @@ What is the data type of `sample[:c]`?
 ##### !question
 
 What is the data type of `sample[:d]`?
+
+```ruby
+sample = {
+  a: 16,
+  b: "Ada",
+  c: [1, 3, 5],
+  d: :ruby
+}
+```
 
 ##### !end-question
 
