@@ -132,3 +132,14 @@ Standards:
         Type: Lesson
         UID: 7a701dbc-b667-4ffc-9193-0c2c0d5d6de4
         Path: /03-language-features/02-wk2-enum-jigsaw.md 
+  -
+    Title: OOP
+    Description: Object-Oriented-Programming
+    UID: f4dbe45d-8c98-46fa-a5e8-cd54e65f07eb
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: c5695b71-b413-41d5-84cf-07eaf4c0be8a
+        Path: /04-oop/intro-to-classes.md 
