@@ -308,7 +308,7 @@ That's actually a trick question. Not all methods defined in a class are readers
 * type: custom-snippet
 * language: ruby
 * id: 58a7171c-7b15-4cc3-a7a1-41e328192ed1
-* title: [text, a short question title]
+* title: Instance Variables & Methods
 * docker_directory_path: /custom-snippets/product-class-with-instance-vars
 * points: 1
 * topics: classes, instance variables, methods
