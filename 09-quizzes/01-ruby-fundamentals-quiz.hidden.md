@@ -563,7 +563,7 @@ puts "The result is #{result}"
 Which of the following best describes the snippet below? Refer to the code above.
 
 ```ruby
-max (x,y)
+max(x, y)
 ```
 
 ##### !end-question
