@@ -93,7 +93,106 @@ Then, to _use_ the blueprint, we will follow these steps:
 
 ![image of a lego person](images/lego-person.jpg)
 
+### Examples Pieces of State & Behavior
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: fbf9b368-d782-4148-a42f-70cb7f14bf33
+* title: State Question
+* points: 1
+* topics: classes
+
+##### !question
+
+Consider: Imagine a software problem for a library tracking system. The library has so much data, and it wants to re-organize how it keeps track of audiobooks. If we wanted to make a class `Audiobook`, what generic state or information would it need?
+
+##### !end-question
+
+##### !placeholder
+
+Name some pieces of state an Audiobook would need.
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+An Audiobook object might need to keep track of:
+
+* Title
+* Author
+* Publication Date
+* The Audio Data
+* Chapters
+* And much much more!
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 Consider: Imagine a software problem for a library tracking system. The library has so much data, and it wants to re-organize how it keeps track of audiobooks. If we wanted to make a class `Audiobook`, what generic state and behavior should it have? What could an _instance_ of Audiobook be?
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 0b88ab38-817c-43b1-9605-2cb4903922e0
+* title: Behavior Question
+* points: 1
+* topics: classes
+
+##### !question
+
+Consider: Imagine a software problem for a library tracking system. The library has so much data, and it wants to re-organize how it keeps track of audiobooks. If we wanted to make a class `Audiobook`, what generic behaviors would it need to be able to have?
+
+##### !end-question
+
+##### !placeholder
+
+Name some actions an Audiobook could perform.
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+An Audiobook object might need to be able to:
+
+* Play the story
+* Stop playing
+* Switch chapters
+
+This is of course not an exhaustive list of possibilities.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 ## In Ruby, OOP Means Classes and Relationships
 
