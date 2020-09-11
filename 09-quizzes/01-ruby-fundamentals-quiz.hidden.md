@@ -194,7 +194,7 @@ alist.length
 
 ##### !placeholder
 
-What is the final value of alist.length?
+What is the final value of `alist.length`?
 
 ##### !end-placeholder
 
