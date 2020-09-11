@@ -346,7 +346,6 @@ end
 
 This may help get you started:
 
-```ruby
 class Product
   def name
     return @name
@@ -363,7 +362,7 @@ android_phone = Product.new
 android_phone.name = "Galaxy S3"
 
 puts android_phone.name
-```
+
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
