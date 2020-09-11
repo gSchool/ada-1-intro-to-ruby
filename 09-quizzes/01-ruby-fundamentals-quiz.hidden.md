@@ -499,7 +499,7 @@ result.length
 
 ##### !placeholder
 
-What is the value of result.length?
+What is the value of `result.length`?
 
 ##### !end-placeholder
 
