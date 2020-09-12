@@ -79,3 +79,25 @@ The above example has a parameter (`name`) and a attr_accessor with the same nam
 
 <!-- ======================= END CHALLENGE ======================= -->
 
+## Vocabulary
+
+Here is the table from the previous lesson, updated to include new terms.
+
+Term              | Definition | Example
+---               | ---        | ---
+Object            | A programming concept that ties together _state_ (variables) and _behavior_ (methods). |
+Class             | Definition of what an object looks like, using Ruby's `class` keyword. The first letter is always capitalized. | `class User`
+Instance          | One particular object. Built using a class's `new` method. | `ada = User.new`
+Instance Variable | A variable attached to a particular instance of a class. Also known as an _attribute_. Always begins with an `@`. Not visible outside that class. | `@name`
+Instance Method   | A method attached to a particular instance of a class. Often relies on or modifies instance variables. Can be invoked from outside that class using `.` notation. | `def summary()`
+Constructor       | A special instance method that is called automatically when a new instance of a class is created. Takes care of any initial setup. Any arguments passed to `new` will be passed to the constructor. | `def initialize(name, email)`
+Reader Method     | Instance method that returns the value of an instance variable. Also known as a _getter_ or _accessor_. | `def email`<br>&nbsp;&nbsp;&nbsp;&nbsp;`return @email`<br>`end`
+Writer Method     | Instance method that sets the value of an instance variable. Also known as a _setter_ or _mutator_. | `def email=(new_email)`<br>&nbsp;&nbsp;&nbsp;&nbsp;`@email=new_email`<br>`end`
+Helper Method     | A method used to perform a particular repetitive task common across multiple classes or methods. | `String.upcase` 
+Generator or Macro | A small piece of code that generates a big piece of code. In Ruby, they're used to automatically add functionality to a class, like reader or writer methods. | `attr_accessor :email`
+`self`            | Ruby keyword referring to the current object | `self`
+
+## Summary
+
+`self` is a Ruby keyword used to refer to the current object or instance for which the method was called.  It can be used when clarity us needed distinguishing between instance methods and local variables.  You will see the `self` keyword used in other places as well in Ruby as we learn more about the language.  
+
