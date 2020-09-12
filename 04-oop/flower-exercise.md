@@ -1,5 +1,7 @@
 # Optional: Flower Exercise
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=3a60874e-3959-474d-b7ba-e349a47ea901&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Mission
 
 You are assigned the task of creating a program that tracks flowers for a floral boutique. The florists want a program that will keep track of their extensive assortment of flowers and automatically order any that have low stock. Below is a sample of the information that needs to be tracked by this program.
