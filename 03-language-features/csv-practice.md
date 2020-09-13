@@ -23,7 +23,9 @@ You will need to:
 
 ##### !question
 
-Complete the [CSV Practice](https://github.com/ada-c14/csv-practice) exercise.  When you finish submit your fork of the CSV Practice exercise.
+Complete the [CSV Practice](https://github.com/ada-c14/csv-practice) exercise.  When you finish submit the url of your fork of the CSV Practice exercise.
+
+For example the url would look like:  https://github.com/<GITHUB_USER>/csv-practice
 
 ##### !end-question
 
