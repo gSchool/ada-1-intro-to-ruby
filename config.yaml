@@ -143,3 +143,7 @@ Standards:
         Type: Lesson
         UID: 3a84e480-5ae1-4016-881c-fb2f11e4ef1e
         Path: /04-oop/classes-in-ruby.md
+      -
+        Type: Lesson
+        UID: a6ca2384-8b51-470b-b219-98a3ba73e392
+        Path: /04-oop/object-composition.md
