@@ -56,7 +56,7 @@ Term | Definition | Analogy
 --- | --- | ---
 [Class](https://en.wikipedia.org/wiki/Class_(computer_programming)) | Code that defines a _template_ for creating similar objects, namely by defining generic state and behavior | A blueprint; A cookie cutter that defines a very specific shape
 [Object](https://en.wikipedia.org/wiki/Object_(computer_science)) | An instance of a class; a literal manifestation of a class; data that was created by class instantiation | A house made from a blueprint for a house; a cookie made from a cookie cutter
-[Object-Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) | A programming paradigm that says data can be described as "objects," or things that have their own state and behavior
+[Object-Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) | A programming paradigm that says data can be described as "objects," or things that have their own state and behavior | Not only making cookies using a cookie cutter, but having the ability to design _**your own**_ cookie cutters
 
 ### State and Behavior
 
@@ -247,4 +247,3 @@ Behavior          | Methods that rely upon or modify state | `Array`s can be sor
   - Any program may have zero, one or many _instances_ of a class
   - We've seen many of Ruby's built-in classes already, like `String`, `Array` and `Time`
 - Reasoning about what _state_ and _behavior_ your classes should have is one of the fundamental skills of designing software
-
