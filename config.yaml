@@ -147,3 +147,7 @@ Standards:
         Type: Lesson
         UID: 3ded8cb6-bc9b-4d4e-9443-fae350e30074
         Path: /04-oop/helper-methods.md
+      -
+        Type: Lesson
+        UID: dbcbba07-c5e6-48e1-856d-76ea5d1b1c7c
+        Path: /04-oop/self.md
