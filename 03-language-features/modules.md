@@ -64,6 +64,89 @@ The syntax for accessing something is a module is very similar to accessing some
 
 For code within a module, you do not need to include the module name.
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 9f51a3a8-5cd3-433f-8963-8623485a31ed
+* title: Math::E question
+* points: 1
+* topics: modules
+
+##### !question
+
+Ruby has a `Math::E` constant which is the base of the natural logorithm.
+
+What is `Math` represent in the above?
+
+##### !end-question
+
+##### !options
+
+* A class name
+* A method name
+* A module name
+
+##### !end-options
+
+##### !answer
+
+* A module name
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: c0c2edf9-b2fd-487f-9b3e-dc504652cb03
+* title: Cosine Question
+* points: 1
+* topics: modules
+
+##### !question
+
+What is the proper way to call the `Math` module's `cos` method?  It takes 1 argument.
+
+##### !end-question
+
+##### !options
+
+* Math.cos(argument)
+* Math::cos(argument)
+* cos(argument)
+* Math::Math.cos(argument)
+
+##### !end-options
+
+##### !answer
+
+* Math.cos(argument)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 ## Namespacing
 
 *Namespacing* is a way of bundling related objects together. In ruby we use Modules to group related Classes and methods together. We do this to avoid naming collisions.
