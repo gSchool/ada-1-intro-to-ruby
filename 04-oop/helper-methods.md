@@ -30,7 +30,7 @@ class User
 end
 ```
 
-A _helper method_ is a small piece of code that assists with a larger piece of functionality. Sometimes they figure out sub-problems in a less crowded space, sometimes they contain work that is repeated across multiple other methods. `attr_reader` and `attr_writer` are both a special kind of helper method sometimes called a _macro_ or _generator_. They are small pieces of code that generates a big piece of code. These two lines tell Ruby to automatically add reader and writer methods for those variables to your class. 
+A _helper method_ is a small piece of code that assists with a larger piece of functionality. Sometimes they figure out sub-problems in a less crowded space, sometimes they contain work that is repeated across multiple other methods. `attr_reader` and `attr_writer` are both a special kind of helper method sometimes called a _generator_. They are small pieces of code that generates a big piece of code. These two lines tell Ruby to automatically add reader and writer methods for those variables to your class. 
 
 Adding `attr_reader :name` to our class is _exactly_ the same as creating the `def name` method in the previous example. Similarly, `attr_writer :name` replaces the `def name=(new_name)` method. The instance variables to be exposed are specified using a comma-seperated list of symbols. To demonstrate the syntax, in the above example we have created both reader and writer methods for `@email`, but only a reader method for `@name`.
 
