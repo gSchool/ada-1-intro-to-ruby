@@ -49,8 +49,8 @@ describe "Product Class" do
     it "allows the user to change quantity_in_stock with quantity_in_stock=" do
       product.quantity_in_stock = 42
 
-      expect(quantity_in_stock).must_be_instance_of Integer
-      expect(quantity_in_stock).must_equal 42
+      expect(product.quantity_in_stock).must_be_instance_of Integer
+      expect(product.quantity_in_stock).must_equal 42
     end
   end
 
@@ -69,4 +69,21 @@ describe "Product Class" do
       expect(product.available?).must_equal false
     end
   end  
+
+  describe "sell method" do
+    it "will reduce quantity in stock" do
+      product.sell(5)
+      expect(product.quantity_in_stock).must_equal (357 - 5)
+
+      product.sell(3)
+      expect(product.quantity_in_stock).must_equal (357 - 8)
+    end
+
+    it "will increase quantity_sold" do
+      product.sell(8)
+      expect(product.quantity_sold).must_equal 8
+
+      product.sell(2)
+      expect(product.quantity_sold).must_equal 10
+    end
 end
