@@ -473,7 +473,7 @@ Another advantage of setting instance variables in the constructor is that we kn
 * language: ruby
 * id: 96fb2c76-04fd-4abb-9186-874d1776a45d
 * title: Adding a constructor
-* docker_directory_path: /custom-snippets/product-class-with-constructor
+* docker_directory_path: /custom-snippets/product-class-with-constructor-v2
 * points: 1
 * topics: classes, constructors, oop
 
