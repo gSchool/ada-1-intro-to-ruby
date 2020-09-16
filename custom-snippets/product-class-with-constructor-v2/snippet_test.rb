@@ -86,4 +86,5 @@ describe "Product Class" do
       product.sell(2)
       expect(product.quantity_sold).must_equal 10
     end
+  end
 end
