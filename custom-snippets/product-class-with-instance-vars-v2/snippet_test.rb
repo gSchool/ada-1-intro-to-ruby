@@ -46,8 +46,8 @@ describe "Product Class" do
     it "allows the user to change quantity_in_stock with quantity_in_stock=" do
       product.quantity_in_stock = 42
 
-      expect(quantity_in_stock).must_be_instance_of Integer
-      expect(quantity_in_stock).must_equal 42
+      expect(product.quantity_in_stock).must_be_instance_of Integer
+      expect(product.quantity_in_stock).must_equal 42
     end
   end
 
