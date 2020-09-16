@@ -158,7 +158,7 @@ To experiment with an instance of `Product` you can create one.
 
 ```ruby
 tonic = Product.new
-puts "#{tonic.name}: #{tonic.available? ? 'currently' : 'not'} available"
+puts "#{tonic.name} -- available: #{tonic.available}"
 ```
 
 ##### !end-explanation
@@ -297,7 +297,7 @@ Does this method change anything?  Does it return an instance variable's value?
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-That's actually a trick question. Not all methods defined in a class are readers or writers. Because `available?` is not simply returning a single instance variable (reader) or updating a single instance variable (writer), it is neither a reader or a writer. (Reader and writer methods should always have the same name as the instance variable they are related to.)
+That's actually a trick question. Not all methods defined in a class are readers or writers. Because `available?` is not simply returning a single instance variable (reader) or updating a single instance variable (writer), it is neither a reader or a writer. (Again, reader and writer methods should always have the same name as the instance variable they are related to.)
 
 ##### !end-explanation
 
@@ -597,7 +597,7 @@ Term              | Definition | Example
 Object            | A programming concept that ties together _state_ (variables) and _behavior_ (methods). |
 Class             | Definition of what an object looks like, using Ruby's `class` keyword. The first letter is always capitalized. | `class User`
 Instance          | One particular object. Built using a class's `new` method. | `ada = User.new`
-Instance Variable | A variable attached to a particular instance of a class. Also known as an _attribute_. Always begins with an `@`. Not visible outside that class. | `@name`
+Instance Variable | A variable attached to a particular instance of a class. Also known as an _attribute_ or _field_. Always begins with an `@`. Not visible outside that class. | `@name`
 Instance Method   | A method attached to a particular instance of a class. Often relies on or modifies instance variables. Can be invoked from outside that class using `.` notation. | `def summary()`
 Constructor       | A special instance method that is called automatically when a new instance of a class is created. Takes care of any initial setup. Any arguments passed to `new` will be passed to the constructor. | `def initialize(name, email)`
 Reader Method     | Instance method that returns the value of an instance variable. Also known as a _getter_ or _accessor_. | `def email`<br>&nbsp;&nbsp;&nbsp;&nbsp;`return @email`<br>`end`
