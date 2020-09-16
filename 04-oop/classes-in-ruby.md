@@ -155,7 +155,7 @@ To experiment with an instance of `Product` you can create one.
 
 ```ruby
 tonic = Product.new
-puts "#{tonic.name}: #{tonic.available? ? 'currently' : 'not'} available"
+puts "#{tonic.name} -- available: #{tonic.available}"
 ```
 
 ##### !end-explanation
