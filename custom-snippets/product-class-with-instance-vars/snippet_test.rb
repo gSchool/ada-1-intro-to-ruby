@@ -66,10 +66,4 @@ describe "Product Class" do
       expect(product.available?).must_equal false
     end
   end  
-
-  describe "quantity_sold" do
-    it "starts with 0 sold and a reader method" do
-      expect(product.quantity_sold).must_equal 0
-    end
-  end
 end
