@@ -143,6 +143,10 @@ Standards:
     SuccessCriteria:
       - success criteria
     ContentFiles:
+      - 
+        Type: Lesson
+        UID: c5695b71-b413-41d5-84cf-07eaf4c0be8a
+        Path: /04-oop/intro-to-classes.md 
       -
         Type: Lesson
         UID: 3ded8cb6-bc9b-4d4e-9443-fae350e30074
