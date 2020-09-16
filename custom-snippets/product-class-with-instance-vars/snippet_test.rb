@@ -72,18 +72,4 @@ describe "Product Class" do
       expect(product.quantity_sold).must_equal 0
     end
   end
-
-  describe "sell" do
-    it "has a sell method" do
-      expect(product).must_respond_to :sell
-    end
-
-    it "will increase the quantity_sold" do
-      product.sell(5)
-      expect(product.quantity_sold).must_equal 5
-      
-      product.sell(3)
-      expect(product.quantity_sold).must_equal 8
-    end
-  end
 end
