@@ -185,6 +185,10 @@ puts canasta_card.max_value   # => 50
 
 Whenever you create a library, it's best-practice to namespace it with the name of your library or project.
 
+## Summary
+
+Modules provide a way to group objects, constants and methods together.  It allows you to prevent conflicting names from impacting your code by adding `MODULE_NAME::` in front of classes and constants and `MODULE_NAME.` in front of methods which are not class related.  This is called _namespacing_.  By prefacing classes, methods constancts in a module with the module name you reduce the chances name clashes, where two methods, or objects have the same name. 
+
 ## Additional Resources
 
 - [RubyMonk: Modules as Namespaces](https://rubymonk.com/learning/books/1-ruby-primer/chapters/35-modules/lessons/80-modules-as-namespaces).
