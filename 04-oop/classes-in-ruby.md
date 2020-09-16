@@ -122,7 +122,10 @@ end
 ```ruby
 class Product
   def name
-    return "Dr. Donnie's cure-all tonic"
+      # note Learn seems to have issues with double quotes here
+      #  So I used single quotes to get around it.
+      #  In Ruby you can use double quotes
+    return 'Dr. Donnie\'s cure-all tonic'
   end
 
   # More methods here
