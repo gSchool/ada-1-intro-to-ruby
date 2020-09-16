@@ -96,10 +96,9 @@ Constructor       | A special instance method that is called automatically when 
 Reader Method     | Instance method that returns the value of an instance variable. Also known as a _getter_ or _accessor_. | `def email`<br>&nbsp;&nbsp;&nbsp;&nbsp;`return @email`<br>`end`
 Writer Method     | Instance method that sets the value of an instance variable. Also known as a _setter_ or _mutator_. | `def email=(new_email)`<br>&nbsp;&nbsp;&nbsp;&nbsp;`@email=new_email`<br>`end`
 Helper Method     | A method used to perform a particular repetitive task common across multiple classes or methods. | `String.upcase` 
-Generator or Macro | A small piece of code that generates a big piece of code. In Ruby, they're used to automatically add functionality to a class, like reader or writer methods. | `attr_accessor :email`
+Generator | A small piece of code that generates a big piece of code. In Ruby, they're used to automatically add functionality to a class, like reader or writer methods. | `attr_accessor :email`
 `self`            | Ruby keyword referring to the current object | `self`
 
 ## Summary
 
 `self` is a Ruby keyword used to refer to the current object or instance for which the method was called.  It can be used when clarity us needed distinguishing between instance methods and local variables.  You will see the `self` keyword used in other places as well in Ruby as we learn more about the language.  
-
