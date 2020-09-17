@@ -383,7 +383,7 @@ Before we get into code, first let's predict. We want the following to be true a
 
 * type: short-answer
 * id: 6f71dcc9-764e-43bd-937b-eb819edd5443
-* title: [text, a short question title]
+* title: How to make a Celsius Object
 * points: 1
 * topics: classes, OOP
 
