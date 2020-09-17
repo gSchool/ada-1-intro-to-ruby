@@ -2,6 +2,8 @@
 
 Complete this exercise in your text editor, not in learn.  This should be a good time to get more familiar with editing code outside of a browser.
 
+You are intended to code-along with this worksheet in your own editor step-by-step.
+
 ## Superhero
 
 Define a class that represents the state and behavior of a superhero, named `Superhero` by following these steps.
@@ -383,7 +385,7 @@ Before we get into code, first let's predict. We want the following to be true a
 
 * type: short-answer
 * id: 6f71dcc9-764e-43bd-937b-eb819edd5443
-* title: [text, a short question title]
+* title: How to make a Celsius Object
 * points: 1
 * topics: classes, OOP
 
@@ -499,6 +501,19 @@ Your explanation here
 ##### !explanation
 
 We define behavior in a class by making a method inside of it.
+
+for example
+
+```ruby
+class Celsius
+  ...
+
+  def to_fahrenheit
+    return @temperature * 1.8 + 32
+  end
+
+end
+```
 
 ##### !end-explanation
 
