@@ -9,6 +9,10 @@ By the end of this lesson, students should be able to...
   - Many-to-many
 - Create simple diagrams using Entity Relationship Diagrams
 
+## Video Lesson
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=3434b11b-fa5b-4e5d-bd14-ac39014e38f8&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Object Composition
 
 When building even a moderate sized program, it is unusual for objects to exist in a vacuum. Instead, objects tend to work together, each responsible for a single piece of a larger problem.
