@@ -2,6 +2,8 @@
 
 Complete this exercise in your text editor, not in learn.  This should be a good time to get more familiar with editing code outside of a browser.
 
+You are intended to code-along with this worksheet in your own editor step-by-step.
+
 ## Superhero
 
 Define a class that represents the state and behavior of a superhero, named `Superhero` by following these steps.
