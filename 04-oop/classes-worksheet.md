@@ -500,6 +500,19 @@ Your explanation here
 
 We define behavior in a class by making a method inside of it.
 
+for example
+
+```ruby
+class Celsius
+  ...
+
+  def to_fahrenheit
+    return @temperature * 1.8 + 32
+  end
+
+end
+```
+
 ##### !end-explanation
 
 ### !end-challenge
