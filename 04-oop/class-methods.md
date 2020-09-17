@@ -232,7 +232,9 @@ How do you create a new instance of a class?
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-Instance variables always start with the `@` symbol.  They have scope throughout the instance methods and each instance of the class gets it's own copy of the instance variables.
+We create a new instance of a class with the `.new` method.  
+
+The syntax to create a new instance with `variable = Class_name.new(args)`
 
 ##### !end-explanation
 
