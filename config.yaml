@@ -153,6 +153,10 @@ Standards:
         Path: /04-oop/classes-in-ruby.md
       -
         Type: Lesson
+        UID: 4ef52691-fe2d-4fb3-9faf-8bdb606a4a12
+        Path: /04-oop/classes-worksheet.md
+      -
+        Type: Lesson
         UID: 3ded8cb6-bc9b-4d4e-9443-fae350e30074
         Path: /04-oop/helper-methods.md
       -
