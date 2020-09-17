@@ -167,3 +167,7 @@ Standards:
         Type: Lesson
         UID: dbcbba07-c5e6-48e1-856d-76ea5d1b1c7c
         Path: /04-oop/self.md
+      -
+        Type: Lesson
+        UID: 7f09a2c0-fc20-48fe-9327-594de1a9f074
+        Path: /04-oop/class-methods.md
