@@ -1,0 +1,608 @@
+# Object Orientation: Classes in Ruby
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=1a930b36-bc56-4030-99b3-ac370155ed6f&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+## Learning Goals
+
+By the end of this lesson, we should be able to...
+
+* Define, instantiate and use a Ruby _class_
+* Store object state using _instance variables_
+* Define object behavior using _instance methods_
+
+## Classes in Ruby
+
+As with methods, there are two steps to working with classes in Ruby:
+
+1. **Define** the class using the `class` keyword
+    - Happens once
+    - Similar to defining a method with `def`
+1. **Instantiate** (create an instance of) the class using `.new`
+    - May happen many times
+    - Similar to invoking a method
+
+With all the classes we've worked with so far (`String`, `Array` and `Hash`) we've only had to do the second step, because the class was already defined for us. The first step definitely did happen though - somewhere in the bowels of you computer there is a file called `string.rb` containing all the code required to make a `String` work.
+
+### Example: `User`
+
+Our running example today will be a class to represent a user of an application. We will call this class `User`. Note the capital `U`, and the difference between `User` (a class in our program) and user (a user of our app). Remember that we don't need to keep track of every fact about a user in our `User`, only the pieces that matter to our program.
+
+The simplest possible class in Ruby doesn't have any state or behavior, just the name `User`. Even so, we can instantiate it with `User.new`.
+
+```ruby
+# Define the class
+class User
+end
+
+# Create an instance of the class
+ada = User.new
+# ...what now?
+```
+
+We've got a user, but it's not very interesting yet. To make our classes more useful, we'll need to add some methods and attributes.
+
+## Adding Behavior Through Methods
+
+If we define methods inside of our class definition, they will be available for instances of our class. Because these methods require an instance of the class to run, they're sometimes called _instance methods_.
+
+```ruby
+# user.rb
+class User
+  def name
+    return "Ada Lovelace"
+  end
+
+  def email
+    return "ada@adadev.org"
+  end
+
+  def summary
+    return "#{name}: #{email}"
+  end
+end
+```
+
+Check out the instance method `summary`. From here we call other instance methods, `name` and `email`. When you're inside an instance of a class, you can call other instance methods without any extra work.
+
+Let's load this script into `irb` using the `-r` flag.
+
+```bash
+$ irb -r ./user.rb
+```
+
+```ruby
+User               # => User - This is the class, it's just the idea of a user
+User.email         # => Error!
+ada = User.new     # => #<User:0x007fb7da550ca0> - this represents a particular user, it has an email
+ada.email          # => ada@adadev.org
+ada.summary        # => Ada Lovelace: ada@adadev.org
+```
+
+### Exercise
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: a5b89e16-a709-405a-a539-0b4e87aa939b
+* title: Creating a Product Class
+* docker_directory_path: /custom-snippets/product-class
+* points: 1
+* topics: oop, classes
+
+##### !question
+
+Write a new class, `Product`, to represent an item in an online shopping catalogue. `Product` should have 3 methods:
+- `name`, the name of the product
+- `quantity_in_stock`, the number of that item available
+- `available?`, returns true if `quantity_in_stock` is greater than 0, and false otherwise.
+
+Write code that creates a new product, and prints out the name and whether any are available.
+
+Check out the hint, if you need help getting started
+
+##### !end-question
+
+##### !placeholder
+
+```
+class Product
+
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+```ruby
+class Product
+  def name
+      # note Learn seems to have issues with double quotes here
+      #  So I used single quotes to get around it.
+      #  In Ruby you can use double quotes
+    return 'Dr. Donnie\'s cure-all tonic'
+  end
+
+  # More methods here
+end
+```
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+One sample `Product` class could be:
+
+```ruby
+class Product
+  def name
+    return "Dr. Donnie's cure-all tonic"
+  end
+
+  def quantity_in_stock
+    return 10
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+end
+```
+
+To experiment with an instance of `Product` you can create one.
+
+```ruby
+tonic = Product.new
+puts "#{tonic.name} -- available: #{tonic.available}"
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+### Post-Exercise
+
+Our users now have something to do. But our users are still all the same. There's nothing to differentiate one user from another.
+
+```ruby
+ada = User.new
+katherine = User.new
+
+ada.email        # => ada@adadev.org
+katherine.email  # => ada@adadev.org
+```
+
+## Adding State Through Instance Variables
+
+Ruby allows us to attach variables to an instance of a class. Such variables are appropriately named _instance variables_. To create or use an instance variable, prefix the variable's name with the `@` symbol. Instance variables can be read and written in any instance method.
+
+By default, instance variables are not accessible outside the instance they're attached to. By convention, to make them readable we define a method with the same name as the variable, which returns the current value of that variable. This method is called a _reader_, _getter_ or _accessor_, depending on what language you're in (Ruby uses _reader_).
+
+Similarly, Ruby allows us to define a method that will allow the variable to be set with the `=` sign. This method is variously called a _writer_, _setter_ or _mutator_ (Ruby uses _writer_).
+
+Let's rewrite our `User` to take advantage of instance variables.
+
+```ruby
+# user.rb
+class User
+  # Reader for name
+  def name
+    return @name
+  end
+
+  # Writer for name
+  def name=(new_name)
+    @name = new_name
+  end
+
+  def email
+    return @email
+  end
+
+  def email=(new_email)
+    @email = new_email
+  end
+
+  def summary
+    return "#{@name}: #{@email}"
+  end
+end
+```
+
+Now we can have different users with different attributes.
+
+```ruby
+ada = User.new
+katherine = User.new
+
+ada.name = "Ada Lovelace"
+ada.email = "ada@adadev.org"
+
+katherine.name = "Katherine Johnson"
+katherine.email = "katherine@adadev.org"
+
+puts ada.name           # => Ada Lovelace
+puts katherine.summary  # => Katherine Johnson: katherine@adadev.org
+```
+
+Note that the `email` and `name` methods return the value of the instance variables `@email` and `@name`.  These methods **read** the value of the variable and return it to the user.  These methods are called _reader methods_.  
+
+On the other hand the `email=` and `name=` methods _change_ the value of the instance variables.  They write data to the variables, so they are called _writer_ methods.
+
+In general, both reader and writer methods should have the same name as the instance variable they are updating.
+
+### Exercises
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 4fe580d3-742f-4dd1-855b-408dd481aee5
+* title: Is `available?` a reader or a writer? 
+* points: 1
+* topics: classes, oop
+
+##### !question
+
+```ruby
+class Product
+  def name
+    return "Dr. Donnie's cure-all tonic"
+  end
+
+  def quantity_in_stock
+    return 10
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+end
+```
+
+Looking at the product class above is `available?` a reader or a writer? 
+
+##### !end-question
+
+##### !options
+
+* Reader
+* Writer
+* None of the Above
+
+##### !end-options
+
+##### !answer
+
+* None of the Above
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+Does this method change anything?  Does it return an instance variable's value?
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+That's actually a trick question. Not all methods defined in a class are readers or writers. Because `available?` is not simply returning a single instance variable (reader) or updating a single instance variable (writer), it is neither a reader or a writer. (Again, reader and writer methods should always have the same name as the instance variable they are related to.)
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 58a7171c-7b15-4cc3-a7a1-41e328192ed1
+* title: Instance Variables & Methods
+* docker_directory_path: /custom-snippets/product-class-with-instance-vars-v2
+* points: 1
+* topics: classes, instance variables, methods
+
+##### !question
+
+- Modify the `Product` class you wrote earlier to use instance variables to track `name` and `quantity_in_stock`
+- Add writer methods for `name` and `quantity_in_stock`
+- Write code that creates two different products, sets the values, and prints out the information as before
+  
+##### !end-question
+
+##### !placeholder
+
+```ruby
+class Product
+  def name
+    return "Dr. Donnie's cure-all tonic"
+  end
+
+  def quantity_in_stock
+    return 10
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+This may help get you started:
+
+class Product
+  def name
+    return @name
+  end
+
+  def name=(value)
+    @name = value
+  end
+
+  # More methods 
+end
+
+android_phone = Product.new
+android_phone.name = "Galaxy S3"
+
+puts android_phone.name
+
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+One example solution would be:
+
+```ruby
+class Product
+  def name
+    return @name
+  end
+
+  def name=(value)
+    @name = value
+  end
+
+  def quantity_in_stock
+    return @quantity_in_stock
+  end
+
+  def quantity_in_stock=(value)
+    @quantity_in_stock = value
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+end
+
+tonic = Product.new
+tonic.name = "Dr. Flemington's cure-all tonic"
+tonic.quantity_in_stock = 10
+
+chair = Product.new
+chair.name = "Professor Nimble's easy-spin swivel chair"
+chair.quantity_in_stock = 0
+
+puts "#{tonic.name}: #{tonic.available? ? 'currently' : 'not'} available"
+puts "#{chair.name}: #{chair.available? ? 'currently' : 'not'} available"
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+## The Constructor
+
+Objects in Ruby can have a special method called `initialize`. This method, often called a _constructor_, is called automatically from within the `new` method. So we will use it to "construct" our object. Since `initialize` is a method we create, we can define _parameters_ for it and pass _arguments_ to the `new` method. `new` is kind enough to pass along its _arguments_ to `initialize`.
+
+```ruby
+class User
+  # Constructor! This will be called automatically when you invoke User.new
+  def initialize(name, email)
+    @name = name
+    @email = email
+  end
+
+  def name
+    return @name
+  end
+
+  def name=(new_name)
+    @name = new_name
+  end
+
+  def email
+    return @email
+  end
+
+  def email=(new_email)
+    @email = new_email
+  end
+
+  def summary
+    return "#{@name}: #{@email}"
+  end
+end
+```
+
+Now when we create a new `User`, we can give it some initial settings.
+
+```ruby
+ada = User.new('Ada Lovelace', 'ada@adadev.org')
+puts ada.summary     # => Ada Lovelace: ada@adadev.org
+```
+
+Much more concise! This pattern of passing in a bunch of values for instance variables is a very common one, but the constructor is just another method, so you can write any code you need in it. You can even call other methods!
+
+Another advantage of setting instance variables in the constructor is that we know those variables will always have a value. By making it impossible to have a `User` without an associated `name` and `email`, we can save ourselves all sorts of frustration later on.
+
+### Exercise
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 96fb2c76-04fd-4abb-9186-874d1776a45d
+* title: Adding a constructor
+* docker_directory_path: /custom-snippets/product-class-with-constructor-v2
+* points: 1
+* topics: classes, constructors, oop
+
+##### !question
+
+Lets continue the `Product` class.
+
+- Add a constructor to the `Product` class, and use it to set the initial values of `name` and `quantity_in_stock`
+- Add a third instance variable, `quantity_sold`. This variable should be set to 0 in the constructor, and should have a reader but not a writer.
+- Add a `sell` method, which takes one parameter `amount`, which will reduce `quantity_in_stock` by `amount` and increase `quantity_sold` by `amount`.
+  - Don't worry about error handling for this method yet
+- Write code to use your new methods
+
+
+##### !end-question
+
+##### !placeholder
+
+```ruby
+class Product
+  def name
+    return @name
+  end
+
+  def name=(value)
+    @name = value
+  end
+
+  def quantity_in_stock
+    return @quantity_in_stock
+  end
+
+  def quantity_in_stock=(value)
+    @quantity_in_stock = value
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+```ruby
+class Product
+  def initialize(name, quantity_in_stock)
+    @name = name
+    @quantity_in_stock = quantity_in_stock
+    @quantity_sold = 0
+  end
+
+  # Other methods here...
+end
+```
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation 
+
+```ruby
+class Product
+  def initialize(name, quantity_in_stock)
+    @name = name
+    @quantity_in_stock = quantity_in_stock
+    @quantity_sold = 0
+  end
+
+  def name
+    return @name
+  end
+
+  def name=(value)
+    @name = value
+  end
+
+  def quantity_in_stock
+    return @quantity_in_stock
+  end
+
+  def quantity_in_stock=(value)
+    @quantity_in_stock = value
+  end
+
+  def quantity_sold
+    return @quantity_sold
+  end
+
+  def available?
+    return quantity_in_stock > 0
+  end
+
+  def sell(amount)
+    @quantity_in_stock -= amount
+    @quantity_sold += amount
+  end
+end
+
+tonic = Product.new(
+  "Dr. Donnie's cure-all tonic", 
+  10
+)
+tonic.sell(3)
+puts "#{tonic.name}: #{tonic.quantity_sold} sold, #{tonic.quantity_in_stock} in stock"
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+## Classes Vocabulary
+
+Term              | Definition | Example
+---               | ---        | ---
+Object            | A programming concept that ties together _state_ (variables) and _behavior_ (methods). |
+Class             | Definition of what an object looks like, using Ruby's `class` keyword. The first letter is always capitalized. | `class User`
+Instance          | One particular object. Built using a class's `new` method. | `ada = User.new`
+Instance Variable | A variable attached to a particular instance of a class. Also known as an _attribute_ or _field_. Always begins with an `@`. Not visible outside that class. | `@name`
+Instance Method   | A method attached to a particular instance of a class. Often relies on or modifies instance variables. Can be invoked from outside that class using `.` notation. | `def summary()`
+Constructor       | A special instance method that is called automatically when a new instance of a class is created. Takes care of any initial setup. Any arguments passed to `new` will be passed to the constructor. | `def initialize(name, email)`
+Reader Method     | Instance method that returns the value of an instance variable. Also known as a _getter_ or _accessor_. | `def email`<br>&nbsp;&nbsp;&nbsp;&nbsp;`return @email`<br>`end`
+Writer Method     | Instance method that sets the value of an instance variable. Also known as a _setter_ or _mutator_. | `def email=(new_email)`<br>&nbsp;&nbsp;&nbsp;&nbsp;`@email=new_email`<br>`end`
+
+## Additional Resources
+
+- [Ruby for Beginners: Defining Classes](http://ruby-for-beginners.rubymonstas.org/writing_classes/definition.html)
