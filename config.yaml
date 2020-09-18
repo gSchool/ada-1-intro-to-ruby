@@ -171,3 +171,7 @@ Standards:
         Type: Lesson
         UID: 7f09a2c0-fc20-48fe-9327-594de1a9f074
         Path: /04-oop/class-methods.md
+      -
+        Type: Resource
+        UID: 403cd506-8bb0-4f05-a398-b082de50e25e
+        Path: /04-oop/example-class-method.resource.md
