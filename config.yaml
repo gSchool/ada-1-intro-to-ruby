@@ -173,9 +173,21 @@ Standards:
         Path: /04-oop/self.md
       -
         Type: Lesson
+        UID: 2451189b-e74e-49e7-8db2-e067b7bf1896
+        Path: /04-oop/object-composition.md
+      -
+        Type: Lesson
         UID: 7f09a2c0-fc20-48fe-9327-594de1a9f074
         Path: /04-oop/class-methods.md
       -
         Type: Resource
         UID: 403cd506-8bb0-4f05-a398-b082de50e25e
         Path: /04-oop/example-class-method.resource.md
+      -
+        Type: Lesson
+        UID: 7575b77b-c4b1-455a-afa4-9dad78a0e324
+        Path: /04-oop/ss-wrap-up.md
+      -
+        Type: Resource
+        UID: 595177f0-d4dd-478f-888b-effa29b555f5
+        Path: /04-oop/ss-wrap-up.instructor.md
