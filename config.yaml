@@ -191,3 +191,8 @@ Standards:
         Type: Resource
         UID: 595177f0-d4dd-478f-888b-effa29b555f5
         Path: /04-oop/ss-wrap-up.instructor.md
+      -
+        Type: Lesson
+        UID: 26eb193e-b09c-4341-a1ed-ff78eb741a39
+        Path: /04-oop/inheritance-idioms.md
+        
