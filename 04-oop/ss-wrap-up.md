@@ -70,8 +70,8 @@ This should feel different compared to the responsibilities of `Planet` and `Sol
 * type: paragraph
 * id: b23038fa-7167-4436-923a-203f64799b8e
 * title: Responsibilities of Planet and Solar System
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-* topics: Responsibilities of Planet and Solar System
+* points: 1
+* topics: classes, oop
 
 ##### !question
 
