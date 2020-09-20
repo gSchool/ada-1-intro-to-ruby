@@ -173,6 +173,10 @@ Standards:
         Path: /04-oop/self.md
       -
         Type: Lesson
+        UID: 2451189b-e74e-49e7-8db2-e067b7bf1896
+        Path: /04-oop/object-composition.md
+      -
+        Type: Lesson
         UID: 7f09a2c0-fc20-48fe-9327-594de1a9f074
         Path: /04-oop/class-methods.md
       -
