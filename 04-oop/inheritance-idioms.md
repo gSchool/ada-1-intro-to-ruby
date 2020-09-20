@@ -292,7 +292,9 @@ end
 
 ## Summary
 
-Vocabulary
+In this lesson we have learned some common uses of inheritance.  Abstract classes are parent classes that are **only** used for inheritance.  They are never instantiated themselves.  Abstract classes provide _template methods_ which are methods designed to be implemented by subclasses.  In this way the abstract class guarantees that child classes will have specific methods, but the implementation of those methods is up to the child classes.  Template methods and Abstract classes are closely related and used **very often** in professional applications.  We also looked at how inheritance can be used to implement _plymorphism_, or the ability to have many different variations on the same type of object.  In our example we had many different types of properties and each implemented taxation in different ways. 
+
+## Vocabulary
 
  Term            | Definition                                                 
 -----------------|------------------------------------------------------------
