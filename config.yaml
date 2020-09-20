@@ -179,3 +179,11 @@ Standards:
         Type: Resource
         UID: 403cd506-8bb0-4f05-a398-b082de50e25e
         Path: /04-oop/example-class-method.resource.md
+      -
+        Type: Lesson
+        UID: 7575b77b-c4b1-455a-afa4-9dad78a0e324
+        Path: /04-oop/ss-wrap-up.md
+      -
+        Type: Resource
+        UID: 595177f0-d4dd-478f-888b-effa29b555f5
+        Path: /04-oop/ss-wrap-up.instructor.md
