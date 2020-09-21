@@ -34,7 +34,7 @@ You will submit Grocery Store by:
 ### !challenge
 
 * type: testable-project
-* id: 92f48177-f40a-4c39-9f7e-db31cc91059d
+* id: 4c3d5c57-56d5-47e0-9828-2a1cecae3dba
 * title: Grocery Store
 * upstream: https://github.com/Ada-C14/grocery-store
 * validate_fork: true
@@ -61,7 +61,7 @@ Your Grocery Store project repository
 ### !challenge
 
 * type: short-answer
-* id: 61610014-665e-4b93-832b-e4163dffa8f7
+* id: e90ee6a9-0237-4d80-94e9-9723c6a34ff9
 * title: Solar System Pull Request URL
 * points: 2
 * topics: methods, oop
