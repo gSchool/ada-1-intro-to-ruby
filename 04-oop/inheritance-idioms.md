@@ -58,14 +58,6 @@ Again, let us begin with a definition:
 
 **An _abstract class_ is a class that is never instantiated**. Instead, it serves as the parent class for some number of child classes, which are instantiated.
 
-**Question:** What abstract classes have we seen so far?
-
-<details>
-<summary>Click for the answer</summary>
-  
-Object, CsvRecord from the project
-</details>
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
