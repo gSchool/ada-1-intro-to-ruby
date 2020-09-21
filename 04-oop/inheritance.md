@@ -223,12 +223,47 @@ fun_place.roof_type #=> "Shake"
 ### **Exercise**
 Add `Rectangle` as a child of `Shape`
 
-<details>
-  <summary>Instead of radius, what attribute(s) should Rectangle have?</summary>
-    length and width
-</details>
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
-  
+### !challenge
+
+* type: short-answer
+* id: 47cba0e0-857c-4597-889d-edecf70a55d1
+* title: Instead of radius, what attribute(s) should Rectangle have?
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: oop, classes
+
+##### !question
+
+Instead of radius, what attribute(s) should Rectangle have?
+
+##### !end-question
+
+##### !placeholder
+
+Rectangle attributes
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+length and width
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->  
 
 ## Summary
 
