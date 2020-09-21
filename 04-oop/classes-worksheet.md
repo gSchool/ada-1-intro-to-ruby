@@ -340,7 +340,7 @@ class Superhero
 end
 ```
 
-In the class definition of `Superhero`, what line of code _assigns_ the instance variable `@superhero_name`?
+In the class definition of `Superhero`, what line of code _reads_ the instance variable `@superhero_name`?
 
 ##### !end-question
 
