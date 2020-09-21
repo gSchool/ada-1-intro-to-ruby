@@ -189,6 +189,10 @@ Standards:
         Path: /04-oop/object-composition.md
       -
         Type: Lesson
+        UID: 0c774eb3-3935-4101-acc2-3bd4a2f32f09
+        Path: /04-oop/oo-design-practice.md
+      -
+        Type: Lesson
         UID: 7f09a2c0-fc20-48fe-9327-594de1a9f074
         Path: /04-oop/class-methods.md
       -
