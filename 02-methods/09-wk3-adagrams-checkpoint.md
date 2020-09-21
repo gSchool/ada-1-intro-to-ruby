@@ -60,11 +60,6 @@ Your Adagrams project repository
 
 ##### !end-placeholder
 
-##### !answer
-
-/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
-
-##### !end-answer
 
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
@@ -97,6 +92,12 @@ Place the URL for your Adagrams **Pull Request** below.
 https://github.com/Ada-C14/adagrams/pull/<some_number>
 
 ##### !end-placeholder
+
+##### !answer
+
+/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
+
+##### !end-answer
 
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
