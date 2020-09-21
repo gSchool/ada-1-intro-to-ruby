@@ -167,3 +167,11 @@ Standards:
         Type: Lesson
         UID: dbcbba07-c5e6-48e1-856d-76ea5d1b1c7c
         Path: /04-oop/self.md
+      -
+        Type: Lesson
+        UID: 59f7d685-6cab-45a5-8256-ca5d306a808c
+        Path: /04-oop/exercise-solar-system.md
+      -
+        Type: Checkpoint
+        UID: c90946b1-737d-4fe7-9210-7dd1c6b2fe03
+        Path: /04-oop/exercise-grocery-store.md
