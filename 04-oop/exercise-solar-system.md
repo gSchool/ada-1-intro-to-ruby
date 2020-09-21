@@ -33,13 +33,9 @@ You will submit Solar System by:
 
 ### !challenge
 
-* type: testable-project
-* id: 92f48177-f40a-4c39-9f7e-db31cc91059d
+* type: short-answer
+* id: 8cf61eb9-ddc4-4e69-ad3a-9a4965b2e6d2
 * title: Solar System
-* upstream: https://github.com/Ada-C14/solar-system
-* validate_fork: true
-* points: 0
-* topics: methods, oop
 
 ##### !question
 
@@ -61,10 +57,8 @@ Your Solar System project repository
 ### !challenge
 
 * type: short-answer
-* id: 61610014-665e-4b93-832b-e4163dffa8f7
+* id: c2ccaaf5-cfc2-47e6-80d4-5ae98d8f7c52
 * title: Solar System Pull Request URL
-* points: 2
-* topics: methods, oop
 
 ##### !question
 
