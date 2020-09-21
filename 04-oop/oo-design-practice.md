@@ -20,9 +20,17 @@ Questions:
 
 ## Complete
 
-- Determine which classes you would create
+Complete this exercise in your own notes. Use paper, your laptop, whiteboards, etc.
+
+First, write down the answers to the questions above.
+
+Second, from your answers, determine which classes you would create.
+
+Then, spend less than 15 minutes creating ideas for the following details:
   - For each class, define the attributes and methods you would utilize
   - Method definitions should include any parameters you would be using as well as return values
+  
+Lastly, make a diagram. Draw a box for every class you would create. Draw arrows inbetween each box/class to describe their relationship between each other.
 
 Optionally you can use [app.diagrams.net](https://app.diagrams.net/) and use the provided tools to create a diagram.  Often drawing out the entities can help people visualize the problem.  For example below is a drawing of some entities in a Pacman game where attributes are at the top of every class and methods below.
 
