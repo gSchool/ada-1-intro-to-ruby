@@ -60,6 +60,7 @@ Your Adagrams project repository
 
 ##### !end-placeholder
 
+
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->

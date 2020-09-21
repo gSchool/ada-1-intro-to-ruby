@@ -173,6 +173,18 @@ Standards:
         Path: /04-oop/self.md
       -
         Type: Lesson
+        UID: a2700c2c-5f94-4da0-a822-83e5cb685845
+        Path: /04-oop/inheritance.md
+      -
+        Type: Lesson
+        UID: 59f7d685-6cab-45a5-8256-ca5d306a808c
+        Path: /04-oop/exercise-solar-system.md
+      -
+        Type: Checkpoint
+        UID: c90946b1-737d-4fe7-9210-7dd1c6b2fe03
+        Path: /04-oop/exercise-grocery-store.md
+      -
+        Type: Lesson
         UID: 2451189b-e74e-49e7-8db2-e067b7bf1896
         Path: /04-oop/object-composition.md
       -
