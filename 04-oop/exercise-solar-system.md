@@ -49,6 +49,11 @@ Place the URL to your _* Solar System exercise repository*_ below.
 Your Solar System project repository
 
 ##### !end-placeholder
+##### !answer
+
+/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
+
+##### !end-answer
 
 
 

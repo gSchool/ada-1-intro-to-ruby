@@ -98,12 +98,6 @@ https://github.com/Ada-C14/adagrams/pull/<some_number>
 
 ##### !end-placeholder
 
-##### !answer
-
-/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
-
-##### !end-answer
-
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
