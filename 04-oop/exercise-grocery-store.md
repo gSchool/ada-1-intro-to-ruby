@@ -80,7 +80,7 @@ https://github.com/Ada-C14/grocery-store/<some_number>
 
 ##### !answer
 
-/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
+/^https:\/\/github\.com\/[^\/]+\/[^\/]+\/pull\/\d?\d/
 
 ##### !end-answer
 

@@ -51,7 +51,7 @@ Your Solar System project repository
 ##### !end-placeholder
 ##### !answer
 
-/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
+/^https:\/\/github\.com\/[^\/]+\/[^\/]+$/
 
 ##### !end-answer
 
@@ -79,7 +79,7 @@ https://github.com/Ada-C14/solar-system/<some_number>
 
 ##### !answer
 
-/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
+/^https:\/\/github\.com\/[^\/]+\/[^\/]+\/pull\/\d?\d/
 
 ##### !end-answer
 
