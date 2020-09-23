@@ -63,44 +63,6 @@ Your Adagrams project repository
 
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
-
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
-
-### !challenge
-
-* type: short-answer
-* id: 61610014-665e-4b93-832b-e4163dffa8f7
-* title: Adagrams Pull Request URL
-* points: 2
-* topics: methods, enumerables, loops, tdd
-
-##### !question
-
-Place the URL for your Adagrams **Pull Request** below.
-
-##### !end-question
-
-##### !placeholder
-
-https://github.com/Ada-C14/adagrams/pull/<some_number>
-
-##### !end-placeholder
-
-##### !answer
-
-/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
-
-##### !end-answer
-
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 ##### !rubric
 
 Rubric
@@ -157,6 +119,48 @@ Was the code particularly impressive in code style for any of these reasons (or 
 | Concise | ✅
 | Logical/Organized | ✅
 ```
+
+##### !end-rubric
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 61610014-665e-4b93-832b-e4163dffa8f7
+* title: Adagrams Pull Request URL
+* points: 2
+* topics: methods, enumerables, loops, tdd
+
+##### !question
+
+Place the URL for your Adagrams **Pull Request** below.
+
+##### !end-question
+
+##### !placeholder
+
+https://github.com/Ada-C14/adagrams/pull/<some_number>
+
+##### !end-placeholder
+
+##### !answer
+
+/^https:\/\/github\.com\/[^\/]+\/pull\/[^\/]+\/\d?\d/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+##### !rubric
+
+
 
 ##### !end-rubric
 <!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
