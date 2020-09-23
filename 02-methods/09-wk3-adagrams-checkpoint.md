@@ -103,6 +103,8 @@ https://github.com/Ada-C14/adagrams/pull/<some_number>
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 ##### !rubric
 
+Rubric
+
 ```
 # Calculator
 
