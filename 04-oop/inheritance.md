@@ -6,9 +6,9 @@
 - Explore overriding method definitions in _subclasses_
 - Use `super` to invoke the behavior of a _base class_ in a _subclass_
 
-## Video Lesson Coming Soon
+## Video Lesson
 
-
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=55d8bacd-3f1d-4494-925d-ac3f015a5e0c&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ## Object Inheritance: _is-a_
 _Inheritance_ is used to model the behaviors of one class after another. We would want to do this when two objects have a clear relationship. Often the parent class, or _base class_, is more general while the child, or _subclass_, is more specific.
