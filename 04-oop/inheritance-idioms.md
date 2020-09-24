@@ -104,7 +104,7 @@ Similarly in the GroceryStore project we had a `CsvRecord` class which served as
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-Returning to our example from [the previous lesson](object-inheritance.md), `Property` would be a good candidate for an abstract class. Instead of creating a generic `Property`, it would make more sense to always create an `Apartment`, `Condo`, or `House`.
+Returning to our example from [the previous lesson](inheritance.md), `Property` would be a good candidate for an abstract class. Instead of creating a generic `Property`, it would make more sense to always create an `Apartment`, `Condo`, or `House`.
 
 In real-world software projects, abstract parent classes are very common when using a framework like Rails to structure your program. The framework provides a number of abstract classes, which your app can extend as needed.
 
