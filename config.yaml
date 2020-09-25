@@ -140,6 +140,10 @@ Standards:
         Type: Lesson
         UID: 34ebf68b-9640-4537-85d3-221c5dc04657
         Path: /03-language-features/modules.md
+      -
+        Type: Lesson
+        UID: f9dd9de0-99cd-448b-846c-200f26a23cb7
+        Path: /03-language-features/references-and-values.md
   -
     Title: OOP
     Description: Object-Oriented-Programming
