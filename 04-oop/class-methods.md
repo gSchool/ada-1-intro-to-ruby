@@ -368,7 +368,7 @@ class ClassName
   end
 
   def instance_method
-    return "This is an INSTANCE METHOD... and I'm calling the class method with syntax 1: #{self.class.class_method}, and syntax 2: #{ClassName.class_method}"
+    return "This is an INSTANCE METHOD... and I'm calling the class method with syntax 1: #{self.class_method}, and syntax 2: #{ClassName.class_method}"
   end
 end
 ```
