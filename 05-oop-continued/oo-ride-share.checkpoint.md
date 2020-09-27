@@ -19,6 +19,14 @@ Remember the ride share exercise we did with designing and creating a system to 
 
 Now, we're going to use our understanding of classes, methods and attributes to create an object-oriented ride share system that is much more robust than our previous implementation.
 
+1.  One partner fork the [OO-Ride-Share](https://github.com/ada-c14/oo-ride-share) Repository
+1.  The same person then adds their partner as a collaborator.
+1.  Then you can clone the repository and work on the project.
+1.  When you submit, one person can add a partner when submitting.
+
+![set partner image](images/set-partner.png)
+
+Remember to submit **both** a pull request and the repository through Learn.  Each team should only need to submit once. 
 
 ##### !end-question
 
