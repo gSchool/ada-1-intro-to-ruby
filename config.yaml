@@ -211,10 +211,7 @@ Standards:
         Type: Resource
         UID: 595177f0-d4dd-478f-888b-effa29b555f5
         Path: /04-oop/ss-wrap-up.instructor.md
-      -
-        Type: Lesson
-        UID: 26eb193e-b09c-4341-a1ed-ff78eb741a39
-        Path: /04-oop/inheritance-idioms.md
+
   -
     Title: OOP Continued
     Description: Object-Oriented-Programming - Ride Share
@@ -222,7 +219,11 @@ Standards:
     SuccessCriteria:
       - success criteria
     ContentFiles:
+      -
+        Type: Lesson
+        UID: 26eb193e-b09c-4341-a1ed-ff78eb741a39
+        Path: /05-oop-continued/inheritance-idioms.md
       - 
         Type: Checkpoint
         UID: 8dec93e3-29fc-4639-b3b0-e8ce940e2895
-        Path: /05-oo-ride-share/oo-ride-share.checkpoint.md
+        Path: /05-oop-continued/oo-ride-share.checkpoint.md
