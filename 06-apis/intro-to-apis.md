@@ -2,9 +2,9 @@
 
 ## Learning Goals
 
-By the end of this lesson we should be able to...
+By the end of this lesson we will be able to...
 
-- Examine the _HTTP_ protocol; what does it do? How does it do it?
+- Explain the purpose of the _HTTP_ protocol; what does it do? How does it do it?
 - Talk about the most common server architecture on the internet: _Client/Server_
 - Discuss the difference between _websites_ and _APIs_
 - Explore an API using the browser
@@ -384,8 +384,6 @@ POST is the opposite, and usually has a payload on the request but not the respo
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
-
-
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
