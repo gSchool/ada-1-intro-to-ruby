@@ -73,8 +73,17 @@ Take a look at the [Slack API Page](https://api.slack.com/).  To use the Slack A
 
 #### Pick Up A Temporary Token for the Slack API
 
-You can go [here](https://api.slack.com/docs/oauth-test-tokens) and register for an OAuth token to test with the API.  
-![slack API Key](images/postman-slack1.png)
+You can [create a Slack App](https://api.slack.com/start/overview) at the Slack website.  
+
+![Create a Slack App](images/create-slack-app.png)
+
+Then register an application with a name.
+
+![Name a slack app](images/name-slack-app.png)
+
+Then you can find your application's OAuth token and use it with your API.
+
+![OAuth Token](images/oauth-keys.png)
 
 This is essentially your password to use the API.  **Do not post** or otherwise make it publicly available.  
 
