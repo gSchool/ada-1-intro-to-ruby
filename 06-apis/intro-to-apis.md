@@ -314,7 +314,7 @@ How is data sent back from an API? How is this different than a regular website?
 
 ##### !placeholder
 
-How does an API response differ from a regular website?
+What data is sent back from an API?
 
 ##### !end-placeholder
 
@@ -364,7 +364,7 @@ Difference between GET and POST?
 
 ##### !answer
 
-/._/
+/.+/
 
 ##### !end-answer
 
