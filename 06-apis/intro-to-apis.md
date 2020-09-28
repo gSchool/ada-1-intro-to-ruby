@@ -385,14 +385,7 @@ POST is the opposite, and usually has a payload on the request but not the respo
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-<details>
-<summary>What are the meanings of HTTP status codes 200, 400, 404 and 500?</summary>
 
-- `200 OK` (everything went well)
-- `400 BAD REQUEST` (something about the data that was sent caused a problem)
-- `404 NOT FOUND` (the path of the request was bad)
-- `500 INTERNAL SERVER ERROR` (the server has a bug)
-</details>
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
