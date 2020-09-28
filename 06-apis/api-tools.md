@@ -69,25 +69,34 @@ Examine the results.  Can you find links to album covers?  What about music samp
 
 Slack, the chat program we all know and love has a robust [API](https://api.slack.com) that the Slack App uses to function.  It's a great way to learn how APIs work and experiment with Postman.
 
-Take a look at the [Slack API Page](https://api.slack.com/).  To use the Slack API you have to be **authenticated** which allows Slack to have information about their users. The way that Slack implements this is to provide a token which is essentially a password for accessing the API.  
+Click on **Start Building**
 
-#### Pick Up A Temporary Token for the Slack API
+![Start Building Slack Apps](images/start-building.png)
 
-You can [create a Slack App](https://api.slack.com/start/overview) at the Slack website.  
+To interact with Slack you need to create a **Slack App**.
 
-![Create a Slack App](images/create-slack-app.png)
+![Create A Slack App](images/create-slack-app.png)
 
-Then register an application with a name.
+#### Add Permissions to Your App
 
-![Name a slack app](images/name-slack-app.png)
+By default your application has no permissions to do ANYTHING in slack.  This is a common security model, where apps only get the minimal permissions they need.  You can go to **Add features and functionality** and then click on **Permissions**.
 
-Then you can find your application's OAuth token and use it with your API.
+![Add Features and Functionality](images/add-features-and-functionality.png)
 
-![OAuth Token](images/oauth-keys.png)
+You will then see your OAuth token.  This token is kinda like your password and should **never** be shared with anyone.  Copy this token to a text file on your computer for the moment, you'll need it later.
 
-This is essentially your password to use the API.  **Do not post** or otherwise make it publicly available.  
+![Oauth Token](images/oauth-token.png)
 
-Next we can make a call on some of the Slack Methods.  
+Then you can go to **Scopes** to add permissions to your app with the **Add an OAuth Scope**.  For now lets add:
+
+- **channels:read**
+- **groups:great**
+- **im:read**
+- **incoming-webhook**
+- **mpim:read**
+- **users:read**
+
+[Scopes](images/scopes.png)
 
 #### Starting with Testing!
 
@@ -129,6 +138,10 @@ Notice what happens to the URL line:  `https://slack.com/api/api.test?foo=bar`  
 Take a look at the Slack API Documentation for the [users.list](https://api.slack.com/methods/users.list) method.  This method, unlike test, requires the authentication token.  
 
 Enter `https://slack.com/api/users.list` in the URL bar and the authentication token as a parameter.  Then hit submit.  
+
+![Users List](images/slack-users-list.png)
+
+Look at the results:
 
 -  What do you get?
 -  What happens when you leave off the token?
