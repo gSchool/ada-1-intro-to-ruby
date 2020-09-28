@@ -122,6 +122,8 @@ However, since the API doesn't send any information about how to display the dat
 
 To help us out, we will install the [JSON Viewer chrome extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh). This handy tool will format JSON in an easy-to-read way. Try it out now!
 
+For Firefox you can try the [JSONView extension](https://addons.mozilla.org/en-US/firefox/addon/jsonview/), it similarly formats JSON in a readable way.
+
 ## The Request/Response Cycle
 
 <!-- NB: if you update this text, please also update the similar text in ../08-rails/requests-and-responses.md -->
