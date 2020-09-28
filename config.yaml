@@ -227,3 +227,14 @@ Standards:
         Type: Checkpoint
         UID: 8dec93e3-29fc-4639-b3b0-e8ce940e2895
         Path: /05-oop-continued/oo-ride-share.checkpoint.md
+  -
+    Title: Apis
+    Description: APIs in Ruby with HTTParty
+    UID: e992662b-89f7-4cf2-9696-90632faa5cde
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: e5662fd3-b933-4f7b-a965-edc8a6c40039
+        Path: /06-apis/api-tools.md
