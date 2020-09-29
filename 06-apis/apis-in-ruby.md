@@ -15,7 +15,11 @@ By the end of this lesson, students should be able to...
 
 To consume an API from Ruby, we'll need to make use of a gem. There are a few that would do the trick, but in this class we'll be using one called [HTTParty](https://github.com/jnunemaker/httparty). HTTParty doesn't support some of the more complex things you can do with a network connection, but it's relatively simple to use and is more than powerful enough for our purposes.
 
-**Question:** How would we install the HTTParty gem and include it in our program?
+<details>
+<summary>**Question:** How would we install the HTTParty gem and include it in our program?</summary>
+
+We can install the gem with `gem install httparty`
+</details>
 
 ### Making Requests
 
@@ -25,7 +29,18 @@ The HTTParty gem gives us access to a module called `HTTParty`, which we can use
 https://dog.ceo/api/breeds/image/random
 ```
 
-**Question:** Try this URL out in your browser. What do you get back?
+<details>
+<summary>**Question:** Try this URL out in your browser. What do you get back?</summary>
+
+You get back something like: 
+
+```
+{
+"message": "https://images.dog.ceo/breeds/germanshepherd/n02106662_22394.jpg",
+"status": "success"
+}
+```
+</details>
 
 Now let's do the same thing in Ruby. Open up pry and enter the following code:
 
@@ -41,7 +56,22 @@ Pry is a great tool for investigating an API, because it allows us to poke at th
 
 When we say `HTTParty.get`, HTTParty will send a GET request to the url. The `get` method returns something, which we have stored in the variable `response`.
 
-**Question:** What is `response`? What data does it contain? What is its class?
+<details>
+<summary>**Question:** What is `response`? What data does it contain? What is its class?</summary>
+
+Looking at it's return value in PRY it looks like it returns a hash with keys "message" and "status" and values referencing a URL to an image and "success".
+
+You can find the class of the `response` object with:
+
+```ruby
+response.class
+```
+
+The returns `=> HTTParty::Response`
+
+So it's not actually a hash but rather an `HTTParty::Response` object which contains the details of the APIs response.
+</details>
+
 
 `response` looks and acts like a hash containing the data we got back from the server. It's important to note that all they keys in this hash are `"strings"`, not `:symbols`.
 
