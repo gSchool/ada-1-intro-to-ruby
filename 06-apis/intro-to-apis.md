@@ -92,9 +92,9 @@ As we just saw, the browser can consume both websites and APIs. When exploring a
 
 However, since the API doesn't send any information about how to display the data, the browser just displays it in a raw form. This can be hard to read for us humans.
 
-To help us out, we will install the [JSON Viewer chrome extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh). This handy tool will format JSON in an easy-to-read way. Try it out now!
+Luckily for us Firefox helpfully displays the JSON for us in an easy to read format.  If you would like to see the actual text the server sent back you can click over to the "Raw Data" tab.
 
-For Firefox you can try the [JSONView extension](https://addons.mozilla.org/en-US/firefox/addon/jsonview/), it similarly formats JSON in a readable way.
+If you are using Chrome or Safari unfortunately they don't format JSON nicely for us.  To fix that you can install the [JSON Viewer Chrome extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) or the [JSON Peep Safari extension](https://apps.apple.com/us/app/json-peep-for-safari/id1458969831?mt=12).
 
 ## The Request/Response Cycle
 
