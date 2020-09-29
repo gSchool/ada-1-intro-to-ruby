@@ -76,50 +76,15 @@ To see an example of what an API looks like to a client, copy/paste this address
 https://dog.ceo/api/breeds/image/random
 ```
 
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
-
-### !challenge
-
-* type: short-answer
-* id: c765a386-5b5b-47d0-9311-11c52dfbe0cc
-* title: What do you notice about the API response
-* points: 1
-* topics: apis
-
-##### !question
-
-**Question:** What do you notice about the data the API sent back? How is this different than a normal website?
-
-##### !end-question
-
-##### !placeholder
-
-How does the API request differ from a normal website.
-
-##### !end-placeholder
-
-##### !answer
-
-/.+/
-
-##### !end-answer
-
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-##### !explanation
+<details>
+  <summary>**Question:** What do you notice about the data the API sent back? How is this different than a normal website?</summary>
 
 - This API sent back JSON data
 - JSON data looks kind of like a Ruby hash (this is by design)
 - The browser doesn't have any instructions on how to display this data, so just prints out a bunch of text
+</details>
 
 
-##### !end-explanation
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
 
 ### Using the Browser as a Client
 
@@ -260,137 +225,28 @@ Code    | Text             | Meaning
 
 ## Comprehension Questions
 
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
+<details>
+  <summary>If we write a Ruby program that makes a request to an API, which is the client and which is the server?<summary>
 
-### !challenge
+  The Ruby program is the client, and the API is the server
+</details>
 
-* type: short-answer
-* id: ba8c7ff8-5d80-43c0-b8cb-287c50bc5491
-* title: Client-Server Question
-* points: 1
-* topics: apis
+<details>
+  <summary>How is data sent back from an API? How is this different than a regular website?</summary>
 
-##### !question
+  Data is sent back from an API in a machine-readable format like JSON or XML. This does not contain any instructions about how to _display_ that data, but is relatively easy for a program to process.
 
-If we write a Ruby program that makes a request to an API, which is the client and which is the server?
+  In contrast, a website sends back HTML and CSS, which does include display instructions.
+</details>
 
-##### !end-question
+<details>
+  <summary>What is the difference between the HTTP verbs *GET* and *POST*?
+</summary>
 
-##### !placeholder
-
-Identify the client & server
-
-##### !end-placeholder
-
-##### !answer
-
-/.+/
-
-##### !end-answer
-
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-##### !explanation
-
-The Ruby program is the client, and the API is the server
-
-##### !end-explanation
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
-
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
-
-### !challenge
-
-* type: short-answer
-* id: eb98afbd-61ee-4cfe-9da4-7d58bb7a16a6
-* title: What is data sent back from an API?
-* points: 1
-* topics: apis
-
-##### !question
-
-How is data sent back from an API? How is this different than a regular website?
-
-##### !end-question
-
-##### !placeholder
-
-What data is sent back from an API?
-
-##### !end-placeholder
-
-##### !answer
-
-/.+/
-
-##### !end-answer
-
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-##### !explanation
-
-Data is sent back from an API in a machine-readable format like JSON or XML. This does not contain any instructions about how to _display_ that data, but is relatively easy for a program to process.
-
-In contrast, a website sends back HTML and CSS, which does include display instructions.
-
-##### !end-explanation
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
-
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
-
-### !challenge
-
-* type: short-answer
-* id: bbfb3ac6-dd1b-4fe2-8907-ed3ca7691473
-* title: Difference between GET and POST
-* points: 1
-* topics: apis
-
-##### !question
-
-What is the difference between the HTTP verbs GET and POST?
-
-##### !end-question
-
-##### !placeholder
-
-Difference between GET and POST?
-
-##### !end-placeholder
-
-##### !answer
-
-/.+/
-
-##### !end-answer
-
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-##### !explanation
-
-A GET request is asking to view an existing resource, whereas POST is sending new data to the server.
-
-GET typically has a payload on the response but not the request.
-
-POST is the opposite, and usually has a payload on the request but not the response.
-
-##### !end-explanation
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
+  - A *GET* request is asking to view an existing resource, whereas *POST* is sending new data to the server.
+  - *GET* typically has a payload on the response but not the request.
+  - *POST* is the opposite, and usually has a payload on the request but not the response.
+</details>
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
@@ -462,47 +318,6 @@ Which API response code means server error?
 ##### !answer
 
 * 500
-
-##### !end-answer
-
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
-
-### !end-challenge
-
-<!-- ======================= END CHALLENGE ======================= -->
-
-<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
-<!-- Replace everything in square brackets [] and remove brackets  -->
-
-### !challenge
-
-* type: multiple-choice
-* id: b714186f-f1f0-495b-9a17-28afaf948539
-* title: Bad Request
-* points: 1
-* topics: apis
-
-##### !question
-
-Which API response code means bad request?
-
-##### !end-question
-
-##### !options
-
-* 200
-* 400
-* 404
-* 500
-
-##### !end-options
-
-##### !answer
-
-* 400
 
 ##### !end-answer
 
