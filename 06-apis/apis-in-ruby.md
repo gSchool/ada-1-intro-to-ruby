@@ -236,7 +236,7 @@ This is a problem we've run into before, in the context of reading data from CSV
 
 When working with files, our strategy was to create a class to contain the details of reading the file. We will follow a similar strategy for working with APIs.
 
-**Activity:** Read through [the final version of our ISS pass time program](source/api-wrapper-class.rb), and answer the following questions:
+**Activity:** Read through [the final version of our ISS pass time program](api-wrapper-class.resource.md), and answer the following questions:
 - How does the driver code interact with the wrapper class?
 - How is the code to build and send the request different than what we had previously?
 - What does the wrapper class do if it encounters an error?
