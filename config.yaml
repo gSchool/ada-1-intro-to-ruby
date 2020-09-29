@@ -240,10 +240,9 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
-        UID: e5662fd3-b933-4f7b-a965-edc8a6c40039
-        Path: /06-apis/api-tools.md
-      -
-        Type: Lesson
         UID: 362cd45f-c4e1-4552-81aa-df9f7e5eb08e
         Path: /06-apis/intro-to-apis.md
-        
+      -
+        Type: Lesson
+        UID: e5662fd3-b933-4f7b-a965-edc8a6c40039
+        Path: /06-apis/api-tools.md
