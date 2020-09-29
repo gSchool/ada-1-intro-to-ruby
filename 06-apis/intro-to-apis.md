@@ -13,8 +13,11 @@ By the end of this lesson we will be able to...
 - Discuss the difference between _websites_ and _APIs_
 - Explore an API using the browser
 - Define the key pieces of the _request/response cycle_
-  - Request: HTTP verb and path
-  - Response: Status code
+  - Request: 
+    - verb
+    - path
+  - Response:
+    - status code
 
 ## So what is the Internet?
 
