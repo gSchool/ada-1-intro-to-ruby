@@ -240,5 +240,9 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
+        UID: 362cd45f-c4e1-4552-81aa-df9f7e5eb08e
+        Path: /06-apis/intro-to-apis.md
+      -
+        Type: Lesson
         UID: 7109429d-581f-4b8a-8c7b-295a82c46bd9
         Path: /06-apis/7-wonders-activity.md
