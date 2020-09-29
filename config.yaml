@@ -238,3 +238,8 @@ Standards:
         Type: Lesson
         UID: 441d4307-fa62-4d6a-bba5-6594cacbb45f
         Path: /06-apis/apis-in-ruby.md
+      -
+        Type: Resource
+        UID: 3c25a253-b16d-4938-8b5e-da910c12fb7c
+        Path: /06-apis/api-wrapper-class.resource.md
+  
