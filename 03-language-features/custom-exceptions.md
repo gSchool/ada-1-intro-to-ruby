@@ -39,7 +39,7 @@ This gives us the same functionality as `StandardError`, but with a different na
 
 ## Key Takeaway
 
-We create custom exception classes when we need a more detailed exception name or behavior. We use these custom exception classes in the same way we use built-in Ruby exceptions.
+We create custom exception classes when we need a more detailed exception name or behavior. We use inheritance to create custom exceptions.  We use these custom exception classes in the same way we use built-in Ruby exceptions.
 
 ## Additional Resources
 
