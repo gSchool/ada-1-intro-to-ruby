@@ -6,7 +6,9 @@
 
 By the end of this lesson we will be able to...
 
-- Explain the purpose of the _HTTP_ protocol; what does it do? How does it do it?
+- Explain the purpose of the _HTTP_ protocol
+  - What does it do?
+  - How does it do it?
 - Talk about the most common server architecture on the internet: _Client/Server_
 - Discuss the difference between _websites_ and _APIs_
 - Explore an API using the browser
