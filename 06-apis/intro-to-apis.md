@@ -226,7 +226,7 @@ Code    | Text             | Meaning
 ## Comprehension Questions
 
 <details>
-  <summary>If we write a Ruby program that makes a request to an API, which is the client and which is the server?<summary>
+  <summary>If we write a Ruby program that makes a request to an API, which is the client and which is the server?</summary>
 
   The Ruby program is the client, and the API is the server
 </details>
