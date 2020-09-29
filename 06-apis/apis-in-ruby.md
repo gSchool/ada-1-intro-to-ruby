@@ -1,5 +1,7 @@
 # Consuming an API with Ruby
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=0f04e197-a873-43ac-ac7c-ac450057c7a9&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 When we first discussed APIs, we described them as a way to publish data so it's easy for machines to consume. But so far we have only used the browser to read API data. In this lesson, we will discover how to make requests against an API from within a Ruby program.
 
 ## Learning Goals:
