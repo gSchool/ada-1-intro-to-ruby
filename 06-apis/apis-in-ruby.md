@@ -168,7 +168,7 @@ There's a lot going on here!
 
 It might help to draw a diagram:
 
-![HTTParty Workflow](images/apis/httparty-workflow.svg)
+![HTTParty Workflow](images/apis/httparty-workflow.png)
 <!-- https://www.draw.io/#G1Pk80ViT_UJg4FKuzrZ7uHaT3OL6Zmndu -->
 
 ## Error Handling
