@@ -273,10 +273,15 @@ Your answer here
 
 ##### !answer
 
-Add `.env` to a `.gitignore` file. (This file needs to be in the root directory of our git repository.)
+
+/.+/
 
 ##### !end-answer
+##### !explanation
 
+Add `.env` to a `.gitignore` file. (This file needs to be in the root directory of our git repository.)
+
+##### !end-explanation
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
