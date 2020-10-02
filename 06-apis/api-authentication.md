@@ -65,17 +65,11 @@ https://api.themoviedb.org/3/search/movie?query=hidden%20figures&api_key=<paste 
 
 By the way, all of this is covered in [The Movie DB's documentation](https://developers.themoviedb.org/3). The documentation is where you would go to figure all this out for a new API.
 
-### Resetting Keys
-
-Every once in a while you will find that your keys have been compromised and are no longer secret. Maybe you uploaded them to Git accidentally, they were in the background of a screenshot, or maybe you had them in your clipboard and accidentally pasted them into Slack. Now what?
-
-Fortunately most APIs make it easy to _reset_ your API keys. This will invalidate the old key and generate a new one for you to use. This is true of most of the APIs we'll be using in this class, including Slack and GitHub, but not TMDB.
-
 ## Storing Credentials Securely
 
 This authorization token uniquely identifies and provides access to your account. Just like a password, anyone who has the token can pretend to be you. This means you need to be careful about keeping track of your tokens.
 
-In particular, you cannot commit tokens to git, because everything in a git repository is visible publicly on the internet. Instead we will make these tokens part of our application's _environment_.
+In particular, you cannot commit tokens to git, because everything in our free git repositories are visible publicly on the internet. Instead we will make these tokens part of our application's _environment_.
 
 ### Environment Variables
 
@@ -344,6 +338,12 @@ To use an API that requires credentials from Ruby:
     - Remember to call `Dotenv.load`
     - Data will be available in the `ENV` hash
 1. Make an `HTTParty` request using the token
+
+## Side Note: Resetting Keys (For when the mistake happens)
+
+Every once in a while you will find that your keys have been compromised and are no longer secret. Maybe you uploaded them to Git accidentally, they were in the background of a screenshot, or maybe you had them in your clipboard and accidentally pasted them into Slack. Now what?
+
+Fortunately most APIs make it easy to _reset_ your API keys. This will invalidate the old key and generate a new one for you to use. This is true of most of the APIs we'll be using in this class, including Slack and GitHub, but not TMDB.
 
 ## Additional Resources
 
