@@ -228,11 +228,17 @@ Your answer here
 
 ##### !answer
 
-Secret information that we don't want to ever be written in our code or uploaded to github.
-More specifically, the most common type of secret information we will work with is an API key.
+
+/.+/
 
 ##### !end-answer
 
+##### !explanation
+
+Secret information that we don't want to ever be written in our code or uploaded to github.
+More specifically, the most common type of secret information we will work with is an API key.
+
+##### !end-explanation
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
