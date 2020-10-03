@@ -134,12 +134,20 @@ Your answer here
 
 ##### !answer
 
-The `.` communicates to the computer that the file should be treated as a "hidden file". 
-This may sound like crazy hacker stuff but it really just means that a user needs to be actively looking for it to find it. You won't see it in Finder (at least not with the default settings).
-This is typical for files like this that we only expect developers to use. It helps prevent people from accidentally messing something up.
- 
+
+/.+/
 
 ##### !end-answer
+
+##### !explanation
+
+The `.` communicates to the computer that the file should be treated as a "hidden file". 
+
+This may sound like crazy hacker stuff but it really just means that a user needs to be actively looking for it to find it. You won't see it in Finder (at least not with the default settings).
+
+This is typical for files like this that we only expect developers to use. It helps prevent people from accidentally messing something up.
+
+##### !end-explanation
 
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
