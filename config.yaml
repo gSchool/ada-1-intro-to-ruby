@@ -246,4 +246,8 @@ Standards:
         Type: Lesson
         UID: 362cd45f-c4e1-4552-81aa-df9f7e5eb08e
         Path: /06-apis/intro-to-apis.md
+      - 
+        Type: Checkpoint
+        UID: 1f95aaf0-5660-4c3e-95f4-a845267a2770
+        Path: /06-apis/slack-cli.checkpoint.md
         
