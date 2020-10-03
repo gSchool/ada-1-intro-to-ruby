@@ -1,5 +1,25 @@
 # Slack CLI
 
+## Project Resources
+
+Use the following resources to find out...
+
+- Learning Goals
+- Due Date
+- Requirements
+- Details
+- How to get started
+- Tips!
+
+🌟 [Official project documentation](https://github.com/ada-c14/slack-cli)
+
+🌟 Official project introduction:
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=1e9d8f8a-5716-4940-a555-ac490131f1ee&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+Don't forget, when in doubt, please clarify confusion, ask questions, ask to co-work, and help out others over Slack!
+
+
 ### !challenge
 
 * type: testable-project
