@@ -262,3 +262,7 @@ Standards:
         Type: Resource
         UID: 3c25a253-b16d-4938-8b5e-da910c12fb7c
         Path: /06-apis/api-wrapper-class.resource.md
+      -
+        Type: Lesson
+        UID: 7109429d-581f-4b8a-8c7b-295a82c46bd9
+        Path: /06-apis/7-wonders-activity.md
