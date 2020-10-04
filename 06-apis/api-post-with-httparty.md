@@ -29,9 +29,114 @@ Next we need to see how Slack takes in messages to post into a channel.  Take a 
 
 **Questions**:
 
-- What is the URL for this Api endpoint?
-- What arguments does the `chat.postMessage` endpoint accept?  Are any mandatory?
-- What types of errors could the API return?
+<details>
+  <summary>What types of errors could the API return?</summary>
+
+  The [page lists a number of errors toward the bottom of the page](https://api.slack.com/methods/chat.postMessage#Errors) including `channel_not_found`, `not_in_channel` and `msg_too_long`.  
+</details>
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: b8955482-81aa-4350-a15e-72c8d454444a
+* title: What is the URL for this Api endpoint?
+* points: 1
+* topics: apis
+
+##### !question
+
+What is the URL for this Api endpoint?
+
+##### !end-question
+
+##### !options
+
+* `https://slack.com/api/chat.postMessage`
+* `token`
+* `channel`
+* `text`
+
+##### !end-options
+
+##### !answer
+
+* `https://slack.com/api/chat.postMessage`
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 88926dd1-3de9-4e67-a0c5-d5e79e8f8e44
+* title: What arguments does the `chat.postMessage` endpoint accept?  Are any mandatory?
+* points: 1
+* topics: apis, post
+
+##### !question
+
+What arguments does the `chat.postMessage` endpoint accept?  Are any mandatory?
+
+##### !end-question
+
+##### !placeholder
+
+Your answer here
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The API requires the following arguments (items with * are required):
+
+- token*
+- channel*
+- text*
+- as_user
+- attachments
+- blocks
+- icon_emoji
+- icon_url
+- link_names
+- mrkdwn
+- parse
+- reply_broadcast
+- thread_ts
+- unfurl_links
+- unfurl_media
+- username
+- 
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 
 ### From Postman
