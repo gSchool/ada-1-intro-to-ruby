@@ -7,5 +7,5 @@ In this activity [fork the seven wonders exercise](https://github.com/Ada-C14/ap
 Before starting this activity you should complete:
 
 * [Introduction to APIs](./intro-to-apis.md)
-* APIs in Ruby
+* [APIs in Ruby](./apis-in-ruby.md)
 
