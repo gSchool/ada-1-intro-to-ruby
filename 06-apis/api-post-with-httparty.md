@@ -164,7 +164,7 @@ You've now successfully posted to Slack from Postman!
 
 #### Thinking About Testing
 
-**With a partner** discuss what are the things to test when sending messages to slack.  Consider the elements of the body section as arguments to a method, how can they vary.
+**Write down a list of** things to test when sending messages to slack.  Consider the elements of the body section as arguments to a method, how can they vary.
 
 - What is the nominal case?
 - Write out all the edge-cases you can think of.  What could go wrong when sending messages to Slack?
