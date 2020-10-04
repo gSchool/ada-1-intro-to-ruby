@@ -157,8 +157,17 @@ Now hit `send`
 
 **Questions**
 
-- What JSON is returned by Slack?  What status code is returned?
-- Try submitting an invalid token, what happens?
+<details>
+  <summary>What JSON is returned by Slack?  What status code is returned?</summary>
+
+  The JSON includes "OK": true, and information about the successful message being sent.  The Slack API always seem to return a status code of 200.
+</details>
+
+<details>
+  <summary>Try submitting an invalid token, what happens?</summary>
+
+  The JSON returned includes "OK": false, and an error message `not_authed`.  It **still** returns a status code of 200.
+</details>
 
 You've now successfully posted to Slack from Postman!
 
