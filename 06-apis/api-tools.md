@@ -98,7 +98,7 @@ Then you can go to **Scopes** to add permissions to your app with the **Add an O
 - **mpim:read**
 - **users:read**
 
-[Scopes](images/scopes.png)
+![Scopes](images/scopes.png)
 
 #### Starting with Testing!
 
