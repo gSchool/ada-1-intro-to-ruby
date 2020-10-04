@@ -126,6 +126,10 @@ Standards:
         Path: /03-language-features/exception-handling.md
       -
         Type: Lesson
+        UID: 84f98b84-9203-46b8-a7fc-d453160b7c6b
+        Path: /03-language-features/custom-exceptions.md
+      -
+        Type: Lesson
         UID: 4dee90a1-a473-47ea-8285-52117d6d607a
         Path: /03-language-features/csv-as-a-database.md
       -
