@@ -266,3 +266,7 @@ Standards:
         Type: Lesson
         UID: 7109429d-581f-4b8a-8c7b-295a82c46bd9
         Path: /06-apis/7-wonders-activity.md
+      - 
+        Type: Lesson
+        UID: b85eca79-bec4-4a9f-a651-ba68595e0c7d
+        Path: /06-apis/api-jigsaw.md
