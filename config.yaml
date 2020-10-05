@@ -270,3 +270,8 @@ Standards:
         Type: Lesson
         UID: b85eca79-bec4-4a9f-a651-ba68595e0c7d
         Path: /06-apis/api-jigsaw.md
+      - 
+        Type: Checkpoint
+        UID: 1f95aaf0-5660-4c3e-95f4-a845267a2770
+        Path: /06-apis/slack-cli.checkpoint.md
+        
