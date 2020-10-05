@@ -248,16 +248,16 @@ Standards:
         Path: /06-apis/intro-to-apis.md
       -
         Type: Lesson
-        UID: e5662fd3-b933-4f7b-a965-edc8a6c40039
-        Path: /06-apis/api-tools.md
-      -
-        Type: Lesson
         UID: 441d4307-fa62-4d6a-bba5-6594cacbb45f
         Path: /06-apis/apis-in-ruby.md
       -
         Type: Lesson
         UID: 3c29c267-516f-48b3-bf2c-0816a8dc48da
         Path: /06-apis/api-authentication.md
+      -
+        Type: Lesson
+        UID: e5662fd3-b933-4f7b-a965-edc8a6c40039
+        Path: /06-apis/api-tools.md
       -
         Type: Lesson
         UID: 781375fb-b0a3-4dbc-b4c8-67e6dd9f494b
