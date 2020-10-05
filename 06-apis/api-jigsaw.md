@@ -36,5 +36,11 @@ You will want to start the official documentation for the API, any "getting star
 1. [Yelp's Fusion API](https://www.yelp.com/fusion)
 1. [OpenWeather's API](https://openweathermap.org/api)
 1. [Wolfram Alpha's Simple API (and other pre-built APIs)](http://products.wolframalpha.com/api/)
-1. [Open Bank Project](https://www.openbankproject.com)'s API (Direct link to their [API Explorer here](https://apiexplorer.openbankproject.com/)) (Note from the Instructors: This is the weirdest API to read because it relies a lot of domain knowledge about banking. Work on finding an answer, not necessarily a correct answer. 🙂)
+1. [Open Food Facts API](https://documenter.getpostman.com/view/8470508/SVtN3Wzy#about)
 1. [The Color API](https://www.thecolorapi.com) and [TMDb's API](https://www.themoviedb.org/documentation/api)
+
+<!-- 1. [Open Bank Project](https://www.openbankproject.com)'s API (Direct link to their [API Explorer here](https://apiexplorer.openbankproject.com/)) (Note from the Instructors: This is the weirdest API to read because it relies a lot of domain knowledge about banking. Work on finding an answer, not necessarily a correct answer. 🙂) 
+
+Alternative API, simple, but no post requests, just get requests with query params
+[Fixer Foreign Currency Exchange API](https://fixer.io/)
+-->
