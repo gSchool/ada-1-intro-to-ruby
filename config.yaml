@@ -231,6 +231,10 @@ Standards:
         Type: Lesson
         UID: 26eb193e-b09c-4341-a1ed-ff78eb741a39
         Path: /05-oop-continued/inheritance-idioms.md
+      -
+        Type: Lesson
+        UID: 1daedfa6-dd8a-426f-a6fa-45e2d5945143
+        Path: /05-oop-continued/polymorphism-comprehension.md
       - 
         Type: Checkpoint
         UID: 8dec93e3-29fc-4639-b3b0-e8ce940e2895
