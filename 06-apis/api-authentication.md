@@ -1,5 +1,7 @@
 # APIs and Authentication
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=71298388-6274-4cb4-88b7-ac4801540097&autoplay=true&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Goals
 
 By the end of this lesson, students should be able to...
@@ -65,17 +67,11 @@ https://api.themoviedb.org/3/search/movie?query=hidden%20figures&api_key=<paste 
 
 By the way, all of this is covered in [The Movie DB's documentation](https://developers.themoviedb.org/3). The documentation is where you would go to figure all this out for a new API.
 
-### Resetting Keys
-
-Every once in a while you will find that your keys have been compromised and are no longer secret. Maybe you uploaded them to Git accidentally, they were in the background of a screenshot, or maybe you had them in your clipboard and accidentally pasted them into Slack. Now what?
-
-Fortunately most APIs make it easy to _reset_ your API keys. This will invalidate the old key and generate a new one for you to use. This is true of most of the APIs we'll be using in this class, including Slack and GitHub, but not TMDB.
-
 ## Storing Credentials Securely
 
 This authorization token uniquely identifies and provides access to your account. Just like a password, anyone who has the token can pretend to be you. This means you need to be careful about keeping track of your tokens.
 
-In particular, you cannot commit tokens to git, because everything in a git repository is visible publicly on the internet. Instead we will make these tokens part of our application's _environment_.
+In particular, you cannot commit tokens to git, because everything in our free git repositories are visible publicly on the internet. Instead we will make these tokens part of our application's _environment_.
 
 ### Environment Variables
 
@@ -91,9 +87,9 @@ $ pry
  "ITERM_PROFILE",
  ...
 [2] pry(main)> ENV['USER']
-=> "droberts"
+=> "myusername"
 [3] pry(main)> ENV['HOME']
-=> "/Users/droberts"
+=> "/Users/myusername"
 [4] pry(main)> ENV['RUBY_VERSION']
 => "ruby-2.5.5"
 ```
@@ -113,18 +109,67 @@ $ gem install dotenv
 
 The `dotenv` gem looks for a file called `.env` in the project root. If it finds one, it will read the contents as key-value pairs and add them to the `ENV` hash.
 
-**Question:** What does the `.` at the start of the filename `.env` mean?
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
-We can write a small Ruby program (or use `pry`) to test this out. To simulate a real project, we'll create a full directory structure.
+### !challenge
+
+* type: short-answer
+* id: bb85d340-125d-47e3-85da-19e75e960110
+* title: What is the dot for?
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What does the `.` at the start of the filename `.env` mean?
+
+##### !end-question
+
+##### !placeholder
+
+Your answer here
+
+##### !end-placeholder
+
+##### !answer
+
+
+/.+/
+
+##### !end-answer
+
+##### !explanation
+
+The `.` communicates to the computer that the file should be treated as a "hidden file". 
+
+This may sound like crazy hacker stuff but it really just means that a user needs to be actively looking for it to find it. You won't see it in Finder (at least not with the default settings).
+
+This is typical for files like this that we only expect developers to use. It helps prevent people from accidentally messing something up.
+
+##### !end-explanation
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+We can write a small Ruby program (or use `pry`) to test the `.env` file out. To simulate a real project, we'll create a full directory structure.
 
 ```bash
 $ mkdir dotenv_practice
 $ cd dotenv_practice
+$ git init
 $ touch .env
 $ touch dotenv_practice.rb
 ```
 
-Then fill in the two files:
+Then we'll fill in the two files:
 
 ```
 # .env
@@ -142,14 +187,18 @@ puts ENV['LUNCH']
 # => tofu scramble
 ```
 
+Just like that, we have a string loading into our code that is hidden from our code!
+
 ### Ignoring `.env`
 
-Our plan is to use the `.env` file to store our secret authentication token, which means we must not check the `.env` file into git. To do so, create a `.gitignore` file and add `.env` to it:
+Our plan is to use the `.env` file to store our secret authentication token, which means we must not check the `.env` file into git. To tell git to always ignore this file, create a `.gitignore` file and add `.env` to it:
 
 ```
 # .gitignore
 .env
 ```
+
+Note, the `.gitignore` file needs to exist in the root directory of the git repository. (In this case that is the `dotenv_practice` directory.)
 
 Then add and commit the `.gitignore`:
 
@@ -161,6 +210,94 @@ $ git commit -m "Ignore the .env file"
 **NEVER COMMIT A `.env` TO GIT!**
 
 Since the `.env` file is not in git, if you are working with a partner each of you will need to create and populate a `.env` file.
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: c8ed9308-2547-4ec4-8c78-2d1476ce5704
+* title: Purpose of .env
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What kind of information do we put in a `.env` file?
+
+##### !end-question
+
+##### !placeholder
+
+Your answer here
+
+##### !end-placeholder
+
+##### !answer
+
+
+/.+/
+
+##### !end-answer
+
+##### !explanation
+
+Secret information that we don't want to ever be written in our code or uploaded to github.
+More specifically, the most common type of secret information we will work with is an API key.
+
+##### !end-explanation
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 5f7e3385-9cc3-4481-ac34-d2f804ec564b
+* title: How to hide .env?
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What do we need to do to ensure we never accidentally commit the `.env` file to github?
+
+##### !end-question
+
+##### !placeholder
+
+Your answer here
+
+##### !end-placeholder
+
+##### !answer
+
+
+/.+/
+
+##### !end-answer
+##### !explanation
+
+Add `.env` to a `.gitignore` file. (This file needs to be in the root directory of our git repository.)
+
+##### !end-explanation
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 ## Exercise
 
@@ -213,6 +350,7 @@ puts "OK bye"
 ## Summary
 
 To use an API that requires credentials from Ruby:
+
 1. Get an authentication token from the API, typically via their website
 1. Store the token in a `.env` file
     - Each line has form `KEY=VALUE`
@@ -221,6 +359,12 @@ To use an API that requires credentials from Ruby:
     - Remember to call `Dotenv.load`
     - Data will be available in the `ENV` hash
 1. Make an `HTTParty` request using the token
+
+## Side Note: Resetting Keys (For when the mistake happens)
+
+Every once in a while you will find that your keys have been compromised and are no longer secret. Maybe you uploaded them to Git accidentally, they were in the background of a screenshot, or maybe you had them in your clipboard and accidentally pasted them into Slack. Now what?
+
+Fortunately most APIs make it easy to _reset_ your API keys. This will invalidate the old key and generate a new one for you to use. This is true of most of the APIs we'll be using in this class, including Slack and GitHub, but not TMDB.
 
 ## Additional Resources
 
