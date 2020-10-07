@@ -239,6 +239,10 @@ Standards:
         Type: Checkpoint
         UID: 8dec93e3-29fc-4639-b3b0-e8ce940e2895
         Path: /05-oop-continued/oo-ride-share.checkpoint.md
+        -
+          Type: Lesson
+          UID: e7e0b71e-b3aa-49fc-b3a6-ad112941531d
+          Path: /05-oop-continued/polymorphism-and-ruby.md
   -
     Title: Apis
     Description: APIs in Ruby with HTTParty
@@ -282,4 +286,3 @@ Standards:
         Type: Checkpoint
         UID: 1f95aaf0-5660-4c3e-95f4-a845267a2770
         Path: /06-apis/slack-cli.checkpoint.md
-        
