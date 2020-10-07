@@ -127,25 +127,6 @@ Write your answer here
 
 ### !end-challenge
 
-### !challenge
-
-* type: paragraph
-* id: 0205fd00-8376-451e-837f-085bf6a76532
-* title: Question 5
-* topics: polymorphism
-
-##### !question
-
-
-##### !end-question
-
-##### !placeholder
-
-Write your answer here
-
-##### !end-placeholder
-
-### !end-challenge
 
 ### !challenge
 
